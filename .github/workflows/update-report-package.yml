@@ -1,0 +1,22 @@
+name: SAS Viya Report Packages CI/CD
+
+on:
+  workflow_dispatch
+
+jobs:
+  create_report_package:
+    name: Create Report Package
+    runs-on: ubuntu-latest
+    container:
+      image: ${{ vars.CLI_CONTAINER_NAME }}
+      env:
+        SAS_SERVICES_ENDPOINT: ${{ vars.SAS_SERVICES_ENDPOINT }}
+        SAS_VIYA_CLI_AUTH_TOKEN: ${{ secrets.SAS_VIYA_CLI_AUTH_TOKEN }}
+        REPORT_UID: ${{ vars.REPORT_UID }}
+    steps:
+      - name: Login
+        run: sas-admin -k auth loginJwt -jwt $SAS_VIYA_CLI_AUTH_TOKEN
+      - name: Install Plugins
+        run: sas-admin plugins install --repo SAS reports
+      - name: Create Package
+        run: sas-admin -k reports build-package --id $REPORT_UID --output-file report

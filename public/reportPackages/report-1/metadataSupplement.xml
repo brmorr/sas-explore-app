@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSupplement>
+    <tables>
+        <table dataLocale="en_US" dataSources="ds7" resourceIdentifier="'cas-shared-default','Samples','COSTCHANGE','en_US'" tableModifiedTimeStamp="2023-07-25T16:58:54.532Z">
+            <columns>
+                <column dataType="string" label="Ship Year" xref="shipyear"/>
+                <column dataType="string" label="Primary Labor Group" xref="primarylaborgroup"/>
+                <column dataType="double" format="BEST12." label="total_Claim_Count" xref="total_Claim_Count"/>
+                <column dataType="double" format="BEST12." label="gross_claim_amt" xref="gross_claim_amt"/>
+                <column dataType="double" format="BEST12." label="gross_labor_amt" xref="gross_labor_amt"/>
+                <column dataType="double" format="BEST12." label="gross_material_amt" xref="gross_material_amt"/>
+                <column dataType="double" format="BEST12." label="prev_total_claim_count" xref="prev_total_claim_count"/>
+                <column dataType="double" format="BEST12." label="prev_gross_claim_amt" xref="prev_gross_claim_amt"/>
+                <column dataType="double" format="BEST12." label="prev_gross_labor_amt" xref="prev_gross_labor_amt"/>
+                <column dataType="double" format="BEST12." label="prev_gross_material_amt" xref="prev_gross_material_amt"/>
+            </columns>
+        </table>
+    </tables>
+    <version>2</version>
+</metadataSupplement>
