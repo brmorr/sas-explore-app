@@ -16,8 +16,9 @@ jobs:
     steps:
       - run: whoami
       - run: echo $HOME
-      - run: ls -la $HOME
-      - run: ls -la $HOME/.sas
+      - run: echo ~
+      - run: ls -la /home/sas
+      - run: ls -la /home/sas/.sas
       - name: Install Plugins
         run: sas-admin plugins install --repo SAS reports
       - name: Login
