@@ -14,10 +14,9 @@ jobs:
         SAS_VIYA_CLI_AUTH_TOKEN: ${{ secrets.SAS_VIYA_CLI_AUTH_TOKEN }}
         REPORT_UID: ${{ vars.REPORT_UID }}
     steps:
-      - run: HOME=/home/sas
       - name: Install Plugins
-        run: sas-admin plugins install --repo SAS reports
+        run: HOME=/home/sas sas-admin plugins install --repo SAS reports
       - name: Login
-        run: sas-admin -k auth loginJwt -jwt $SAS_VIYA_CLI_AUTH_TOKEN
+        run: HOME=/home/sas sas-admin -k auth loginJwt -jwt $SAS_VIYA_CLI_AUTH_TOKEN
       - name: Create Package
-        run: sas-admin -k reports build-package --id $REPORT_UID --output-file report
+        run: HOME=/home/sas sas-admin -k reports build-package --id $REPORT_UID --output-file report
