@@ -10,11 +10,6 @@ get_num_prop () {
   echo $(echo $1 | grep -o '"'$2'": *\d*' | grep -o '\d*$' | tr -d '"')
 }
 
-# set environment variables from .env if it exists
-if [ -f ../.env ]; then
-  export $(cat ../.env | xargs)
-fi
-
 if [[ -z "${SAS_SERVICES_ENDPOINT}" ]]; then
   >&2 echo "ERROR: SAS_SERVICES_ENDPOINT is not set"
   exit 1
