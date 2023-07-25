@@ -14,11 +14,7 @@ jobs:
         SAS_VIYA_CLI_AUTH_TOKEN: ${{ secrets.SAS_VIYA_CLI_AUTH_TOKEN }}
         REPORT_UID: ${{ vars.REPORT_UID }}
     steps:
-      - run: whoami
-      - run: echo $HOME
-      - run: echo ~
-      - run: ls -la /home/sas
-      - run: ls -la /home/sas/.sas
+      - run: HOME=/home/sas
       - name: Install Plugins
         run: sas-admin plugins install --repo SAS reports
       - name: Login
