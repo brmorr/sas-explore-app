@@ -22,6 +22,7 @@ jobs:
         run: |
           HOME=/home/sas
           mkdir ~/reportPackages
+          echo $(date) > ~/reportPackages/date.txt
           sas-admin -k reports build-package --id $REPORT_UID --output-file ~/reportPackages/report
       - run: pwd
       - run: ls -la /home/sas/reportPackages
