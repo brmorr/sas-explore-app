@@ -20,9 +20,11 @@ jobs:
         run: HOME=/home/sas sas-admin -k auth loginJwt -jwt $SAS_VIYA_CLI_AUTH_TOKEN
       - name: Create Package
         run: |
-          HOME=/home/sas
-          mkdir $GITHUB_WORKSPACE/reportPackages
-          mkdir ~/reportPackages
-          sas-admin -k reports build-package --id $REPORT_UID --output-location ~/reportPackages --output-file report
-      - run: pwd
-      - run: ls -la /home/sas/reportPackages
+          mkdir /home/sas/reportPackage
+          HOME=/home/sas sas-admin -k reports build-package --id $REPORT_UID --output-location /home/sas/reportPackage --output-file report
+      - name: Upload package
+        uses: actions/upload-artifact@v3
+        with:
+          name: reportPackage
+          path: /home/sas/reportPackage
+          if-no-files-found: error
