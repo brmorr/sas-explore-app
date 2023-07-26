@@ -19,6 +19,8 @@ jobs:
       - name: Login
         run: HOME=/home/sas sas-admin -k auth loginJwt -jwt $SAS_VIYA_CLI_AUTH_TOKEN
       - name: Create Package
-        run: HOME=/home/sas sas-admin -k reports build-package --id $REPORT_UID --output-file report
+        run: |
+          mkdir $GITHUB_WORKSPACE/reportPackages
+          HOME=/home/sas sas-admin -k reports build-package --id $REPORT_UID --output-file $GITHUB_WORKSPACE/reportPackages
       - run: pwd
-      - run: ls -la
+      - run: ls -la $GITHUB_WORKSPACE/reportPackages
