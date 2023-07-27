@@ -28,3 +28,34 @@ jobs:
           name: reportPackage
           path: /home/sas/reportPackage
           if-no-files-found: error
+          
+  commit_report_package:
+    name: Commit Report Package
+    needs: create_report_package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          path: repo
+      - name: Download package
+        uses: actions/download-artifact@v3
+        with:
+          name: reportPackages
+          path: downloads
+      - name: Prepare commit
+        run: |
+          cd downloads
+          unzip downloads/report.sasreportpkg.zip -d downloads/demo
+          rm -rf repo/public/reportPackages/demo
+          mv downloads/demo repo/public/reportPackages
+      - name: Create Pull Request
+        id: create-pr
+        uses: peter-evans/create-pull-request@v5
+        with:
+          path: repo
+          branch: update-report-package
+          commit-message: "feat: update report package"
+          title: "update report package"
+          body: "Automated updated of the SAS Viya report package"
+          
