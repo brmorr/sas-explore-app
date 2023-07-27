@@ -45,7 +45,6 @@ jobs:
           path: downloads
       - name: Prepare commit
         run: |
-          cd downloads
           unzip downloads/report.sasreportpkg.zip -d downloads/demo
           rm -rf repo/public/reportPackages/demo
           mv downloads/demo repo/public/reportPackages
