@@ -60,7 +60,9 @@ jobs:
           body: "Automated updated of the SAS Viya report package"
       - name: Enable Pull Request Automerge
         if: ${{ steps.create-pr.outputs.pull-request-number }}
-        run: gh pr merge --squash --auto --delete-branch "${{ steps.create-pr.outputs.pull-request-number }}"
+        run: |
+          cd repo
+          gh pr merge --squash --auto --delete-branch "${{ steps.create-pr.outputs.pull-request-number }}"
         env:
           GH_TOKEN: ${{ secrets.PAT }}
           
