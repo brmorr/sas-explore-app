@@ -15,9 +15,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "init-env": "[ -f .env ] && export $(cat .env | xargs) && echo \"Environment variables exported\"",
-    "build-cli-container": "./sas-viya-cli-container/build.sh ",
-    "viya-cli": "[ -f .env ] && export $(cat .env | xargs) && docker run --name viya-cli -it -e SAS_VIYA_CLI_AUTH_TOKEN -e SAS_SERVICES_ENDPOINT -e REPORT_UID -v $(pwd):/workspace -w /workspace sas-viya-cli && docker rm viya-cli"
+    "build-cli-container": "./sas-viya-cli-container/build.sh",
+    "viya-cli": "[ -f .env ] && export $(cat .env | xargs) && docker run --name viya-cli -it -e SAS_VIYA_CLI_AUTH_TOKEN -e SAS_SERVICES_ENDPOINT -e REPORT_UID -v $(pwd):/workspace -w /workspace sas-viya-cli && docker rm viya-cli",
+    "register-client-id": "[ -f .env ] && export $(cat .env | xargs) ; ./scripts/registerClientId.sh",
+    "generate-client-token": "[ -f .env ] && export $(cat .env | xargs) && ./scripts/generateClientToken.sh"
   },
   "eslintConfig": {
     "extends": "react-app"

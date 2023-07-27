@@ -10,11 +10,6 @@ get_num_prop () {
   echo $(echo $1 | grep -o '"'$2'": *\d*' | grep -o '\d*$' | tr -d '"')
 }
 
-# set environment variables from .env if it exists
-if [ -f ../.env ]; then
-  export $(cat ../.env | xargs)
-fi
-
 if [[ -z "${SAS_SERVICES_ENDPOINT}" ]]; then
   >&2 echo "ERROR: SAS_SERVICES_ENDPOINT is not set"
   exit 1
@@ -42,8 +37,16 @@ ADMIN_TOKEN_RESP=$(curl -s ${SAS_SERVICES_ENDPOINT}/SASLogon/oauth/token \
 
 # echo "body is ${TOKEN_RESP}"
 
-# ADMIN_TOKEN=$(echo ${TOKEN_RESP} | grep -o '"access_token": *"[^"]*"' | grep -o '"[^"]*"$' | tr -d '"')
+# Parse token (or error) from the response
 ADMIN_TOKEN=$(get_str_prop "${ADMIN_TOKEN_RESP}" "access_token")
+ERROR=$(get_str_prop "${ADMIN_TOKEN_RESP}" "error")
+
+# Exit on error or missing token
+if [ ! -z "${ERROR}" ] || [ -z "${ADMIN_TOKEN}" ]; then
+  >&2 echo "Login Error"
+  >&2 echo "$ADMIN_TOKEN_RESP"
+  exit 1
+fi
 
 # Determine whether or not the client id already exists
 CLIENT_ID_RESP=$(curl -s -k -X GET ${SAS_SERVICES_ENDPOINT}/SASLogon/oauth/clients/${SAS_VIYA_CLI_CLIENT_ID} \
@@ -86,12 +89,18 @@ else
   echo "Client ID ${SAS_VIYA_CLI_CLIENT_ID} created"
 fi
 
-AUTH_TOKEN_RESP=$(curl -s -k ${SAS_SERVICES_ENDPOINT}/SASLogon/oauth/token \
+AUTH_TOKEN_RESP=$(curl -k ${SAS_SERVICES_ENDPOINT}/SASLogon/oauth/token \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -u "${SAS_VIYA_CLI_CLIENT_ID}:${SAS_VIYA_CLI_CLIENT_SECRET}" \
   -d "grant_type=password&username=${SAS_VIYA_ADMIN_ID}&password=${SAS_VIYA_ADMIN_PWD}")
 
 AUTH_TOKEN=$(get_str_prop "${AUTH_TOKEN_RESP}" "access_token")
+ERROR=$(get_str_prop "${AUTH_TOKEN_RESP}" "error")
+if [ ! -z "${ERROR}" ]; then
+  >&2 echo "Error generating auth token for $SAS_VIYA_CLI_CLIENT_ID"
+  >&2 echo "$AUTH_TOKEN_RESP"
+  exit 1
+fi
 
 echo
 echo "SUCCESS! Auth token generated."
