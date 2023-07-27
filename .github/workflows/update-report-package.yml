@@ -14,15 +14,15 @@ jobs:
         SAS_VIYA_CLI_AUTH_TOKEN: ${{ secrets.SAS_VIYA_CLI_AUTH_TOKEN }}
         REPORT_UID: ${{ vars.REPORT_UID }}
     steps:
-      - name: Install Plugins
+      - name: Install plugins
         run: HOME=/home/sas sas-admin plugins install --repo SAS reports
       - name: Login
         run: HOME=/home/sas sas-admin -k auth loginJwt -jwt $SAS_VIYA_CLI_AUTH_TOKEN
-      - name: Create Package
+      - name: Create package
         run: |
           mkdir /home/sas/reportPackage
           HOME=/home/sas sas-admin -k reports build-package --id $REPORT_UID --output-location /home/sas/reportPackage --output-file report
-      - name: Upload package
+      - name: Upload package artifact
         uses: actions/upload-artifact@v3
         with:
           name: reportPackage
