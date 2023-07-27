@@ -41,7 +41,7 @@ jobs:
       - name: Download package
         uses: actions/download-artifact@v3
         with:
-          name: reportPackages
+          name: reportPackage
           path: downloads
       - name: Prepare commit
         run: |
