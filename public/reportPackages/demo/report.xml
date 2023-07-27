@@ -1,58 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.29.0" label="demo" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-07-26T14:04:51Z" dateModified="2023-07-26T14:03:57Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="55">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.29.0" label="demo" implicitInteractions="reportPrompt sectionPrompt sectionLink" createdLocale="en" createdVersion="4.29.0" dateCreated="2023-07-26T14:04:51Z" dateModified="2023-07-27T22:40:43Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="60">
 	<Results>
 		<Result ref="dd34" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-07-19T17:00:10.418Z">
 			<Variables>
 				<StringVariable label="OCCUPATION" ref="bi39" varname="bi39" column="c0"/>
-				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="totalCount" label="Frequency" ref="bi37" varname="bi37" column="c1"/>
+				<StringVariable label="GENDER" ref="bi57" varname="bi57" column="c1"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="totalCount" label="Frequency" ref="bi37" varname="bi37" column="c2"/>
 			</Variables>
 			<Columns>
 				<StringColumn maxLength="2" colname="c0" encoding="text"/>
-				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+				<StringColumn maxLength="2" colname="c1" encoding="text"/>
+				<NumericColumn dataType="double" colname="c2" encoding="text"/>
 			</Columns>
 			<DefinedColumnSortItems>
 				<DefinedMeasureSortItem variable="bi37" sortDirection="descending"/>
 				<DefinedSortItem variable="bi39" sortDirection="ascending"/>
+				<DefinedSortItem variable="bi57" sortDirection="ascending"/>
 			</DefinedColumnSortItems>
-			<Data isIndexed="true" availableRowCount="13" contentKey="RQLVPLYWEKJNRTSHWPCERLLE4PUWPK4T" size="91" format="CSV" rowCount="13" grandTotal="false" dataLayout="minimal"><![CDATA[3,87.0
-10,75.0
-9,65.0
-7,57.0
-12,49.0
-0,37.0
-6,35.0
-2,34.0
-4,24.0
-8,13.0
-5,5.0
-1,1.0
-11,1.0
+			<Data isIndexed="true" availableRowCount="39" contentKey="HXTFR5PQXALNMZVNYRLBYMCMTTQQKSGT" size="363" format="CSV" rowCount="39" grandTotal="false" dataLayout="minimal"><![CDATA[3,5,41.0
+3,9,39.0
+13,5,35.0
+12,5,31.0
+13,9,28.0
+10,5,26.0
+12,9,25.0
+15,5,25.0
+10,9,23.0
+15,9,21.0
+0,9,19.0
+8,5,17.0
+6,5,15.0
+2,5,14.0
+8,9,14.0
+0,5,13.0
+2,9,12.0
+12,16,8.0
+11,5,7.0
+13,16,7.0
+6,9,6.0
+10,16,6.0
+11,9,6.0
+0,16,5.0
+3,16,5.0
+13,-1,5.0
+2,-1,4.0
+2,16,4.0
+7,5,4.0
+6,16,3.0
+15,16,3.0
+3,-1,2.0
+8,-1,2.0
+8,16,2.0
+10,-1,2.0
+1,5,1.0
+7,16,1.0
+12,-1,1.0
+14,4,1.0
 ]]></Data>
-			<StringTable contentKey="5KSBDA6ECZJBHWCJOROWYJUFKELMDVJQ" size="168" format="CSV" rowCount="13"><![CDATA["Construction"
+			<StringTable contentKey="WRESICJEPBIMJ2LKV7PPT4SD54RBNXDJ" size="184" format="CSV" rowCount="17"><![CDATA["Construction"
 "consultant"
 "Consulting"
 "Cust Service"
+"D"
+"F"
 "Finance"
 "Law Enforcemen"
 "Law Enforcement"
+"M"
 "Marketing"
 "Medical"
 "Other"
 "Sales"
 "self-employed"
 "Technology"
+"U"
 ]]></StringTable>
 		</Result>
 		<Result ref="dd46" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-07-19T17:00:10.418Z">
 			<Variables>
 				<StringVariable label="STATE" ref="bi52" varname="bi52" column="c0"/>
-				<StringVariable label="OCCUPATION" ref="bi54" varname="bi54" column="c1"/>
-				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="totalCount" label="Frequency" ref="bi49" varname="bi49" column="c2"/>
+				<StringVariable label="OCCUPATION" ref="bi58" varname="bi58" column="c1"/>
+				<StringVariable label="GENDER" ref="bi59" varname="bi59" column="c2"/>
+				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="totalCount" label="Frequency" ref="bi49" varname="bi49" column="c3"/>
 			</Variables>
 			<Columns>
 				<StringColumn maxLength="2" colname="c0" encoding="text"/>
 				<StringColumn maxLength="2" colname="c1" encoding="text"/>
-				<NumericAggregations colname="c2" encoding="text">
+				<StringColumn maxLength="2" colname="c2" encoding="text"/>
+				<NumericAggregations colname="c3" encoding="text">
 					<DataColumn dataType="double" aggregation="totalCount"/>
 				</NumericAggregations>
 			</Columns>
@@ -60,8 +95,8 @@
 				<DefinedMeasureSortItem variable="bi49" sortDirection="descending"/>
 				<DefinedSortItem variable="bi52" sortDirection="ascending"/>
 			</DefinedColumnSortItems>
-			<DataFile contentKey="S5CHYKHS7IUX7AXSV7MGP5YE7S7NVXSS" size="2304" format="CSV" rowCount="239" grandTotal="false" dataLayout="partiallyAggregated" file="dd46.csv" isIndexed="true" availableRowCount="239"/>
-			<StringTableFile contentKey="QHXE2QVVKKIGS5CW24RZ6ZP23KTEHXTV" size="528" format="CSV" rowCount="71" file="dd46index.csv"/>
+			<DataFile contentKey="I2RZP6OL5UUDVIGPMWWJTVBDPFJSEPNG" size="4426" format="CSV" rowCount="350" grandTotal="false" dataLayout="partiallyAggregated" file="dd46.csv" isIndexed="true" availableRowCount="350"/>
+			<StringTableFile contentKey="ZNIG4T6C5FEZFHHZDJ7W2UIKMLRI43LQ" size="544" format="CSV" rowCount="75" file="dd46index.csv"/>
 		</Result>
 	</Results>
 	<DataDefinitions>
@@ -69,12 +104,14 @@
 			<BusinessItems>
 				<RelationalDataItem name="bi37" base="bi28"/>
 				<RelationalDataItem name="bi39" base="bi22"/>
+				<RelationalDataItem name="bi57" base="bi18"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="multidimensional" name="dd33">
 				<MultidimensionalQuery detail="false">
 					<Axes>
 						<Axis type="column">
 							<BusinessItem ref="bi39"/>
+							<BusinessItem ref="bi57"/>
 						</Axis>
 						<Axis type="row">
 							<BusinessItem ref="bi37"/>
@@ -83,6 +120,7 @@
 					<ColumnSortItems>
 						<MeasureSortItem ref="bi37" sortDirection="descending"/>
 						<SortItem ref="bi39" sortDirection="ascending"/>
+						<SortItem ref="bi57" sortDirection="ascending"/>
 					</ColumnSortItems>
 				</MultidimensionalQuery>
 				<ResultDefinitions>
@@ -94,7 +132,8 @@
 			<BusinessItems>
 				<RelationalDataItem name="bi49" base="bi28"/>
 				<RelationalDataItem name="bi52" base="bi26"/>
-				<RelationalDataItem name="bi54" base="bi22"/>
+				<RelationalDataItem name="bi58" base="bi22"/>
+				<RelationalDataItem name="bi59" base="bi18"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds7" type="multidimensional" name="dd45">
 				<MultidimensionalQuery detail="false">
@@ -147,16 +186,14 @@
 		</DataSource>
 	</DataSources>
 	<VisualElements>
-		<Graph graphType="bar" supplementalVisuals="ve38" resultDefinitions="dd34" name="ve31" data="dd32" label="Bar - OCCUPATION 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi39">
+		<Graph graphType="bar" supplementalVisuals="ve38" resultDefinitions="dd34" name="ve31" data="dd32" label="Bar - OCCUPATION 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi39 bi57">
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
 				<Property key="autoFrequencyQueryDataItemName">bi37</Property>
 			</EditorProperties>
-			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneOfTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi28"/><Substitution valueType="label" variables="bi22"/></Substitutions></DynamicSpan></P></Title>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneOfTwoGroupedByThree.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi28"/><Substitution valueType="label" variables="bi22"/><Substitution valueType="label" variables="bi18"/></Substitutions></DynamicSpan></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel">
-    <Dimension/>
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
-    <Dimension/>
     <Meta>
         <DynVars>
             <DynVar name="CATEGORY" description="CATEGORY_VAR" required="true" assignedType="character" type="character">
@@ -169,13 +206,18 @@
                     <Value>dd34.bi37</Value>
                 </DefaultValues>
             </DynVar>
-            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" assignedType="character" type="character">
+                <DefaultValues>
+                    <Value>dd34.bi57</Value>
+                </DefaultValues>
+            </DynVar>
             <DynVar name="COLUMN" description="HORIZONTAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
             <DynVar name="ROW" description="VERTICAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
             <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="character" type="any" multiplesAllowed="true">
                 <DefaultValues>
                     <Value>dd34.bi37</Value>
                     <Value>dd34.bi39</Value>
+                    <Value>dd34.bi57</Value>
                 </DefaultValues>
             </DynVar>
             <DynVar name="KEY_FRAME" description="ANIMATION" required="false" type="time" multiplesAllowed="false"/>
@@ -185,9 +227,9 @@
             <Entry model="LayoutDataMatrix_2" data="dd34"/>
         </DataNameMap>
     </Meta>
-    <LayoutDataMatrix cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true" rowVars="ROW" columnVars="COLUMN" name="LayoutDataMatrix_2">
+    <LayoutDataMatrix name="LayoutDataMatrix_2" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true" rowVars="ROW" columnVars="COLUMN">
         <LayoutPrototypeOverlay2D>
-            <BarChartParm name="BarChart" tipListPolicy="replace" _stmt="barchart" compactLabelFormats="true" groupDisplay="cluster" orient="horizontal" stat="none" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP"/>
+            <BarChartParm name="BarChart" tipListPolicy="replace" _stmt="barchart" compactLabelFormats="true" groupDisplay="cluster" groupOrder="reversedata" orient="horizontal" stat="none" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP" categoryOrderRole="response"/>
             <XAxisOpts name="categoryAxis">
                 <DiscreteOpts sortOrder="data"/>
                 <LinearOpts>
@@ -195,7 +237,7 @@
                 </LinearOpts>
             </XAxisOpts>
             <YAxisOpts reverse="true">
-                <DiscreteOpts tickValueFitPolicy="staggertruncatedrop" sortOrder="data" tickValueAppearance="auto"/>
+                <DiscreteOpts tickValueFitPolicy="staggertruncatedrop" sortOrder="descending" tickValueAppearance="auto"/>
                 <LinearOpts>
                     <TickValueFormatOpts extractScale="true"/>
                 </LinearOpts>
@@ -203,7 +245,7 @@
         </LayoutPrototypeOverlay2D>
     </LayoutDataMatrix>
     <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
-        <AutoLegend>
+        <AutoLegend sortOrder="ascending">
             <GraphNames>
                 <Value>BarChart</Value>
             </GraphNames>
@@ -213,12 +255,6 @@
     <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
 </StatGraph>]]>
 		</Graph>
-		<Table columnSizing="autoFill" resultDefinitions="dd34" name="ve38" data="dd32" applyDynamicBrushes="yes" sourceInteractionVariables="bi39">
-			<Columns>
-				<Column variable="bi39"/>
-				<Column variable="bi37"/>
-			</Columns>
-		</Table>
 		<VisualContainer containerType="layout" name="ve41" label="Layout Container 1" selectionDisabled="true">
 			<EditorProperties>
 				<Property key="visualType">LAYOUT_CONTAINER</Property>
@@ -228,13 +264,11 @@
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
 				<Property key="autoFrequencyQueryDataItemName">bi49</Property>
-				<Property key="addedInteractionQueryDataItems">bi54</Property>
+				<Property key="addedInteractionQueryDataItems">bi58,bi59</Property>
 			</EditorProperties>
 			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneOfTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi28"/><Substitution valueType="label" variables="bi26"/></Substitutions></DynamicSpan></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel">
-    <Dimension/>
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
-    <Dimension/>
     <Meta>
         <DynVars>
             <DynVar name="CATEGORY" description="CATEGORY_VAR" required="true" assignedType="character" type="character">
@@ -263,7 +297,7 @@
             <Entry model="LayoutDataMatrix_28" data="dd46"/>
         </DataNameMap>
     </Meta>
-    <LayoutDataMatrix cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true" rowVars="ROW" columnVars="COLUMN" name="LayoutDataMatrix_28">
+    <LayoutDataMatrix name="LayoutDataMatrix_28" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true" rowVars="ROW" columnVars="COLUMN">
         <LayoutPrototypeOverlay2D>
             <BarChartParm name="BarChart" tipListPolicy="replace" _stmt="barchart" compactLabelFormats="true" groupDisplay="cluster" orient="horizontal" stat="none" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP"/>
             <XAxisOpts name="categoryAxis">
@@ -297,9 +331,46 @@
 				<Column variable="bi49"/>
 			</Columns>
 		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd34" name="ve38" data="dd32" applyDynamicBrushes="yes" sourceInteractionVariables="bi39 bi57">
+			<Columns>
+				<Column variable="bi39"/>
+				<Column variable="bi37"/>
+				<Column variable="bi57"/>
+			</Columns>
+		</Table>
 	</VisualElements>
 	<View>
+		<Header>
+			<MediaContainer target="mt2">
+				<ResponsiveLayout orientation="horizontal" overflow="fit">
+					<Weights mediaTarget="mt5" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+					<Weights mediaTarget="mt4" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+					<Weights mediaTarget="mt3" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+				</ResponsiveLayout>
+			</MediaContainer>
+		</Header>
 		<Section name="vi6" label="Page 1">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
 			<Body>
 				<MediaContainer target="mt2">
 					<ResponsiveLayout orientation="vertical" overflow="fit">
@@ -350,8 +421,8 @@
 	</View>
 	<Interactions>
 		<Interaction name="ia53" type="filter" derived="false">
-			<InteractionElementReference purpose="source" ref="ve31" variable="bi39"/>
-			<InteractionElementReference purpose="target" ref="ve43" variable="bi54"/>
+			<InteractionElementReference purpose="source" ref="ve31" variable="bi39 bi57"/>
+			<InteractionElementReference purpose="target" ref="ve43" variable="bi58 bi59"/>
 		</Interaction>
 	</Interactions>
 	<MediaSchemes>
@@ -383,7 +454,7 @@
 	</Versions>
 	<Editors>
 		<Editor applicationName="VA">
-			<Revision editorVersion="2023.05" lastDate="2023-07-26T14:03:57.613Z"/>
+			<Revision editorVersion="2023.05" lastDate="2023-07-27T22:40:43.646Z"/>
 		</Editor>
 	</Editors>
 </History>
