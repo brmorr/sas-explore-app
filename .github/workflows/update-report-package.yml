@@ -45,9 +45,11 @@ jobs:
           path: downloads
       - name: Prepare commit
         run: |
-          unzip downloads/report.sasreportpkg.zip -d downloads/demo
-          rm -rf repo/public/reportPackages/demo
-          mv downloads/demo repo/public/reportPackages
+          unzip downloads/report.sasreportpkg.zip -d downloads/${REPORT_UID}
+          rm -rf repo/public/reportPackages/${REPORT_UID}
+          mv downloads/${REPORT_UID} repo/public/reportPackages
+        env:
+          REPORT_UID: ${{ vars.REPORT_UID }}
       - name: Create Pull Request
         id: create-pr
         uses: peter-evans/create-pull-request@v5

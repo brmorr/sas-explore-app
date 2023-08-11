@@ -1,0 +1,59 @@
+"<StatGraph border=""false"" opaque=""false"" includeMissingDiscrete=""true"" selectionMode=""multiple"" missingValueDisplay=""autolabel"">
+    <Dimension/>
+    <PadAttrs top=""0px"" bottom=""0px"" left=""0px"" right=""0px""/>
+    <Dimension/>
+    <Meta>
+        <DynVars>
+            <DynVar name=""CATEGORY"" description=""CATEGORY_VAR"" required=""true"" assignedType=""character"" type=""character"">
+                <DefaultValues>
+                    <Value>dd4497.bi4495</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name=""RESPONSE"" description=""MEASURE_VAR"" required=""true"" assignedType=""numeric"" type=""numeric"" multiplesAllowed=""true"">
+                <DefaultValues>
+                    <Value>dd4497.bi4496</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name=""GROUP"" description=""SUBGROUP_VAR"" required=""false"" type=""character""/>
+            <DynVar name=""COLUMN"" description=""HORIZONTAL_SERIES_VAR"" required=""false"" type=""character"" multiplesAllowed=""true""/>
+            <DynVar name=""ROW"" description=""VERTICAL_SERIES_VAR"" required=""false"" type=""character"" multiplesAllowed=""true""/>
+            <DynVar name=""TIP"" description=""TIP_VAR"" required=""false"" assignedType=""numeric"" type=""any"" multiplesAllowed=""true"">
+                <DefaultValues>
+                    <Value>dd4497.bi4495</Value>
+                    <Value>dd4497.bi4496</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name=""KEY_FRAME"" description=""ANIMATION"" required=""false"" type=""time"" multiplesAllowed=""false""/>
+            <DynVar name=""HIDDEN"" description=""HIDDEN_VAR"" required=""false"" type=""character"" multiplesAllowed=""true""/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model=""LayoutDataMatrix"" data=""dd4497""/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name=""LayoutDataMatrix"" includeMissingClass=""true"" rowVars=""ROW"" columnVars=""COLUMN"">
+        <LayoutPrototypeOverlay2D>
+            <BarChartParm name=""BarChart"" tipListPolicy=""replace"" _stmt=""barchart"" groupDisplay=""cluster"" orient=""horizontal"" stat=""none"" tip=""TIP"" category=""CATEGORY"" responseVars=""RESPONSE"" group=""GROUP""/>
+            <XAxisOpts name=""categoryAxis"">
+                <DiscreteOpts sortOrder=""data""/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale=""true""/>
+                </LinearOpts>
+            </XAxisOpts>
+            <YAxisOpts reverse=""true"">
+                <DiscreteOpts tickValueFitPolicy=""staggertruncatedrop"" sortOrder=""data"" tickValueAppearance=""auto""/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale=""true""/>
+                </LinearOpts>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition=""top"" allowCollapsed=""true"">
+        <AutoLegend>
+            <GraphNames>
+                <Value>BarChart</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <Animation keyFrame=""KEY_FRAME""/>
+    <OverviewAxis maxPlotSize=""60px"" minPlotSize=""35px"" visible=""off"" axis=""categoryAxis""/>
+</StatGraph>"

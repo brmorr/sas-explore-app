@@ -50,7 +50,7 @@ fi
 read -p  "Enter Client ID: " SAS_VIYA_CLI_CLIENT_ID
 
 read -p "Enter Client Secret [default]: " SAS_VIYA_CLI_CLIENT_SECRET
-SAS_VIYA_CLI_CLIENT_SECRET=${SAS_VIYA_CLI_CLIENT_SECRET:-$(openssl rand -base64 30)}
+SAS_VIYA_CLI_CLIENT_SECRET=${SAS_VIYA_CLI_CLIENT_SECRET:-$(openssl rand -hex 20)}
 
 read -p  "Enter token expiration days [30]: " SAS_VIYA_AUTH_EXPIRE
 SAS_VIYA_AUTH_EXPIRE=${SAS_VIYA_AUTH_EXPIRE:-30}
@@ -68,12 +68,12 @@ CREATE_CLIENT_RESP=$(curl -s -k -X POST ${SAS_SERVICES_ENDPOINT}/SASLogon/oauth/
         "authorized_grant_types": ["password", "authorization_code"],
         "redirect_uri": "urn:ietf:wg:oauth:2.0:oob" }')
 
-ERROR=$(get_str_prop "${ADMIN_TOKEN_RESP}" "error")
-if [ ! -z "${ERROR}" ]; then
+CLIENT_ID_RESP=$(get_str_prop "${CREATE_CLIENT_RESP}" "client_id")
+if [ "${CLIENT_ID_RESP}" != "${SAS_VIYA_CLI_CLIENT_ID}" ]; then
   >&2 echo "Error registering client id $SAS_VIYA_CLI_CLIENT_ID"
   >&2 echo "$CREATE_CLIENT_RESP"
   exit 1
-fi
+fi 
 
 
 echo

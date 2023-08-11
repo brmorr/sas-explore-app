@@ -42,10 +42,10 @@ echo
 echo "Generating auth token for ${SAS_VIYA_CLI_CLIENT_ID}:${SAS_VIYA_CLI_CLIENT_SECRET}"
 echo
 
-AUTH_TOKEN_RESP=$(curl -k ${SAS_SERVICES_ENDPOINT}/SASLogon/oauth/token \
+AUTH_TOKEN_RESP=$(curl --verbose -k ${SAS_SERVICES_ENDPOINT}/SASLogon/oauth/token \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -u "${SAS_VIYA_CLI_CLIENT_ID}:${SAS_VIYA_CLI_CLIENT_SECRET}" \
-  -d "grant_type=authorization_code&code=$AUTH_CODE")
+  -d "grant_type=authorization_code&code=${AUTH_CODE}")
 
 AUTH_TOKEN=$(get_str_prop "${AUTH_TOKEN_RESP}" "access_token")
 ERROR=$(get_str_prop "${AUTH_TOKEN_RESP}" "error")
