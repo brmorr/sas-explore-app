@@ -1,0 +1,10 @@
+Geo region-coordinate - Customer State 1
+  Interactivity for this object is limited for the following reasons:
+    * The data to support actions could not be retrieved. Query failed: error generating interactive data.
+  These reasons might only be a problem because of these data complexities:
+    * This object type requires an advanced query.
+  The image "/files/files/db328865-9d87-4150-8fcd-7b3f083a9297" could not be retrieved.
+
+Automated explanation - Influencer 1
+  Interactivity for this object is limited for the following reasons:
+    * Actions for composite objects are not supported.

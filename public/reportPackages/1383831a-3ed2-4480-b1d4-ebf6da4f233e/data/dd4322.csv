@@ -1,0 +1,38 @@
+"<StatGraph border=""false"" opaque=""false"" includeMissingDiscrete=""true"" missingValueDisplay=""autolabel"">
+    <PadAttrs top=""0px"" bottom=""0px"" left=""0px"" right=""0px""/>
+    <Meta>
+        <DataNameMap>
+            <Entry model=""LayoutOverlayMap_22"" data=""dd4319""/>
+        </DataNameMap>
+    </Meta>
+    <LayoutOverlayMap cycleAttrs=""true"" cycleColorResponses=""true"" name=""LayoutOverlayMap_22"">
+        <MapLayer name=""MapLayer_22"" dataTransparency=""0.5""/>
+        <ScatterPlot name=""Scatter"" dataTransparency=""0.129999995"" groupDisplay=""overlay"" auxiliary=""Role1 Role1"" tip=""Role2 Role3"" x=""dd4319#bi4318"" y=""dd4319#bi4317"" markerSizeResponse=""dd4319#bi4316"">
+            <ProximityClusterOptions proximityCluster=""auto"" clusterDistance=""150px""/>
+            <Roles>
+                <Role name=""Role1"" type=""variable"">dd4319#bi4312</Role>
+                <Role name=""Role2"" type=""variable"">dd4319#bi4312</Role>
+                <Role name=""Role3"" type=""variable"">dd4319#bi4316</Role>
+            </Roles>
+        </ScatterPlot>
+    </LayoutOverlayMap>
+    <LayoutGlobalLegend allowCollapsed=""true"">
+        <ContinuousLegend border=""false"" opaque=""false"" vAlign=""bottom"" valueStyle=""inflections"" displayMissing=""automatic"" extractScale=""true"" type=""fillcolor"" title_type=""KEYWORD"" title=""AUTO"">
+            <PadAttrs top=""2px"" bottom=""2px"" left=""2px"" right=""2px""/>
+            <GraphNames>
+                <Value>Scatter</Value>
+            </GraphNames>
+        </ContinuousLegend>
+        <SizeLegend border=""false"" opaque=""false"" hAlign=""left"" vAlign=""bottom"" orient=""horizontal"" extractScale=""true"" type=""shape"" title_type=""KEYWORD"" title=""AUTO"">
+            <GraphNames>
+                <Value>Scatter</Value>
+            </GraphNames>
+        </SizeLegend>
+        <AutoLegend opaque=""false"" sortOrder=""ascending"">
+            <GraphNames>
+                <Value>Scatter</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <Animation keyframesPerSecond=""1"" playDirectionForward=""true"" repeatEnabled=""false""/>
+</StatGraph>"
