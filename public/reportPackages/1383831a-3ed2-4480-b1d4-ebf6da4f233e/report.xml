@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.30.0" label="Business Performance Analysis" implicitInteractions="sectionPrompt reportPrompt sectionLink" createdLocale="en" createdVersion="4.2.2" dateCreated="2020-08-25T05:22:29Z" dateModified="2023-07-31T14:57:44Z" createdApplication="SAS Visual Analytics 8.5.1" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="12736">
 	<Results>
-		<Result ref="dd4502" type="relational" status="success" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4502" type="relational" status="success" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4511" type="relational" status="success" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4511" type="relational" status="success" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4520" type="relational" status="success" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4520" type="relational" status="success" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4526" type="relational" status="success" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4526" type="relational" status="success" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4507" type="relational" status="success" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4507" type="relational" status="success" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4535" type="relational" status="success" dataLevel="baseline" label="Geo Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4535" type="relational" status="success" dataLevel="baseline" label="Geo Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4497" type="relational" status="success" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4497" type="relational" status="success" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="categorical" label="Social Media Score" ref="bi4495" varname="bi4495" column="c0"/>
 				<NumericVariable format="PERCENT12." usage="quantitative" label="Reputation Score (%)" ref="bi4496" varname="bi4496" column="c1"/>
@@ -59,7 +59,7 @@
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4538" type="relational" status="success" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4538" type="relational" status="success" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Graph Content" ref="bi4537" varname="bi4537" column="c0"/>
 			</Variables>
@@ -71,7 +71,7 @@
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4569" type="relational" status="success" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4569" type="relational" status="success" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Text" ref="bi4559" varname="bi4559" column="c0"/>
 			</Variables>
@@ -84,10 +84,10 @@
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4469" type="relational" status="success" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4469" type="relational" status="success" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 		</Result>
-		<Result ref="dd4375" type="relational" status="success" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4375" type="relational" status="success" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Summary" ref="bi4371" varname="bi4371" column="c0"/>
 			</Variables>
@@ -97,7 +97,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="CL6KTN623CJFXSIVA7SF4A5WPXXBLCGB" size="376" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["Reputation Score (%) ranges from 60% to 80%. Average Reputation Score (%) is 70%. Most cases (the middle 80%) have a Reputation Score (%) between 60% and 80%. Social Media Score best differentiates the highest (top 10%) and the lowest (bottom 10%) Reputation Score (%) cases. The three most related factors are Social Media Score, Customer Satisfaction, and Customer State."
 ]]></Data>
 		</Result>
-		<Result ref="dd4461" type="relational" status="success" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4461" type="relational" status="success" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="COMMA20.4" usage="quantitative" label="Importance" ref="bi4393" varname="bi4393" column="c0"/>
 				<StringVariable label="Data Source Name" ref="bi4394" varname="bi4394" column="c1"/>
@@ -147,7 +147,7 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd4462" type="relational" status="success" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4462" type="relational" status="success" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="COMMA20.4" usage="quantitative" label="Importance" ref="bi4397" varname="bi4397" column="c0"/>
 				<StringVariable label="Data Source Name" ref="bi4398" varname="bi4398" column="c1"/>
@@ -191,7 +191,7 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd4467" type="relational" status="success" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4467" type="relational" status="success" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Factor" ref="bi4425" varname="bi4425" column="c0"/>
 				<StringVariable label="Override Usage" ref="bi4426" varname="bi4426" column="c1"/>
@@ -254,7 +254,7 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd4466" type="relational" status="success" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4466" type="relational" status="success" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Event" ref="bi4420" varname="bi4420" column="c0"/>
 				<StringVariable label="Event" ref="bi4421" varname="bi4421" column="c1"/>
@@ -270,7 +270,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="U4ER7CPORFRRYISMQBBBMACFIPKAOJAA" size="52" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[" "," ","Reputation Score (%)","Social Media Score"
 ]]></Data>
 		</Result>
-		<Result ref="dd4470" type="relational" status="success" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4470" type="relational" status="success" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Score Code" ref="bi4438" varname="bi4438" column="c0"/>
 				<StringVariable label="Export Code Prepend" ref="bi4439" varname="bi4439" column="c1"/>
@@ -287,7 +287,7 @@
 			</Columns>
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 		</Result>
-		<Result ref="dd4471" type="relational" status="success" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4471" type="relational" status="success" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Purpose" ref="bi4444" varname="bi4444" column="c0"/>
 				<StringVariable label="XRef" ref="bi4445" varname="bi4445" column="c1"/>
@@ -304,7 +304,7 @@
 			</Columns>
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 		</Result>
-		<Result ref="dd4472" type="relational" status="success" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4472" type="relational" status="success" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Column" ref="bi4450" varname="bi4450" column="c0"/>
 			</Variables>
@@ -336,7 +336,7 @@
 "survey_Score"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd4473" type="relational" status="success" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4473" type="relational" status="success" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Reputation Score (%)" ref="bi4452" varname="bi4452" column="c0"/>
 				<StringVariable label="Location" ref="bi4453" varname="bi4453" column="c1"/>
@@ -348,7 +348,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="6EUIUC3ZFRSX6G2IN5SJY5N4PAE5UYOF" size="28" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["No anomalies detected"," "
 ]]></Data>
 		</Result>
-		<Result ref="dd4463" type="relational" status="success" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4463" type="relational" status="success" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="PERCENT12." usage="quantitative" label="Mean or Chance" ref="bi4404" varname="bi4404" column="c0"/>
 				<StringVariable label="Mean or Chance" ref="bi4403" varname="bi4403" column="c1"/>
@@ -370,7 +370,7 @@
 			<DataFile contentKey="AWPN3I53E4FEWAYT5ZQMDSVJG3IGJ5TX" size="49" format="CSV" rowCount="3" grandTotal="false" dataLayout="minimal" file="dd4463.csv" isIndexed="true" availableRowCount="3"/>
 			<StringTableFile contentKey="64JWMZV3JC63E3MTNFAROLCCSXC727FP" size="2431" format="CSV" rowCount="11" file="dd4463index.csv"/>
 		</Result>
-		<Result ref="dd4465" type="relational" status="success" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4465" type="relational" status="success" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="PERCENT12." usage="quantitative" label="Mean or Chance" ref="bi4416" varname="bi4416" column="c0"/>
 				<StringVariable label="Mean or Chance" ref="bi4415" varname="bi4415" column="c1"/>
@@ -392,7 +392,7 @@
 			<DataFile contentKey="WJJMLAQ7KUF3AJ5KXGJLUC27WDJIWN2N" size="54" format="CSV" rowCount="3" grandTotal="false" dataLayout="minimal" file="dd4465.csv" isIndexed="true" availableRowCount="3"/>
 			<StringTableFile contentKey="ZMALVHUQYFYUSH45HTGVCUXLQPTLF263" size="2395" format="CSV" rowCount="13" file="dd4465index.csv"/>
 		</Result>
-		<Result ref="dd4464" type="relational" status="success" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4464" type="relational" status="success" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Node ID" ref="bi4408" varname="bi4408" column="c0"/>
 				<StringVariable label="Split Variable Name" ref="bi4409" varname="bi4409" column="c1"/>
@@ -447,7 +447,7 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd4468" type="relational" status="success" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4468" type="relational" status="success" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Steps" ref="bi4432" varname="bi4432" column="c0"/>
 				<StringVariable label="Description" ref="bi4433" varname="bi4433" column="c1"/>
@@ -471,37 +471,37 @@
 "Automated Explanation used a one-level decision tree for each factor to determine its relative importance to Reputation Score (%). For example, the input Customer Satisfaction has a relative importance of 0.91 which means it is 0.91 times as important as Social Media Score."
 ]]></StringTable>
 		</Result>
-		<Result ref="dd4286" type="relational" status="success" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4286" type="relational" status="success" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4295" type="relational" status="success" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4295" type="relational" status="success" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4304" type="relational" status="success" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4304" type="relational" status="success" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4310" type="relational" status="success" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4310" type="relational" status="success" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4291" type="relational" status="success" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4291" type="relational" status="success" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4319" type="relational" status="success" dataLevel="baseline" label="Geo Coordinate" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4319" type="relational" status="success" dataLevel="baseline" label="Geo Coordinate" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Warehouse (Ship To)" ref="bi4312" varname="bi4312" column="c0"/>
 				<NumericVariable format="COMMA12.1" usage="quantitative" label="Customer Satisfaction" ref="bi4313" varname="bi4313" column="c1"/>
@@ -534,7 +534,7 @@
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4281" type="relational" status="success" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4281" type="relational" status="success" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Warehouse (Ship To)" ref="bi4279" varname="bi4279" column="c0"/>
 				<NumericVariable format="COMMA12.1" usage="quantitative" label="Customer Satisfaction" ref="bi4280" varname="bi4280" column="c1"/>
@@ -548,7 +548,7 @@
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4322" type="relational" status="success" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4322" type="relational" status="success" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Graph Content" ref="bi4321" varname="bi4321" column="c0"/>
 			</Variables>
@@ -560,7 +560,7 @@
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4351" type="relational" status="success" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4351" type="relational" status="success" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Text" ref="bi4342" varname="bi4342" column="c0"/>
 			</Variables>
@@ -573,10 +573,10 @@
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4253" type="relational" status="success" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4253" type="relational" status="success" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 		</Result>
-		<Result ref="dd4161" type="relational" status="success" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4161" type="relational" status="success" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Summary" ref="bi4157" varname="bi4157" column="c0"/>
 			</Variables>
@@ -586,7 +586,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="HM2MHSSIFNU3THA5MUPKEYJ3COXJ6XT7" size="383" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["Customer Satisfaction ranges from 1 to 5. Average Customer Satisfaction is 3.9. Most cases (the middle 80%) have a Customer Satisfaction between 2 and 5. Warehouse (Ship To) best differentiates the highest (top 10%) and the lowest (bottom 10%) Customer Satisfaction cases. The three most related factors are Warehouse (Ship To), Customer State, and Customer Life Time Value (LTV)."
 ]]></Data>
 		</Result>
-		<Result ref="dd4245" type="relational" status="success" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4245" type="relational" status="success" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="COMMA20.4" usage="quantitative" label="Importance" ref="bi4178" varname="bi4178" column="c0"/>
 				<StringVariable label="Data Source Name" ref="bi4179" varname="bi4179" column="c1"/>
@@ -636,7 +636,7 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd4246" type="relational" status="success" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4246" type="relational" status="success" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="COMMA20.4" usage="quantitative" label="Importance" ref="bi4182" varname="bi4182" column="c0"/>
 				<StringVariable label="Data Source Name" ref="bi4183" varname="bi4183" column="c1"/>
@@ -677,7 +677,7 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd4251" type="relational" status="success" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4251" type="relational" status="success" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Factor" ref="bi4210" varname="bi4210" column="c0"/>
 				<StringVariable label="Override Usage" ref="bi4211" varname="bi4211" column="c1"/>
@@ -742,7 +742,7 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd4250" type="relational" status="success" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4250" type="relational" status="success" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Event" ref="bi4205" varname="bi4205" column="c0"/>
 				<StringVariable label="Event" ref="bi4206" varname="bi4206" column="c1"/>
@@ -758,7 +758,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="E4YJP73RKBPI7GM3PI36U622KZ42TCGV" size="54" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[" "," ","Customer Satisfaction","Warehouse (Ship To)"
 ]]></Data>
 		</Result>
-		<Result ref="dd4254" type="relational" status="success" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4254" type="relational" status="success" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Score Code" ref="bi4223" varname="bi4223" column="c0"/>
 				<StringVariable label="Export Code Prepend" ref="bi4224" varname="bi4224" column="c1"/>
@@ -775,7 +775,7 @@
 			</Columns>
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 		</Result>
-		<Result ref="dd4255" type="relational" status="success" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4255" type="relational" status="success" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Purpose" ref="bi4229" varname="bi4229" column="c0"/>
 				<StringVariable label="XRef" ref="bi4230" varname="bi4230" column="c1"/>
@@ -792,7 +792,7 @@
 			</Columns>
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 		</Result>
-		<Result ref="dd4256" type="relational" status="success" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4256" type="relational" status="success" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Column" ref="bi4235" varname="bi4235" column="c0"/>
 			</Variables>
@@ -822,7 +822,7 @@
 "total_Purchases_Count"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd4257" type="relational" status="success" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4257" type="relational" status="success" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Customer Satisfaction" ref="bi4237" varname="bi4237" column="c0"/>
 				<StringVariable label="Location" ref="bi4238" varname="bi4238" column="c1"/>
@@ -834,7 +834,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="6EUIUC3ZFRSX6G2IN5SJY5N4PAE5UYOF" size="28" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["No anomalies detected"," "
 ]]></Data>
 		</Result>
-		<Result ref="dd4247" type="relational" status="success" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4247" type="relational" status="success" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="COMMA12.1" usage="quantitative" label="Mean or Chance" ref="bi4189" varname="bi4189" column="c0"/>
 				<StringVariable label="Mean or Chance" ref="bi4188" varname="bi4188" column="c1"/>
@@ -856,7 +856,7 @@
 			<DataFile contentKey="DPNAW4YKVISNZSD3IEUN4VKLA5ARISHU" size="82" format="CSV" rowCount="3" grandTotal="false" dataLayout="minimal" file="dd4247.csv" isIndexed="true" availableRowCount="3"/>
 			<StringTableFile contentKey="RPT47FOILDAQGGIIFKYPVH7MP2M7ZMQS" size="2483" format="CSV" rowCount="13" file="dd4247index.csv"/>
 		</Result>
-		<Result ref="dd4249" type="relational" status="success" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4249" type="relational" status="success" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="COMMA12.1" usage="quantitative" label="Mean or Chance" ref="bi4201" varname="bi4201" column="c0"/>
 				<StringVariable label="Mean or Chance" ref="bi4200" varname="bi4200" column="c1"/>
@@ -878,7 +878,7 @@
 			<DataFile contentKey="LYR2IBLXF5IMZDFYI6IKNPI7BUZZ6EON" size="87" format="CSV" rowCount="3" grandTotal="false" dataLayout="minimal" file="dd4249.csv" isIndexed="true" availableRowCount="3"/>
 			<StringTableFile contentKey="EFBSNHJE5PIAPFORR4IW6NUCEYWTNNRH" size="2216" format="CSV" rowCount="15" file="dd4249index.csv"/>
 		</Result>
-		<Result ref="dd4248" type="relational" status="success" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4248" type="relational" status="success" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Node ID" ref="bi4193" varname="bi4193" column="c0"/>
 				<StringVariable label="Split Variable Name" ref="bi4194" varname="bi4194" column="c1"/>
@@ -929,7 +929,7 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd4252" type="relational" status="success" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd4252" type="relational" status="success" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Steps" ref="bi4217" varname="bi4217" column="c0"/>
 				<StringVariable label="Description" ref="bi4218" varname="bi4218" column="c1"/>
@@ -953,7 +953,7 @@
 "Automated Explanation used a one-level decision tree for each factor to determine its relative importance to Customer Satisfaction. For example, the input Customer State has a relative importance of 0.75 which means it is 0.75 times as important as Warehouse (Ship To)."
 ]]></StringTable>
 		</Result>
-		<Result ref="dd409" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd409" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="MONTH7" usage="categorical" label="Purchase Month" ref="bi403" varname="bi403" column="c0"/>
 				<NumericVariable format="PERCENT12." usage="quantitative" definedAggregation="average" label="Reputation Score (%)" ref="bi2572" varname="bi2572" column="c1"/>
@@ -973,7 +973,7 @@
 91.0,0.7700000000000009,6993.0
 ]]></Data>
 		</Result>
-		<Result ref="dd211" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd211" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Reason for return" ref="bi216" varname="bi216" column="c0"/>
 				<StringVariable label="Influencer Category" ref="bi218" varname="bi218" column="c1"/>
@@ -1006,7 +1006,7 @@
 "Yes"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd385" type="flattenedMultidimensional" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd385" type="flattenedMultidimensional" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<OlapVariables>
 				<Hierarchy depth="4" label="Purchase Date Hierarchy" varname="bi420" ref="bi420">
 					<Level column="c0" uniqueLevelName="bi415" label="Purchase Date (Year)" format="YEAR4"/>
@@ -1048,7 +1048,7 @@
 			<DataFile contentKey="RJL3JFDEWL6BKVVXICB3LFBGE63AR5KB" size="49511" format="CSV" rowCount="1177" grandTotal="false" dataLayout="partiallyAggregated" file="dd385.csv" isIndexed="true" availableRowCount="1177"/>
 			<StringTableFile contentKey="MYBXHDJOPXJTTFQ4POELKNJ5FE77DPQB" size="833" format="CSV" rowCount="49" file="dd385index.csv"/>
 		</Result>
-		<Result ref="dd364" type="relational" status="success" dataLevel="baseline" label="Parallel Coordinates Plot" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd364" type="relational" status="success" dataLevel="baseline" label="Parallel Coordinates Plot" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Reason for return" ref="bi369" varname="bi369" column="c0"/>
 				<StringVariable label="Product Category" ref="bi368" varname="bi368" column="c1"/>
@@ -1064,7 +1064,7 @@
 			<DataFile contentKey="OHR6IS2A5TWQ55ZWY6ZWS5GU2E3A7OCF" size="1870" format="CSV" rowCount="90" grandTotal="false" dataLayout="minimal" file="dd364.csv" isIndexed="true" availableRowCount="90"/>
 			<StringTableFile contentKey="Z7LO2TTHKA66RIYQRR2OYVYJSAOTTFQJ" size="211" format="CSV" rowCount="13" file="dd364index.csv"/>
 		</Result>
-		<Result ref="dd366" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd366" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Number of Polylines" ref="bi362" varname="bi362" column="c0"/>
 				<StringVariable label="Polylines" ref="bi363" varname="bi363" column="c1"/>
@@ -1076,7 +1076,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="VSEJAUP7LFCD3OE7OTNWRN5S2F4R6GDY" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["90","Polylines:"
 ]]></Data>
 		</Result>
-		<Result ref="dd365" type="relational" status="success" dataLevel="baseline" label="Dependent Variables Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd365" type="relational" status="success" dataLevel="baseline" label="Dependent Variables Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Variable Name" ref="bi357" varname="bi357" column="c0"/>
 				<NumericVariable format="BEST." usage="quantitative" label="Bin lower bound" ref="bi358" varname="bi358" column="c1"/>
@@ -1098,7 +1098,7 @@
 "bi373"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd2515" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd2515" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="MONYY7" usage="categorical" label="Purchase Date" ref="bi189" varname="bi189" column="c0"/>
 				<NumericVariable format="PERCENT12." usage="quantitative" definedAggregation="average" label="Reputation Score (%)" ref="bi2525" varname="bi2525" column="c1"/>
@@ -1127,7 +1127,7 @@
 22371.0,0.7700000000000009,6993.0
 ]]></Data>
 		</Result>
-		<Result ref="dd241" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd241" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="MONYY7" usage="categorical" label="Purchase Month/Year" ref="bi790" varname="bi790" column="c0"/>
 				<NumericVariable format="PERCENT12.2" usage="quantitative" label="Purchases Amount (% difference from previous period)" ref="bi792" varname="bi792" column="c1"/>
@@ -1145,7 +1145,7 @@
 22281.0,-0.0964971393759704
 ]]></Data>
 		</Result>
-		<Result ref="dd2641" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd2641" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="MONYY7" usage="categorical" label="Purchase Month/Year" ref="bi2644" varname="bi2644" column="c0"/>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Purchases Amount" ref="bi2646" varname="bi2646" column="c1"/>
@@ -1184,7 +1184,7 @@
 22371.0,359814.88
 ]]></Data>
 		</Result>
-		<Result ref="dd2710" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd2710" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="PERCENT12." usage="quantitative" definedAggregation="average" label="Reputation Score (%)" ref="bi2711" varname="bi2711" column="c0"/>
 			</Variables>
@@ -1194,7 +1194,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="SMRRNJUVLV7GE3FWJ5OGI6V32KDAMMP4" size="5" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[0.77
 ]]></Data>
 		</Result>
-		<Result ref="dd2437" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd2437" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<NumericVariable format="PERCENT12." usage="quantitative" definedAggregation="average" label="Reputation Score (%)" ref="bi2450" varname="bi2450" column="c0"/>
 			</Variables>
@@ -1207,7 +1207,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="SMRRNJUVLV7GE3FWJ5OGI6V32KDAMMP4" size="5" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[0.77
 ]]></Data>
 		</Result>
-		<Result ref="dd11965" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11965" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Variables>
 				<StringVariable label="Influencer" ref="bi11968" varname="bi11968" column="c0"/>
 			</Variables>
@@ -1224,7 +1224,7 @@
 "Yes"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd497" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd497" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Reason for return" ref="bi2659" varname="bi2659" column="c0"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Exchange Only" ref="bi502" varname="bi502" column="c1"/>
@@ -1250,7 +1250,7 @@
 "Item too small"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd1969" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd1969" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Warehouse (Ship To)" ref="bi165" varname="bi165" column="c0"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="average" label="Warehouse Capacity" ref="bi173" varname="bi173" column="c1"/>
@@ -1273,7 +1273,7 @@
 "TX1"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd2718" type="relational" status="warning" dataLevel="baseline" label="Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd2718" type="relational" status="warning" dataLevel="baseline" label="Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Messages>
 				<Message messageKey="geoMapNoMatchesFoundForRequestedItems" messageLevel="warning">
 					<MessageText>No matches were found for supplied geography data items.</MessageText>
@@ -1314,7 +1314,7 @@
 			</Columns>
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 		</Result>
-		<Result ref="dd2727" type="relational" status="warning" dataLevel="baseline" label="Coordinate" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd2727" type="relational" status="warning" dataLevel="baseline" label="Coordinate" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Query failed)</MessageText>
@@ -1342,7 +1342,7 @@
 			</Columns>
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 		</Result>
-		<Result ref="dd150" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd150" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Product Category" ref="bi151" varname="bi151" column="c0"/>
 				<StringVariable label="Returned Category" ref="bi157" varname="bi157" column="c1"/>
@@ -1367,7 +1367,7 @@
 			<DataFile contentKey="SZZXQ7C46GNKDACNPPFEZW4ZG6EIN3LC" size="3996" format="CSV" rowCount="266" grandTotal="false" dataLayout="partiallyAggregated" file="dd150.csv" isIndexed="true" availableRowCount="266"/>
 			<StringTableFile contentKey="NEQFD7CUV7OWHXNVSB2PSB57C4FPKDDF" size="248" format="CSV" rowCount="32" file="dd150index.csv"/>
 		</Result>
-		<Result ref="dd795" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd795" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Warehouse (Ship To)" ref="bi12716" varname="bi12716" column="c0"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Total Orders KPI" ref="bi3282" varname="bi3282" column="c1"/>
@@ -1396,7 +1396,7 @@
 "TX1"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd225" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd225" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Warehouse (Ship To)" ref="bi12714" varname="bi12714" column="c0"/>
 				<StringVariable label="Customer State" ref="bi12715" varname="bi12715" column="c1"/>
@@ -1463,7 +1463,7 @@
 "WA"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd2451" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd2451" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi12717" varname="ru0" column="c0"/>
 				<NumericVariable format="COMMA12.1" usage="quantitative" definedAggregation="average" label="Customer Satisfaction" ref="bi2462" varname="bi2462" column="c1"/>
@@ -1485,7 +1485,7 @@
 "TX1"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd1905" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd1905" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi12718" varname="ru0" column="c0"/>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Returns Amount" ref="bi1940" varname="bi1940" column="c1"/>
@@ -1510,7 +1510,7 @@
 "TX1"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd3301" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd3301" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable label="Warehouse (Ship To)" ref="bi12719" varname="bi12719" column="c0"/>
 				<StringVariable label="Customer State" ref="bi12720" varname="bi12720" column="c1"/>
@@ -1577,7 +1577,7 @@
 "WA"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd5153" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd5153" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Reason for return" ref="bi12725" varname="ru0" column="c0"/>
 				<NumericVariable format="COMMA12.1" usage="quantitative" definedAggregation="average" label="Customer Satisfaction" ref="bi5154" varname="bi5154" column="c1"/>
@@ -1603,7 +1603,7 @@
 "Item too small"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd5173" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd5173" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Reason for return" ref="bi12726" varname="ru0" column="c0"/>
 				<NumericVariable format="COMMA12.2" usage="quantitative" definedAggregation="average" label="Survey Score" ref="bi5778" varname="bi5778" column="c1"/>
@@ -1629,7 +1629,7 @@
 "Item too small"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd5190" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd5190" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Reason for return" ref="bi12727" varname="ru0" column="c0"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Online Reviews" ref="bi5779" varname="bi5779" column="c1"/>
@@ -1655,7 +1655,7 @@
 "Item too small"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd5207" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-10T17:55:43.565Z">
+		<Result ref="dd5207" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-14T17:05:47.181Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Reason for return" ref="bi12728" varname="ru0" column="c0"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Social Media Score" ref="bi5780" varname="bi5780" column="c1"/>
@@ -1681,7 +1681,7 @@
 "Item too small"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd11881" type="relational" status="warning" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11881" type="relational" status="warning" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1695,7 +1695,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11882" type="relational" status="warning" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11882" type="relational" status="warning" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1709,7 +1709,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11883" type="relational" status="warning" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11883" type="relational" status="warning" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1723,7 +1723,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11887" type="relational" status="warning" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11887" type="relational" status="warning" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1737,7 +1737,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11880" type="relational" status="warning" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11880" type="relational" status="warning" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1758,7 +1758,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11878" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11878" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1879,7 +1879,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11879" type="relational" status="warning" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11879" type="relational" status="warning" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1964,7 +1964,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11885" type="relational" status="warning" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11885" type="relational" status="warning" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2098,7 +2098,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11884" type="relational" status="warning" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11884" type="relational" status="warning" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2125,7 +2125,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11888" type="relational" status="warning" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11888" type="relational" status="warning" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2153,7 +2153,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11889" type="relational" status="warning" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11889" type="relational" status="warning" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2181,7 +2181,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11890" type="relational" status="warning" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11890" type="relational" status="warning" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2266,7 +2266,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11891" type="relational" status="warning" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11891" type="relational" status="warning" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2289,7 +2289,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11886" type="relational" status="warning" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11886" type="relational" status="warning" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2321,7 +2321,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11947" type="relational" status="warning" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11947" type="relational" status="warning" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2335,7 +2335,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11948" type="relational" status="warning" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11948" type="relational" status="warning" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2349,7 +2349,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11949" type="relational" status="warning" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11949" type="relational" status="warning" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2363,7 +2363,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11950" type="relational" status="warning" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11950" type="relational" status="warning" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2377,7 +2377,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11951" type="relational" status="warning" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11951" type="relational" status="warning" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2391,7 +2391,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11955" type="relational" status="warning" dataLevel="baseline" label="Geo Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11955" type="relational" status="warning" dataLevel="baseline" label="Geo Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2405,7 +2405,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11952" type="relational" status="warning" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11952" type="relational" status="warning" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2460,7 +2460,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11953" type="relational" status="warning" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11953" type="relational" status="warning" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -2508,7 +2508,7 @@
 				<Parameter prompt="pr11797" dataType="string">&apos;No&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd11954" type="relational" status="warning" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-10T17:55:47.157Z">
+		<Result ref="dd11954" type="relational" status="warning" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-14T17:05:49.215Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
