@@ -4,7 +4,7 @@ echo $(pwd)
 
 # Get the name of the SAS Viya CLI tarball, which should exist in this directory.
 # If more than one exists then this just gets the first listed.
-NAME=$(ls | grep -o 'sas-admin-cli\S*\.tgz')
+NAME=$(ls | grep -o 'sas-viya-cli\S*\.tgz')
 
 # Make sure a cli file exists before continuing
 if [[ -z "${NAME}" ]]; then
