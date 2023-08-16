@@ -1,7 +1,4 @@
-FROM --platform=linux/amd64 alpine
-
-RUN apk update \
-    && apk --no-cache add ca-certificates wget libc6-compat
+FROM --platform=linux/amd64 rockylinux:9
 
 ARG CLI_TAR_FILE
 COPY $CLI_TAR_FILE /tmp/
@@ -13,6 +10,6 @@ RUN mkdir -p /tmp/utilities \
     && rm -f /tmp/$CLI_TAR_FILE \
     && chmod +x /usr/local/bin/sas-viya
 
-RUN addgroup -S sas --gid 1001 && adduser -S sas -G sas --uid 1000
+RUN adduser sas
 
 USER sas
