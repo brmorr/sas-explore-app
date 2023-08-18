@@ -8,15 +8,7 @@ html {
   }
 }
 
-html {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
 body {
-  position: relative;
-  display: flex;
-  flex-grow: 1;
   background-color: #f9fafb;
   font-family: "Inter", sans-serif;
 }
