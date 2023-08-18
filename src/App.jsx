@@ -1,6 +1,5 @@
 import React from "react";
 import { Dashboard } from "./components/Dashboard";
-import { Report } from "./components/Report/Report";
 import config from "./config.json";
 
 function App() {
