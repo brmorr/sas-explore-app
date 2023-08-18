@@ -1,0 +1,205 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+html {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  background-color: #f9fafb;
+  font-family: "Inter", sans-serif;
+}
+
+#logon-container h1,
+.text-container h1 {
+  font-size: 3em;
+  font-weight: 600;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.text-container h2 {
+  font-weight: 600;
+  font-size: 2em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.href-container h3 {
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.text-container p,
+.href-container p,
+#logon-container p {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1;
+}
+
+.logo {
+  filter: brightness(0) invert(0%);
+  width: 120px;
+  height: 60px;
+}
+
+.drop-shadow {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 2rem;
+  margin: 2rem auto;
+}
+
+.wide {
+  max-width: 1200px;
+}
+
+.narrow {
+  max-width: 800px;
+}
+
+.padded-container {
+  padding: 6em;
+  background-color: #ffffff;
+  border-radius: 0 0 0.25em 0.25em;
+}
+
+.primary-button {
+  background-color: #0578ce;
+  color: #ffffff;
+  padding: 0.5em 1.5em;
+  margin-top: 1em;
+  cursor: pointer;
+  border-radius: 2px;
+  border: 0px;
+  font-family: Inter, sans-serif;
+  font-size: 1em;
+  line-height: 1;
+}
+
+.href-container {
+  padding: 2em 2em 0 2em;
+}
+
+.href-content {
+  background-color: #fff;
+  border-top: 2px solid #2096f3;
+  display: grid;
+  flex-grow: 1;
+  overflow: auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 300px);
+  column-gap: 2rem;
+  padding: 1em;
+}
+
+.href-text {
+  margin: auto 0;
+}
+
+.href-image {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.text-container {
+  margin-block-start: 3em;
+  padding: 2em;
+}
+
+.kv-grid-container,
+.viz-grid-container,
+.returns-monitor-container {
+  display: grid;
+  flex-grow: 1;
+  overflow: auto;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 2em;
+}
+
+.kv-grid-container {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 200px);
+}
+.viz-grid-container {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 400px);
+}
+.returns-monitor-container {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 200px);
+}
+
+.dynamic-text-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 2rem;
+  margin: 0 2rem;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.dynamic-text {
+  margin: auto 0;
+  height: 4rem;
+  padding: 0 2rem 0 0;
+}
+
+.keyvalue {
+  padding: 2em 0;
+  background-color: #ffffff;
+  border-top: 2px solid #2096f3;
+  border-radius: 0 0 0.25em 0.25em;
+}
+
+.visualization {
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 0.25em;
+}
+
+#esri-map {
+  grid-area: 2 / 1 / 5 / 5;
+}
+
+#butterfly {
+  grid-area: 1 / 1 / 2 / 5;
+}
+
+#bar-chart {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+#line-chart {
+  grid-area: 2 / 3 / 3 / 5;
+}
+
+#pc-plot {
+  grid-area: 4 / 1 / 7 / 5;
+}
+#stacked-bar {
+  grid-area: 2 / 1 / 4 / 3;
+}
+#pie-chart {
+  grid-area: 2 / 3 / 4 / 5;
+}
