@@ -1,11 +1,26 @@
 name: SAS Viya Report Packages CI/CD
 
-on:
-  workflow_dispatch
+on: workflow_dispatch
 
 jobs:
+  check_for_updates:
+    name: Check for updated report content
+    runs-on: ubuntu-latest
+    outputs:
+      needs_update: ${{ steps.check_last_modified.outputs.needs_update }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Check last modified
+        run: npm run check-package-updates || echo "needs_update=true" >> "$GITHUB_OUTPUT"
+        id: check_last_modified
+
   create_report_package:
     name: Create Report Package
+    needs: check_for_updates
+    if: ${{ needs.check_for_updates.outputs.needs_update }}
     runs-on: ubuntu-latest
     container:
       image: ${{ vars.CLI_CONTAINER_NAME }}
@@ -28,7 +43,7 @@ jobs:
           name: reportPackage
           path: /home/sas/reportPackage
           if-no-files-found: error
-          
+
   commit_report_package:
     name: Commit Report Package
     needs: create_report_package
@@ -57,9 +72,9 @@ jobs:
           token: ${{ secrets.PAT }}
           path: repo
           branch: update-report-package
-          commit-message: "feat: update report package"
-          title: "update report package"
-          body: "Automated updated of the SAS Viya report package"
+          commit-message: 'feat: update report package'
+          title: 'update report package'
+          body: 'Automated updated of the SAS Viya report package'
       - name: Enable Pull Request Automerge
         if: ${{ steps.create-pr.outputs.pull-request-number }}
         run: |
@@ -67,4 +82,3 @@ jobs:
           gh pr merge --squash --auto --delete-branch "${{ steps.create-pr.outputs.pull-request-number }}"
         env:
           GH_TOKEN: ${{ secrets.PAT }}
-          
