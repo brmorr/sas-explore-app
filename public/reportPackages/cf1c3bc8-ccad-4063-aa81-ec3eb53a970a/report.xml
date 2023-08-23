@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.30.0" label="Business Performance Analysis" implicitInteractions="sectionPrompt reportPrompt sectionLink" createdLocale="en" createdVersion="4.2.2" dateCreated="2020-08-25T05:22:29Z" dateModified="2023-08-18T17:17:09Z" createdApplication="SAS Visual Analytics 8.5.1" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="29333">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.30.0" label="Business Performance Analysis" implicitInteractions="sectionPrompt reportPrompt sectionLink" createdLocale="en" createdVersion="4.2.2" dateCreated="2020-08-25T05:22:29Z" dateModified="2023-08-23T20:11:00Z" createdApplication="SAS Visual Analytics 8.5.1" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="29489">
 	<Results>
 		<Result ref="dd13546" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
 			<Variables>
@@ -2301,8 +2301,8 @@
 		</Result>
 		<Result ref="dd150" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29259" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29258" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29415" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29414" varname="ru1" column="c1"/>
 				<StringVariable label="Product Category" ref="bi151" varname="bi151" column="c2"/>
 				<StringVariable label="Returned Category" ref="bi157" varname="bi157" column="c3"/>
 				<NumericVariable format="PERCENT20.2" usage="quantitative" definedAggregation="totalCountPercent" label="Frequency Percent" ref="bi2656" varname="bi2656" column="c4"/>
@@ -2324,8 +2324,8 @@
 		</Result>
 		<Result ref="dd795" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29270" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29269" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29426" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29425" varname="ru1" column="c1"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Total Orders KPI" ref="bi3282" varname="bi3282" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2428,8 +2428,8 @@
 		</Result>
 		<Result ref="dd225" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29262" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29263" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29419" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29418" varname="ru1" column="c1"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Total Returns KPI" ref="bi3283" varname="bi3283" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2440,74 +2440,74 @@
 			<DefinedColumnSortItems>
 				<DefinedMeasureSortItem variable="bi3283" sortDirection="descending"/>
 			</DefinedColumnSortItems>
-			<Data isIndexed="true" availableRowCount="68" contentKey="PE7K2QDWRN6LA463KLU2P3SHVUDU4OGQ" size="667" format="CSV" rowCount="68" grandTotal="false" dataLayout="rollup"><![CDATA[-100,-100,26973.0
-2,-100,8991.0
-6,-100,2997.0
-16,-100,7992.0
-2,9,.
-6,9,.
-16,9,999.0
--100,9,999.0
-2,10,.
-6,10,1998.0
-16,10,.
--100,10,1998.0
-2,5,.
-6,5,0.0
-16,5,0.0
--100,5,0.0
-2,8,0.0
-6,8,999.0
-16,8,1998.0
--100,8,2997.0
-2,15,.
-6,15,.
-16,15,3996.0
--100,15,3996.0
-2,12,0.0
-6,12,.
-16,12,999.0
--100,12,999.0
-2,4,0.0
-6,4,0.0
-16,4,.
--100,4,0.0
-2,7,.
-6,7,.
-16,7,0.0
--100,7,999.0
-2,0,1998.0
-6,0,.
-16,0,0.0
--100,0,1998.0
-2,1,4995.0
-6,1,.
-16,1,0.0
--100,1,4995.0
-2,18,.
-6,18,.
-16,18,.
--100,18,0.0
-2,13,0.0
-6,13,.
-16,13,.
--100,13,2997.0
-2,14,.
-6,14,.
-16,14,.
--100,14,0.0
-2,11,0.0
-6,11,.
-16,11,.
--100,11,2997.0
-2,3,1998.0
-6,3,.
-16,3,.
--100,3,1998.0
-2,17,.
-6,17,.
-16,17,.
--100,17,0.0
+			<Data isIndexed="true" availableRowCount="68" contentKey="ZOJGVFYY4SXCJTKLWI3HHL477QLMQCHC" size="667" format="CSV" rowCount="68" grandTotal="false" dataLayout="rollup"><![CDATA[-100,-100,26973.0
+9,-100,999.0
+10,-100,1998.0
+5,-100,0.0
+8,-100,2997.0
+15,-100,3996.0
+12,-100,999.0
+4,-100,0.0
+7,-100,999.0
+0,-100,1998.0
+1,-100,4995.0
+18,-100,0.0
+13,-100,2997.0
+14,-100,0.0
+11,-100,2997.0
+3,-100,1998.0
+17,-100,0.0
+9,2,.
+10,2,.
+5,2,.
+8,2,0.0
+15,2,.
+12,2,0.0
+4,2,0.0
+7,2,.
+0,2,1998.0
+1,2,4995.0
+18,2,.
+13,2,0.0
+14,2,.
+11,2,0.0
+3,2,1998.0
+17,2,.
+-100,2,8991.0
+9,6,.
+10,6,1998.0
+5,6,0.0
+8,6,999.0
+15,6,.
+12,6,.
+4,6,0.0
+7,6,.
+0,6,.
+1,6,.
+18,6,.
+13,6,.
+14,6,.
+11,6,.
+3,6,.
+17,6,.
+-100,6,2997.0
+9,16,999.0
+10,16,.
+5,16,0.0
+8,16,1998.0
+15,16,3996.0
+12,16,999.0
+4,16,.
+7,16,0.0
+0,16,0.0
+1,16,0.0
+18,16,.
+13,16,.
+14,16,.
+11,16,.
+3,16,.
+17,16,.
+-100,16,7992.0
 ]]></Data>
 			<StringTable contentKey="7ORXT4LJUNNU2NCMIXSLKCCTXZJUOYYX" size="98" format="CSV" rowCount="19"><![CDATA["AZ"
 "CA"
@@ -2532,8 +2532,8 @@
 		</Result>
 		<Result ref="dd2451" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29275" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29276" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29431" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29432" varname="ru1" column="c1"/>
 				<NumericVariable format="COMMA12.1" usage="quantitative" definedAggregation="average" label="Customer Satisfaction" ref="bi2462" varname="bi2462" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2636,8 +2636,8 @@
 		</Result>
 		<Result ref="dd3301" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29282" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29283" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29438" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29439" varname="ru1" column="c1"/>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Purchases Amount" ref="bi3313" varname="bi3313" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2740,8 +2740,8 @@
 		</Result>
 		<Result ref="dd1905" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29280" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29279" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29435" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29436" varname="ru1" column="c1"/>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Returns Amount" ref="bi1940" varname="bi1940" column="c2"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Total Returns KPI" ref="bi3149" varname="bi3149" column="c3"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Total Orders KPI" ref="bi3153" varname="bi3153" column="c4"/>
@@ -2755,12 +2755,12 @@
 				<NumericColumn dataType="double" colname="c4" encoding="text"/>
 				<NumericColumn dataType="double" colname="c5" encoding="text"/>
 			</Columns>
-			<DataFile contentKey="JOYXXIHNONYZW5TVGICHUQWSGY2LCG4Y" size="2002" format="CSV" rowCount="68" grandTotal="false" dataLayout="rollup" file="dd1905.csv" isIndexed="true" availableRowCount="68"/>
+			<DataFile contentKey="ODIZBNLB4FTBGPQZ7F5CUZ57SAPZA2VD" size="2002" format="CSV" rowCount="68" grandTotal="false" dataLayout="rollup" file="dd1905.csv" isIndexed="true" availableRowCount="68"/>
 			<StringTableFile contentKey="7ORXT4LJUNNU2NCMIXSLKCCTXZJUOYYX" size="98" format="CSV" rowCount="19" file="dd1905index.csv"/>
 		</Result>
 		<Result ref="dd241" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29265" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29421" varname="ru0" column="c0"/>
 				<NumericVariable format="MONYY7" usage="categorical" label="Purchase Month/Year" ref="bi12937" varname="bi12937" column="c1"/>
 				<NumericVariable format="PERCENT12.2" usage="quantitative" label="Purchases Amount (% difference from previous period)" ref="bi792" varname="bi792" column="c2"/>
 			</Variables>
@@ -2860,8 +2860,8 @@
 		</Result>
 		<Result ref="dd5207" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Reason for return" ref="bi29312" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Influencer Category" ref="bi29313" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Reason for return" ref="bi29468" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Influencer Category" ref="bi29469" varname="ru1" column="c1"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Social Media Score" ref="bi5780" varname="bi5780" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2902,8 +2902,8 @@
 		</Result>
 		<Result ref="dd5190" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Reason for return" ref="bi29309" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Influencer Category" ref="bi29310" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Influencer Category" ref="bi29466" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Reason for return" ref="bi29465" varname="ru1" column="c1"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Online Reviews" ref="bi5779" varname="bi5779" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2914,24 +2914,24 @@
 			<DefinedColumnSortItems>
 				<DefinedMeasureSortItem variable="bi5779" sortDirection="descending"/>
 			</DefinedColumnSortItems>
-			<Data isIndexed="true" availableRowCount="18" contentKey="62RHLEBGP2KPS5RVGTOQBVC43ILFTXOR" size="328" format="CSV" rowCount="18" grandTotal="false" dataLayout="rollup"><![CDATA[-100,-100,3.7939444911690496
-4,-100,3.9014084507042255
-0,-100,4.0
-1,-100,3.8181818181818183
-2,-100,3.8484848484848486
-3,-100,3.838709677419355
-4,5,3.8656716417910446
-0,5,4.0
-1,5,3.8679245283018866
-2,5,3.8484848484848486
-3,5,3.838709677419355
--100,5,3.7982608695652176
-4,6,4.5
-0,6,.
-1,6,2.5
-2,6,.
-3,6,.
--100,6,3.6666666666666665
+			<Data isIndexed="true" availableRowCount="18" contentKey="NP23IUO2WY37WE5OGWTGE3M3ZLHRRCOM" size="328" format="CSV" rowCount="18" grandTotal="false" dataLayout="rollup"><![CDATA[-100,-100,3.7939444911690496
+5,-100,3.7982608695652176
+6,-100,3.6666666666666665
+5,4,3.8656716417910446
+6,4,4.5
+-100,4,3.9014084507042255
+5,0,4.0
+6,0,.
+-100,0,4.0
+5,1,3.8679245283018866
+6,1,2.5
+-100,1,3.8181818181818183
+5,2,3.8484848484848486
+6,2,.
+-100,2,3.8484848484848486
+5,3,3.838709677419355
+6,3,.
+-100,3,3.838709677419355
 ]]></Data>
 			<StringTable contentKey="KBK6DOSTSDKV7IBWK7LDMNC4QX56RB4D" size="101" format="CSV" rowCount="7"><![CDATA["Do not like the color"
 "Item damaged"
@@ -2944,8 +2944,8 @@
 		</Result>
 		<Result ref="dd5173" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Reason for return" ref="bi29306" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Influencer Category" ref="bi29307" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Reason for return" ref="bi29462" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Influencer Category" ref="bi29463" varname="ru1" column="c1"/>
 				<NumericVariable format="COMMA12.2" usage="quantitative" definedAggregation="average" label="Survey Score" ref="bi5778" varname="bi5778" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2986,8 +2986,8 @@
 		</Result>
 		<Result ref="dd5153" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Reason for return" ref="bi29303" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Influencer Category" ref="bi29304" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Reason for return" ref="bi29459" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Influencer Category" ref="bi29460" varname="ru1" column="c1"/>
 				<NumericVariable format="COMMA12.1" usage="quantitative" definedAggregation="average" label="Customer Satisfaction" ref="bi5154" varname="bi5154" column="c2"/>
 			</Variables>
 			<Columns>
@@ -3309,8 +3309,8 @@
 				<RelationalDataItem name="bi151" base="bi38"/>
 				<RelationalDataItem name="bi157" base="bi78"/>
 				<RelationalDataItem name="bi2656" base="bi62"/>
-				<RelationalDataItem name="bi29258" base="bi45"/>
-				<RelationalDataItem name="bi29259" base="bi28"/>
+				<RelationalDataItem name="bi29414" base="bi45"/>
+				<RelationalDataItem name="bi29415" base="bi28"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd149">
 				<MultidimensionalQuery detail="false">
@@ -3385,8 +3385,8 @@
 					</EditorProperties>
 					<Expression>in(${bi3342,binned},22281)</Expression>
 				</RelationalFilterItem>
-				<RelationalDataItem name="bi29262" base="bi45"/>
-				<RelationalDataItem name="bi29263" base="bi28"/>
+				<RelationalDataItem name="bi29418" base="bi45"/>
+				<RelationalDataItem name="bi29419" base="bi28"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd224">
 				<MultidimensionalQuery detail="false">
@@ -3422,7 +3422,7 @@
 					</EditorProperties>
 					<Expression>in(${bi3340,binned},22281)</Expression>
 				</RelationalFilterItem>
-				<RelationalDataItem name="bi29265" base="bi28"/>
+				<RelationalDataItem name="bi29421" base="bi28"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd244">
 				<MultidimensionalQuery detail="false">
@@ -3572,8 +3572,8 @@
 					</EditorProperties>
 					<Expression>in(${bi3344,binned},22281)</Expression>
 				</RelationalFilterItem>
-				<RelationalDataItem name="bi29269" base="bi45"/>
-				<RelationalDataItem name="bi29270" base="bi28"/>
+				<RelationalDataItem name="bi29425" base="bi45"/>
+				<RelationalDataItem name="bi29426" base="bi28"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd800">
 				<MultidimensionalQuery detail="false">
@@ -3708,8 +3708,8 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24" name="dd2454">
 			<BusinessItems>
 				<RelationalDataItem name="bi2462" base="bi2431"/>
-				<RelationalDataItem name="bi29275" base="bi45"/>
-				<RelationalDataItem name="bi29276" base="bi28"/>
+				<RelationalDataItem name="bi29431" base="bi45"/>
+				<RelationalDataItem name="bi29432" base="bi28"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd2455">
 				<MultidimensionalQuery detail="false">
@@ -3766,8 +3766,8 @@
 					</EditorProperties>
 					<Expression>or(in(${bi3348,binned},22281),ismissing(${bi3348,binned}))</Expression>
 				</RelationalFilterItem>
-				<RelationalDataItem name="bi29279" base="bi28"/>
-				<RelationalDataItem name="bi29280" base="bi45"/>
+				<RelationalDataItem name="bi29435" base="bi28"/>
+				<RelationalDataItem name="bi29436" base="bi45"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="relational" name="dd1904">
 				<RelationalQuery detail="false">
@@ -3801,8 +3801,8 @@
 					</EditorProperties>
 					<Expression>in(${bi3346,binned},22281)</Expression>
 				</RelationalFilterItem>
-				<RelationalDataItem name="bi29282" base="bi45"/>
-				<RelationalDataItem name="bi29283" base="bi28"/>
+				<RelationalDataItem name="bi29438" base="bi45"/>
+				<RelationalDataItem name="bi29439" base="bi28"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd3304">
 				<MultidimensionalQuery detail="false">
@@ -4025,11 +4025,11 @@
 				<RelationalDataItem name="bi5587" base="bi46"/>
 				<RelationalDataItem name="bi5588" base="bi54"/>
 				<RelationalDataItem name="bi5589" base="bi2430"/>
-				<LookupDataItem property="mapId" lookup="bi28" name="bi29108"/>
-				<LookupDataItem property="polygonId" lookup="bi28" name="bi29109"/>
-				<LookupDataItem property="longitude" lookup="bi45" name="bi29110"/>
-				<LookupDataItem property="latitude" lookup="bi45" name="bi29111"/>
-				<RelationalFilterItem name="bi29112">
+				<LookupDataItem property="mapId" lookup="bi28" name="bi29405"/>
+				<LookupDataItem property="polygonId" lookup="bi28" name="bi29406"/>
+				<LookupDataItem property="longitude" lookup="bi45" name="bi29407"/>
+				<LookupDataItem property="latitude" lookup="bi45" name="bi29408"/>
+				<RelationalFilterItem name="bi29409">
 					<EditorProperties>
 						<Property key="complexity">SINGLE_DATA_ITEM</Property>
 						<Property key="interactiveEditingAllowed">TRUE</Property>
@@ -4142,7 +4142,7 @@
 			</DataDefinition>
 			<AppliedFilters>
 				<DetailFilters>
-					<BusinessItem ref="bi29112"/>
+					<BusinessItem ref="bi29409"/>
 				</DetailFilters>
 			</AppliedFilters>
 		</ParentDataDefinition>
@@ -4345,11 +4345,11 @@
 				<RelationalDataItem name="bi5700" base="bi2430"/>
 				<RelationalDataItem name="bi5702" base="bi29"/>
 				<RelationalDataItem name="bi5703" base="bi1884"/>
-				<LookupDataItem property="mapId" lookup="bi28" name="bi29113"/>
-				<LookupDataItem property="polygonId" lookup="bi28" name="bi29114"/>
-				<LookupDataItem property="longitude" lookup="bi45" name="bi29115"/>
-				<LookupDataItem property="latitude" lookup="bi45" name="bi29116"/>
-				<RelationalFilterItem name="bi29117">
+				<LookupDataItem property="mapId" lookup="bi28" name="bi29396"/>
+				<LookupDataItem property="polygonId" lookup="bi28" name="bi29397"/>
+				<LookupDataItem property="longitude" lookup="bi45" name="bi29398"/>
+				<LookupDataItem property="latitude" lookup="bi45" name="bi29399"/>
+				<RelationalFilterItem name="bi29400">
 					<EditorProperties>
 						<Property key="complexity">SINGLE_DATA_ITEM</Property>
 						<Property key="interactiveEditingAllowed">TRUE</Property>
@@ -4462,7 +4462,7 @@
 			</DataDefinition>
 			<AppliedFilters>
 				<DetailFilters>
-					<BusinessItem ref="bi29117"/>
+					<BusinessItem ref="bi29400"/>
 				</DetailFilters>
 			</AppliedFilters>
 		</ParentDataDefinition>
@@ -4470,8 +4470,8 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24" name="dd5157">
 			<BusinessItems>
 				<RelationalDataItem name="bi5154" base="bi2431"/>
-				<RelationalDataItem name="bi29303" base="bi44"/>
-				<RelationalDataItem name="bi29304" base="bi200"/>
+				<RelationalDataItem name="bi29459" base="bi44"/>
+				<RelationalDataItem name="bi29460" base="bi200"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd5158">
 				<MultidimensionalQuery detail="false">
@@ -4494,8 +4494,8 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24" name="dd5177">
 			<BusinessItems>
 				<RelationalDataItem name="bi5778" base="bi46"/>
-				<RelationalDataItem name="bi29306" base="bi44"/>
-				<RelationalDataItem name="bi29307" base="bi200"/>
+				<RelationalDataItem name="bi29462" base="bi44"/>
+				<RelationalDataItem name="bi29463" base="bi200"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd5178">
 				<MultidimensionalQuery detail="false">
@@ -4518,8 +4518,8 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24" name="dd5194">
 			<BusinessItems>
 				<RelationalDataItem name="bi5779" base="bi2430"/>
-				<RelationalDataItem name="bi29309" base="bi44"/>
-				<RelationalDataItem name="bi29310" base="bi200"/>
+				<RelationalDataItem name="bi29465" base="bi44"/>
+				<RelationalDataItem name="bi29466" base="bi200"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd5195">
 				<MultidimensionalQuery detail="false">
@@ -4542,8 +4542,8 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24" name="dd5211">
 			<BusinessItems>
 				<RelationalDataItem name="bi5780" base="bi2432"/>
-				<RelationalDataItem name="bi29312" base="bi44"/>
-				<RelationalDataItem name="bi29313" base="bi200"/>
+				<RelationalDataItem name="bi29468" base="bi44"/>
+				<RelationalDataItem name="bi29469" base="bi200"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd5212">
 				<MultidimensionalQuery detail="false">
@@ -5733,7 +5733,7 @@
 		<Graph graphType="bar" supplementalVisuals="ve154" resultDefinitions="dd150" name="ve147" data="dd148" label="Bar - Product Category 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi151 bi157">
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
-				<Property key="addedInteractionQueryDataItems">bi29258,bi29259</Property>
+				<Property key="addedInteractionQueryDataItems">bi29414,bi29415</Property>
 			</EditorProperties>
 			<Title auto="false"><P><Span class="styleForTitle_span2">Returns by product category</Span></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel">
@@ -5891,7 +5891,7 @@
 				<Property key="previousShowCategoryValue">false</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29262,bi29263</Property>
+				<Property key="addedInteractionQueryDataItems">bi29418,bi29419</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph4"><Span class="styleForTitle_span8">Returns (2022)</Span></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
@@ -5927,7 +5927,7 @@
 				<Property key="previousShowCategoryValue">false</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29265</Property>
+				<Property key="addedInteractionQueryDataItems">bi29421</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph5"><Span class="styleForTitle_span9">Growth (Current Month)</Span></P></Title>
 			<Conditions>
@@ -5987,15 +5987,17 @@
     </Meta>
     <LayoutRegion>
         <ParallelCoordinatesPlot name="ParallelCoordinatesPlot_1" dataTransparency="0.5" smoothConnect="true" lineWidthResponse="dd364#bi354">
-            <BinMetadata name="BinMetadata_1" dataField="dd365#bi357" size="dd365#bi359" start="dd365#bi358" count="dd365#bi360"/>
+            <BinMetadata dataField="dd365#bi357" size="dd365#bi359" start="dd365#bi358" count="dd365#bi360" name="BinMetadata_1"/>
             <Response>
                 <Value>dd364#bi369</Value>
                 <Value>dd364#bi368</Value>
                 <Value>dd364#bi373</Value>
             </Response>
             <ParallelAxisOpts>
-                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response1"/>
-                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response2"/>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response1">
+                </AxisOpts>
+                <AxisOpts discreteSortOrder="ascendingunformatted" type="discrete" name="response2">
+                </AxisOpts>
                 <AxisOpts name="response3"/>
             </ParallelAxisOpts>
         </ParallelCoordinatesPlot>
@@ -6075,7 +6077,7 @@
 				<Property key="previousShowCategoryValue">false</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29269,bi29270</Property>
+				<Property key="addedInteractionQueryDataItems">bi29425,bi29426</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph3"><Span class="styleForTitle_span7">Orders (2022)</Span></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
@@ -6349,7 +6351,7 @@
 				<Property key="previousShowCategoryValue">true</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29275,bi29276</Property>
+				<Property key="addedInteractionQueryDataItems">bi29431,bi29432</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph11"><Span class="styleForTitle_span22">Satisfaction</Span></P></Title>
 			<Conditions>
@@ -6423,7 +6425,7 @@
 		<Text resultDefinitions="dd1905" name="ve1902" data="dd1903" label="ReturnItemExplainText" selectionDisabled="true" applyDynamicBrushes="no">
 			<EditorProperties>
 				<Property key="isAutoLabel">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29279,bi29280</Property>
+				<Property key="addedInteractionQueryDataItems">bi29435,bi29436</Property>
 			</EditorProperties>
 			<Conditions>
 				<Condition ref="cd3489" applyToVariable="bi3154">
@@ -6469,7 +6471,7 @@
 				<Property key="previousShowCategoryValue">false</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29282,bi29283</Property>
+				<Property key="addedInteractionQueryDataItems">bi29438,bi29439</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph6"><Span class="styleForTitle_span6">Purchases (2022)</Span></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
@@ -6522,7 +6524,7 @@
 			<EditorProperties>
 				<Property key="visualType">predictionAutomationInfoBar</Property>
 			</EditorProperties>
-			<Title><P><Span>What are the characteristics of Response?</Span></P></Title>
+			<Title><P><Span>What are the characteristics of Customer Satisfaction?</Span></P></Title>
 			<P class="paragraph1"><DynamicSpan variable="bi4157"></DynamicSpan></P>
 		</Text>
 		<Prompt ref="pr4340" name="ve4361" label="Event level" selectionDisabled="true" applyDynamicBrushes="promptsOnly">
@@ -6531,7 +6533,7 @@
 			</EditorProperties>
 			<ComboBox/>
 		</Prompt>
-		<Graph graphType="predictionAutomationFactors" resultDefinitions="dd4246" name="ve4262" data="dd4240" label="Automated Explanation" applyDynamicBrushes="no">
+		<Graph graphType="predictionAutomationFactors" resultDefinitions="dd4246" name="ve4262" data="dd4240" label="Factors" applyDynamicBrushes="no">
 			<EditorProperties>
 				<Property key="selectedVarLabel">bi28</Property>
 			</EditorProperties>
@@ -6677,7 +6679,7 @@
 			<EditorProperties>
 				<Property key="visualType">predictionAutomationInfoBar</Property>
 			</EditorProperties>
-			<Title><P><Span>What are the characteristics of Response?</Span></P></Title>
+			<Title><P><Span>What are the characteristics of Reputation Score (%)?</Span></P></Title>
 			<P class="paragraph1"><DynamicSpan variable="bi4371"></DynamicSpan></P>
 		</Text>
 		<Prompt ref="pr4557" name="ve4579" label="Event level" selectionDisabled="true" applyDynamicBrushes="promptsOnly">
@@ -6686,7 +6688,7 @@
 			</EditorProperties>
 			<ComboBox/>
 		</Prompt>
-		<Graph graphType="predictionAutomationFactors" resultDefinitions="dd4462" name="ve4478" data="dd4456" label="Automated Explanation" applyDynamicBrushes="no">
+		<Graph graphType="predictionAutomationFactors" resultDefinitions="dd4462" name="ve4478" data="dd4456" label="Factors" applyDynamicBrushes="no">
 			<EditorProperties>
 				<Property key="selectedVarLabel">bi2432</Property>
 			</EditorProperties>
@@ -6889,7 +6891,7 @@
 				<Property key="previousShowCategoryValue">true</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29303,bi29304</Property>
+				<Property key="addedInteractionQueryDataItems">bi29459,bi29460</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph2"><Span class="styleForTitle_span21">Customer Satisfaction</Span></P></Title>
 			<Conditions>
@@ -6952,7 +6954,7 @@
 				<Property key="previousShowCategoryValue">true</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29306,bi29307</Property>
+				<Property key="addedInteractionQueryDataItems">bi29462,bi29463</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph7"><Span class="styleForTitle_span10">Survey Score</Span></P></Title>
 			<Conditions>
@@ -7010,7 +7012,7 @@
 				<Property key="previousShowCategoryValue">true</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29309,bi29310</Property>
+				<Property key="addedInteractionQueryDataItems">bi29465,bi29466</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph8"><Span class="styleForTitle_span14">Online Review Score</Span></P></Title>
 			<Conditions>
@@ -7068,7 +7070,7 @@
 				<Property key="previousShowCategoryValue">true</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29312,bi29313</Property>
+				<Property key="addedInteractionQueryDataItems">bi29468,bi29469</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph9"><Span class="styleForTitle_span15">Social Media Score</Span></P></Title>
 			<Conditions>
@@ -7143,7 +7145,6 @@
 				<Column variable="bi5780"/>
 			</Columns>
 		</Table>
-		<Image scaleType="scale" file="ve6242.png" name="ve6242" label="ViyaLogo (1)" selectionDisabled="true"/>
 		<VisualContainer containerType="layout" name="ve6247" label="Layout Container 13" selectionDisabled="true">
 			<EditorProperties>
 				<Property key="visualType">LAYOUT_CONTAINER</Property>
@@ -7186,7 +7187,7 @@
 			</EditorProperties>
 		</VisualContainer>
 		<Image scaleType="scaleWidth" file="ve5147.png" name="ve12709" label="Image 1 (2) (1) (1) (1) (1) (1)" selectionDisabled="true"/>
-		<Image scaleType="scale" file="ve6242.png" name="ve12711" label="ViyaLogo (1) (1) (1)" selectionDisabled="true"/>
+		<Image scaleType="scale" file="ve12711.png" name="ve12711" label="ViyaLogo (1) (1) (1)" selectionDisabled="true"/>
 		<Graph graphType="timeSeries" supplementalVisuals="ve2643" resultDefinitions="dd2641" name="ve2638" data="dd2639" label="Time - Purchase Month/Year 1" applyDynamicBrushes="yes">
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
@@ -7787,7 +7788,6 @@
 			<Title><P><Span>Time Since Last Purchase (month)</Span></P></Title>
 			<ComboBox/>
 		</Prompt>
-		<Image scaleType="scale" file="ve6242.png" name="ve27170" label="ViyaLogo (1) (1) (1) (1) 1" selectionDisabled="true"/>
 		<Graph graphType="geo" graphSubType="geoRegion" supplementalVisuals="ve27700" mapData="dd27688" resultDefinitions="dd27671" name="ve24283" data="dd27669" label="Geo region - Customer State 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi27686">
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
@@ -7829,66 +7829,6 @@
     <Animation keyframesPerSecond="1" playDirectionForward="true" repeatEnabled="false"/>
 </StatGraph>]]>
 		</Graph>
-		<Table columnSizing="autoFill" resultDefinitions="dd13501" name="ve29071" data="dd13496" applyDynamicBrushes="yes">
-			<Columns headersHidden="true">
-				<Column variable="bi13494"/>
-				<Column variable="bi13495"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd13500" name="ve29072" data="dd13496" applyDynamicBrushes="yes">
-			<Columns>
-				<Column variable="bi13490"/>
-				<Column variable="bi13491"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4468" name="ve29078" data="dd4456" applyDynamicBrushes="yes">
-			<Columns headersHidden="true">
-				<Column variable="bi4432"/>
-				<Column variable="bi4433"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4467" name="ve29079" data="dd4456" applyDynamicBrushes="yes">
-			<Columns>
-				<Column variable="bi4425"/>
-				<Column variable="bi4429"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4461" name="ve29080" data="dd4456" applyDynamicBrushes="yes">
-			<Columns>
-				<Column variable="bi4392"/>
-				<Column variable="bi4393"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4473" name="ve29081" data="dd4456" applyDynamicBrushes="yes">
-			<Columns>
-				<Column variable="bi4452"/>
-				<Column variable="bi4453"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4252" name="ve29087" data="dd4240" applyDynamicBrushes="yes">
-			<Columns headersHidden="true">
-				<Column variable="bi4217"/>
-				<Column variable="bi4218"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4251" name="ve29088" data="dd4240" applyDynamicBrushes="yes">
-			<Columns>
-				<Column variable="bi4210"/>
-				<Column variable="bi4214"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4245" name="ve29089" data="dd4240" applyDynamicBrushes="yes">
-			<Columns>
-				<Column variable="bi4177"/>
-				<Column variable="bi4178"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4257" name="ve29090" data="dd4240" applyDynamicBrushes="yes">
-			<Columns>
-				<Column variable="bi4237"/>
-				<Column variable="bi4238"/>
-			</Columns>
-		</Table>
 		<Table columnSizing="autoFill" resultDefinitions="dd5153" name="ve5159" data="dd5157" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi5154"/>
@@ -7907,9 +7847,69 @@
 				<Column variable="bi27697"/>
 			</Columns>
 		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd13501" name="ve29394" data="dd13496" applyDynamicBrushes="yes">
+			<Columns headersHidden="true">
+				<Column variable="bi13494"/>
+				<Column variable="bi13495"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd13500" name="ve29395" data="dd13496" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi13490"/>
+				<Column variable="bi13491"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd4468" name="ve29401" data="dd4456" applyDynamicBrushes="yes">
+			<Columns headersHidden="true">
+				<Column variable="bi4432"/>
+				<Column variable="bi4433"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd4467" name="ve29402" data="dd4456" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi4425"/>
+				<Column variable="bi4429"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd4461" name="ve29403" data="dd4456" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi4392"/>
+				<Column variable="bi4393"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd4473" name="ve29404" data="dd4456" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi4452"/>
+				<Column variable="bi4453"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd4252" name="ve29410" data="dd4240" applyDynamicBrushes="yes">
+			<Columns headersHidden="true">
+				<Column variable="bi4217"/>
+				<Column variable="bi4218"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd4251" name="ve29411" data="dd4240" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi4210"/>
+				<Column variable="bi4214"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd4245" name="ve29412" data="dd4240" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi4177"/>
+				<Column variable="bi4178"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd4257" name="ve29413" data="dd4240" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi4237"/>
+				<Column variable="bi4238"/>
+			</Columns>
+		</Table>
 	</VisualElements>
 	<CompositeVisuals>
-		<CompositeVisual label="Customer Satisfaction - Driver Analysis" type="predictionAutomationContainer" supplementalVisuals="ve29087 ve29088 ve29089 ve29090" name="ve4367">
+		<CompositeVisual label="Customer Satisfaction - Driver Analysis" type="predictionAutomationContainer" supplementalVisuals="ve29410 ve29411 ve29412 ve29413" name="ve4367">
 			<CompositeMember ref="ve4258" role="supporting"/>
 			<CompositeMember ref="ve4361" role="supporting"/>
 			<CompositeMember ref="ve4262" role="primary"/>
@@ -7919,7 +7919,7 @@
 			<CompositeMember ref="ve4353" role="supporting"/>
 			<CompositeMember ref="ve4355" role="supporting"/>
 		</CompositeVisual>
-		<CompositeVisual label="Reputation Score - Driver Analysis" type="predictionAutomationContainer" supplementalVisuals="ve29078 ve29079 ve29080 ve29081" name="ve4585">
+		<CompositeVisual label="Reputation Score - Driver Analysis" type="predictionAutomationContainer" supplementalVisuals="ve29401 ve29402 ve29403 ve29404" name="ve4585">
 			<CompositeMember ref="ve4474" role="supporting"/>
 			<CompositeMember ref="ve4579" role="supporting"/>
 			<CompositeMember ref="ve4478" role="primary"/>
@@ -7929,7 +7929,7 @@
 			<CompositeMember ref="ve4571" role="supporting"/>
 			<CompositeMember ref="ve4573" role="supporting"/>
 		</CompositeVisual>
-		<CompositeVisual label="Automated prediction - Lifetime Value 1" type="scenarioAnalysisContainer" supplementalVisuals="ve29071 ve29072" name="ve13510">
+		<CompositeVisual label="Automated prediction - Lifetime Value 1" type="scenarioAnalysisContainer" supplementalVisuals="ve29394 ve29395" name="ve13510">
 			<CompositeMember ref="ve13335" role="supporting"/>
 			<CompositeMember ref="ve13446" role="supporting"/>
 			<CompositeMember ref="ve13502" role="primary"/>
@@ -8161,16 +8161,6 @@
 								</WidthConstraint>
 								<HeightConstraint>
 									<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="flexible"/>
-								</HeightConstraint>
-							</ResponsiveConstraint>
-						</Visual>
-						<Visual ref="ve27170" name="vi27171">
-							<ResponsiveConstraint>
-								<WidthConstraint>
-									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="12.5%" flexibility="fixed"/>
-								</WidthConstraint>
-								<HeightConstraint>
-									<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="shrinkable"/>
 								</HeightConstraint>
 							</ResponsiveConstraint>
 						</Visual>
@@ -8513,16 +8503,6 @@
 								</WidthConstraint>
 								<HeightConstraint>
 									<Height mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="flexible"/>
-								</HeightConstraint>
-							</ResponsiveConstraint>
-						</Visual>
-						<Visual ref="ve6242" name="vi6243">
-							<ResponsiveConstraint>
-								<WidthConstraint>
-									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="12.5%" flexibility="fixed"/>
-								</WidthConstraint>
-								<HeightConstraint>
-									<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="shrinkable"/>
 								</HeightConstraint>
 							</ResponsiveConstraint>
 						</Visual>
@@ -9783,23 +9763,23 @@
 	<Interactions>
 		<Interaction name="ia1456" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve161" variable="bi165"/>
-			<InteractionElementReference purpose="target" ref="ve147" variable="bi29258"/>
+			<InteractionElementReference purpose="target" ref="ve147" variable="bi29414"/>
 		</Interaction>
 		<Interaction name="ia1460" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve161" variable="bi165"/>
-			<InteractionElementReference purpose="target" ref="ve802" variable="bi29269"/>
+			<InteractionElementReference purpose="target" ref="ve802" variable="bi29425"/>
 		</Interaction>
 		<Interaction name="ia1461" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve161" variable="bi165"/>
-			<InteractionElementReference purpose="target" ref="ve222" variable="bi29262"/>
+			<InteractionElementReference purpose="target" ref="ve222" variable="bi29418"/>
 		</Interaction>
 		<Interaction name="ia2459" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve161" variable="bi165"/>
-			<InteractionElementReference purpose="target" ref="ve2457" variable="bi29275"/>
+			<InteractionElementReference purpose="target" ref="ve2457" variable="bi29431"/>
 		</Interaction>
 		<Interaction name="ia3308" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve161" variable="bi165"/>
-			<InteractionElementReference purpose="target" ref="ve3306" variable="bi29282"/>
+			<InteractionElementReference purpose="target" ref="ve3306" variable="bi29438"/>
 		</Interaction>
 		<Interaction name="ia4591" type="dataStyle" derived="true">
 			<InteractionElementReference purpose="source" ref="ve4262"/>
@@ -9873,281 +9853,281 @@
 		</Interaction>
 		<Interaction name="ia24410" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve2457" variable="bi29276"/>
+			<InteractionElementReference purpose="target" ref="ve2457" variable="bi29432"/>
 		</Interaction>
 		<Interaction name="ia24411" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve3306" variable="bi29283"/>
+			<InteractionElementReference purpose="target" ref="ve3306" variable="bi29439"/>
 		</Interaction>
 		<Interaction name="ia24412" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve802" variable="bi29270"/>
+			<InteractionElementReference purpose="target" ref="ve802" variable="bi29426"/>
 		</Interaction>
 		<Interaction name="ia24415" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve1902" variable="bi29279"/>
+			<InteractionElementReference purpose="target" ref="ve1902" variable="bi29435"/>
 		</Interaction>
 		<Interaction name="ia24416" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve222" variable="bi29263"/>
+			<InteractionElementReference purpose="target" ref="ve222" variable="bi29419"/>
 		</Interaction>
 		<Interaction name="ia24417" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve246" variable="bi29265"/>
+			<InteractionElementReference purpose="target" ref="ve246" variable="bi29421"/>
 		</Interaction>
 		<Interaction name="ia24418" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve147" variable="bi29259"/>
+			<InteractionElementReference purpose="target" ref="ve147" variable="bi29415"/>
 		</Interaction>
 		<Interaction name="ia27711" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve494" variable="bi2659"/>
-			<InteractionElementReference purpose="target" ref="ve5222" variable="bi29312"/>
+			<InteractionElementReference purpose="target" ref="ve5222" variable="bi29468"/>
 		</Interaction>
 		<Interaction name="ia27713" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve494" variable="bi2659"/>
-			<InteractionElementReference purpose="target" ref="ve5205" variable="bi29309"/>
+			<InteractionElementReference purpose="target" ref="ve5205" variable="bi29465"/>
 		</Interaction>
 		<Interaction name="ia27715" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve494" variable="bi2659"/>
-			<InteractionElementReference purpose="target" ref="ve5188" variable="bi29306"/>
+			<InteractionElementReference purpose="target" ref="ve5188" variable="bi29462"/>
 		</Interaction>
 		<Interaction name="ia27717" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve494" variable="bi2659"/>
-			<InteractionElementReference purpose="target" ref="ve5168" variable="bi29303"/>
+			<InteractionElementReference purpose="target" ref="ve5168" variable="bi29459"/>
 		</Interaction>
 		<Interaction name="ia27719" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve208" variable="bi216 bi218"/>
-			<InteractionElementReference purpose="target" ref="ve5168" variable="bi29303 bi29304"/>
+			<InteractionElementReference purpose="target" ref="ve5168" variable="bi29459 bi29460"/>
 		</Interaction>
 		<Interaction name="ia27720" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve208" variable="bi216 bi218"/>
-			<InteractionElementReference purpose="target" ref="ve5188" variable="bi29306 bi29307"/>
+			<InteractionElementReference purpose="target" ref="ve5188" variable="bi29462 bi29463"/>
 		</Interaction>
 		<Interaction name="ia27721" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve208" variable="bi216 bi218"/>
-			<InteractionElementReference purpose="target" ref="ve5205" variable="bi29309 bi29310"/>
+			<InteractionElementReference purpose="target" ref="ve5205" variable="bi29465 bi29466"/>
 		</Interaction>
 		<Interaction name="ia27722" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve208" variable="bi216 bi218"/>
-			<InteractionElementReference purpose="target" ref="ve5222" variable="bi29312 bi29313"/>
+			<InteractionElementReference purpose="target" ref="ve5222" variable="bi29468 bi29469"/>
 		</Interaction>
 		<Interaction name="ia27866" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve161" variable="bi165"/>
-			<InteractionElementReference purpose="target" ref="ve1902" variable="bi29280"/>
+			<InteractionElementReference purpose="target" ref="ve1902" variable="bi29436"/>
 		</Interaction>
-		<Interaction name="ia29260" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29416" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve147" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29261" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29417" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve208" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29264" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29420" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve222" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29266" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29422" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve246" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29267" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29423" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve350" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29268" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29424" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve494" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29271" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29427" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve802" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29272" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29428" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve161" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29273" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29429" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve398" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29274" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29430" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve2442" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29277" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29433" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve2457" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29278" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29434" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve2540" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29281" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29437" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve1902" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29284" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29440" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve3306" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29285" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29441" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4258" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29286" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29442" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4262" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29287" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29443" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4264" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29288" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29444" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4266" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29289" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29445" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4270" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29290" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29446" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve4361" variable="pr4340"/>
 			<InteractionElementReference purpose="target" ref="ve4353" variable="pr4340"/>
 		</Interaction>
-		<Interaction name="ia29291" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29447" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4353" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29292" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29448" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve4361" variable="pr4340"/>
 			<InteractionElementReference purpose="target" ref="ve4355" variable="pr4340"/>
 		</Interaction>
-		<Interaction name="ia29293" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29449" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4355" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29294" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29450" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4474" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29295" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29451" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4478" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29296" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29452" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4480" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29297" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29453" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4482" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29298" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29454" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4486" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29299" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29455" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve4579" variable="pr4557"/>
 			<InteractionElementReference purpose="target" ref="ve4571" variable="pr4557"/>
 		</Interaction>
-		<Interaction name="ia29300" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29456" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4571" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29301" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29457" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve4579" variable="pr4557"/>
 			<InteractionElementReference purpose="target" ref="ve4573" variable="pr4557"/>
 		</Interaction>
-		<Interaction name="ia29302" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29458" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4573" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29305" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29461" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve5168" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29308" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29464" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve5188" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29311" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29467" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve5205" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29314" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29470" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve5222" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29315" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29471" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve2638" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29316" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29472" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve185" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29317" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29473" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve379" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29318" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29474" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26335" variable="pr26333"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26333"/>
 		</Interaction>
-		<Interaction name="ia29319" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29475" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26343" variable="pr26341"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26341"/>
 		</Interaction>
-		<Interaction name="ia29320" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29476" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26352" variable="pr26349"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26349"/>
 		</Interaction>
-		<Interaction name="ia29321" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29477" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26360" variable="pr26358"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26358"/>
 		</Interaction>
-		<Interaction name="ia29322" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29478" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26368" variable="pr26366"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26366"/>
 		</Interaction>
-		<Interaction name="ia29323" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29479" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26376" variable="pr26374"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26374"/>
 		</Interaction>
-		<Interaction name="ia29324" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29480" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26384" variable="pr26382"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26382"/>
 		</Interaction>
-		<Interaction name="ia29325" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29481" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26393" variable="pr26390"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26390"/>
 		</Interaction>
-		<Interaction name="ia29326" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29482" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26402" variable="pr26399"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26399"/>
 		</Interaction>
-		<Interaction name="ia29327" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29483" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26410" variable="pr26408"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26408"/>
 		</Interaction>
-		<Interaction name="ia29328" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29484" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26419" variable="pr26416"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26416"/>
 		</Interaction>
-		<Interaction name="ia29329" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29485" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26428" variable="pr26425"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26425"/>
 		</Interaction>
-		<Interaction name="ia29330" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29486" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26437" variable="pr26434"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26434"/>
 		</Interaction>
-		<Interaction name="ia29331" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29487" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve14607" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29332" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29488" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve24283" variable="pr12934"/>
 		</Interaction>
@@ -10716,7 +10696,7 @@
 			<Revision editorVersion="2021.1.5" lastDate="2021-10-15T18:33:02.894Z"/>
 			<Revision editorVersion="2022.1.2" lastDate="2022-07-15T14:36:28.459Z"/>
 			<Revision editorVersion="2022.1.1" lastDate="2022-07-25T14:36:43.138Z"/>
-			<Revision editorVersion="2023.06" lastDate="2023-08-18T17:17:09.325Z"/>
+			<Revision editorVersion="2023.06" lastDate="2023-08-23T20:11:00.749Z"/>
 		</Editor>
 	</Editors>
 </History>
@@ -10726,6 +10706,16 @@
 				<RendererStates>
 					<LayoutOverlayMap/>
 				</RendererStates>
+			</GraphState>
+			<GraphState element="ve4478">
+				<Selections>
+					<Selection resultDefinition="dd4462">eq(${bi4396},&apos;Social Media Score&apos;)</Selection>
+				</Selections>
+			</GraphState>
+			<GraphState element="ve4262">
+				<Selections>
+					<Selection resultDefinition="dd4246">eq(${bi4181},&apos;Customer State&apos;)</Selection>
+				</Selections>
 			</GraphState>
 		</VisualElements>
 		<View/>

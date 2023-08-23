@@ -39,9 +39,6 @@
 #ve343 .paragraph2 {
   text-align: right;
 }
-#ve27170 .ReportElementContainer {
-  padding: 3px;
-}
 #ve343 .paragraph1 {
   text-align: right;
 }
@@ -140,7 +137,7 @@
 #ve398 .styleForTitle_paragraph20 {
   text-align: center;
 }
-#ve29087 .Table {
+#ve29401 .Table {
   wrap-text: normal;
 }
 #ve4571 .GraphDataStyleDefault {
@@ -227,8 +224,8 @@
   color: #16976D;
 }
 #ve13446 .span1 {
+   font-weight: bold;
     font-size: 12pt;
-  font-weight: bold;
 }
 #ve5132 .span2 {
   font-size: 14pt;
@@ -251,17 +248,20 @@
 #ve5137 .span2 {
   color: #ffffff;
 }
-#ve29078 .Table {
-  wrap-text: normal;
-}
 #ve26352 .ReportElementContainer {
   padding: 8px;
+}
+#ve29394 .Table {
+  wrap-text: normal;
 }
 #ve4353 .GraphDataStyle2 {
   fill-color: #929292;
 }
 #ve24283 .styleForTitle_span24 {
   font-weight: bold;
+}
+#ve29410 .Table {
+  wrap-text: normal;
 }
 #ve4353 .GraphDataStyle1 {
   marker-color: #FFCC32;
@@ -436,9 +436,6 @@
 #ve494 .styleForTitle_span5 {
   font-weight: bold;
 }
-#ve6242 .ReportElementContainer {
-  padding: 3px;
-}
 #ve332 .Container {
   background-color: #2196F3;
   transparency: 0;
@@ -602,9 +599,6 @@
 }
 #cd5788 .If {
   color: #DD5757;
-}
-#ve29071 .Table {
-  wrap-text: normal;
 }
 #ve26254 .ReportElementContainer {
   padding: 8px;
