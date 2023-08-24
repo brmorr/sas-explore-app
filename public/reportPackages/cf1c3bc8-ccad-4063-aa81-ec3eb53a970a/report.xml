@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.30.0" label="Business Performance Analysis" implicitInteractions="sectionPrompt reportPrompt sectionLink" createdLocale="en" createdVersion="4.2.2" dateCreated="2020-08-25T05:22:29Z" dateModified="2023-08-23T20:11:00Z" createdApplication="SAS Visual Analytics 8.5.1" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="29489">
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.30.0" label="Business Performance Analysis" implicitInteractions="sectionPrompt reportPrompt sectionLink" createdLocale="en" createdVersion="4.2.2" dateCreated="2020-08-25T05:22:29Z" dateModified="2023-08-24T15:24:50Z" createdApplication="SAS Visual Analytics 8.5.1" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="29827">
 	<Results>
-		<Result ref="dd13546" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd13546" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="median" label="Median LV" ref="bi13547" varname="bi13547" column="c0"/>
 			</Variables>
@@ -14,7 +14,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="7SYSHPLWMCAQRRMKHHGEFKETAC2MMVAT" size="19" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[413235.53283401986
 ]]></Data>
 		</Result>
-		<Result ref="dd13539" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd13539" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="average" label="Average LV" ref="bi13540" varname="bi13540" column="c0"/>
 			</Variables>
@@ -27,7 +27,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="ZK64LAUWSWXXZLPHFOY5PCLIZAJOGUES" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[562108.8203666244
 ]]></Data>
 		</Result>
-		<Result ref="dd13532" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd13532" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="totalCount" label="Customers" ref="bi13533" varname="bi13533" column="c0"/>
 			</Variables>
@@ -40,7 +40,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="7CWOBSHPOJT4JMKQWYSEM5ZZH4XEYKEN" size="8" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[99392.0
 ]]></Data>
 		</Result>
-		<Result ref="dd13523" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd13523" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="average" label="Customer Purchasing Lifetime" ref="bi13524" varname="bi13524" column="c0"/>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="average" label="Up-Front Acquisition Cost" ref="bi13525" varname="bi13525" column="c1"/>
@@ -52,7 +52,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="PBYPROYLQMXQBMSABJ5MN5H4LNILUEIW" size="12" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[5.0,10000.0
 ]]></Data>
 		</Result>
-		<Result ref="dd13513" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd13513" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="DOLLAR12." usage="categorical" label="Lifetime Value" ref="bi13515" varname="bi13515" column="c0"/>
 				<NumericVariable format="DOLLAR12." usage="categorical" label="Lifetime Value (lower)" ref="bi13516" varname="bi13516" column="c1"/>
@@ -82,7 +82,7 @@
 4937073.61942,4937073.61942,5308298.52825,1.0
 ]]></Data>
 		</Result>
-		<Result ref="dd4502" type="relational" status="warning" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4502" type="relational" status="warning" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -94,10 +94,10 @@
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4511" type="relational" status="warning" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4511" type="relational" status="warning" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -109,10 +109,10 @@
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4520" type="relational" status="warning" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4520" type="relational" status="warning" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -124,10 +124,10 @@
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4526" type="relational" status="warning" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4526" type="relational" status="warning" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -139,10 +139,10 @@
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4507" type="relational" status="warning" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4507" type="relational" status="warning" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -154,10 +154,10 @@
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4535" type="relational" status="warning" dataLevel="baseline" label="Geo Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4535" type="relational" status="warning" dataLevel="baseline" label="Geo Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -169,10 +169,10 @@
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4497" type="relational" status="warning" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4497" type="relational" status="warning" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -200,10 +200,10 @@
 ]]></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4538" type="relational" status="warning" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4538" type="relational" status="warning" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -221,10 +221,10 @@
 			<DataFile contentKey="KJOZUXCBIAJUYVPP67B7LGUBIL74Z5XG" size="3320" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal" file="dd4538.csv" isIndexed="false" availableRowCount="1"/>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4569" type="relational" status="warning" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4569" type="relational" status="warning" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -243,10 +243,10 @@
 ]]></Data>
 			<Parameters>
 				<Parameter prompt="pr4557" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4469" type="relational" status="warning" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4469" type="relational" status="warning" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -257,10 +257,10 @@
 			</Messages>
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4375" type="relational" status="warning" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4375" type="relational" status="warning" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -278,10 +278,10 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="CL6KTN623CJFXSIVA7SF4A5WPXXBLCGB" size="376" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["Reputation Score (%) ranges from 60% to 80%. Average Reputation Score (%) is 70%. Most cases (the middle 80%) have a Reputation Score (%) between 60% and 80%. Social Media Score best differentiates the highest (top 10%) and the lowest (bottom 10%) Reputation Score (%) cases. The three most related factors are Social Media Score, Customer Satisfaction, and Customer State."
 ]]></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4461" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4461" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -339,10 +339,10 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4462" type="relational" status="warning" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4462" type="relational" status="warning" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -394,10 +394,10 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4467" type="relational" status="warning" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4467" type="relational" status="warning" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -468,10 +468,10 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4466" type="relational" status="warning" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4466" type="relational" status="warning" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -495,10 +495,10 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="U4ER7CPORFRRYISMQBBBMACFIPKAOJAA" size="52" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[" "," ","Reputation Score (%)","Social Media Score"
 ]]></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4470" type="relational" status="warning" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4470" type="relational" status="warning" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -523,10 +523,10 @@
 			</Columns>
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4471" type="relational" status="warning" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4471" type="relational" status="warning" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -551,10 +551,10 @@
 			</Columns>
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4472" type="relational" status="warning" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4472" type="relational" status="warning" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -594,10 +594,10 @@
 "survey_Score"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4473" type="relational" status="warning" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4473" type="relational" status="warning" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -617,10 +617,10 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="6EUIUC3ZFRSX6G2IN5SJY5N4PAE5UYOF" size="28" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["No anomalies detected"," "
 ]]></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4463" type="relational" status="warning" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4463" type="relational" status="warning" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -650,10 +650,10 @@
 			<DataFile contentKey="AWPN3I53E4FEWAYT5ZQMDSVJG3IGJ5TX" size="49" format="CSV" rowCount="3" grandTotal="false" dataLayout="minimal" file="dd4463.csv" isIndexed="true" availableRowCount="3"/>
 			<StringTableFile contentKey="5PRTFTKPPW4Q6KE7HTLK25G4JJ3H2OKJ" size="2518" format="CSV" rowCount="11" file="dd4463index.csv"/>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4465" type="relational" status="warning" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4465" type="relational" status="warning" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -683,10 +683,10 @@
 			<DataFile contentKey="WJJMLAQ7KUF3AJ5KXGJLUC27WDJIWN2N" size="54" format="CSV" rowCount="3" grandTotal="false" dataLayout="minimal" file="dd4465.csv" isIndexed="true" availableRowCount="3"/>
 			<StringTableFile contentKey="LU6EEBJS2DLSSRZCSNAY66UDMRIRKKVY" size="2500" format="CSV" rowCount="13" file="dd4465index.csv"/>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4464" type="relational" status="warning" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4464" type="relational" status="warning" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -749,10 +749,10 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4468" type="relational" status="warning" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4468" type="relational" status="warning" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -784,10 +784,10 @@
 "Automated Explanation used a one-level decision tree for each factor to determine its relative importance to Reputation Score (%). For example, the input Customer Satisfaction has a relative importance of 0.91 which means it is 0.91 times as important as Social Media Score."
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4286" type="relational" status="warning" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4286" type="relational" status="warning" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -799,10 +799,10 @@
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4295" type="relational" status="warning" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4295" type="relational" status="warning" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -814,10 +814,10 @@
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4304" type="relational" status="warning" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4304" type="relational" status="warning" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -829,10 +829,10 @@
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4310" type="relational" status="warning" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4310" type="relational" status="warning" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -844,10 +844,10 @@
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4291" type="relational" status="warning" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4291" type="relational" status="warning" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -859,10 +859,10 @@
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4319" type="relational" status="warning" dataLevel="baseline" label="Geo Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4319" type="relational" status="warning" dataLevel="baseline" label="Geo Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -938,10 +938,10 @@
 ]]></StringTable>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4281" type="relational" status="warning" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4281" type="relational" status="warning" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -961,10 +961,10 @@
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4322" type="relational" status="warning" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4322" type="relational" status="warning" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1016,10 +1016,10 @@
 ]]></Data>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4351" type="relational" status="warning" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4351" type="relational" status="warning" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1038,10 +1038,10 @@
 ]]></Data>
 			<Parameters>
 				<Parameter prompt="pr4340" dataType="string">&apos;&apos;</Parameter>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4253" type="relational" status="warning" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4253" type="relational" status="warning" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1052,10 +1052,10 @@
 			</Messages>
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4161" type="relational" status="warning" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4161" type="relational" status="warning" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1073,10 +1073,10 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="BIWIWSCPDUICXWDGNWS7U7DHNWAM5XZP" size="365" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["Customer Satisfaction ranges from 1 to 5. Average Customer Satisfaction is 3.9. Most cases (the middle 80%) have a Customer Satisfaction between 2 and 5. Warehouse (Ship To) best differentiates the highest (top 10%) and the lowest (bottom 10%) Customer Satisfaction cases. The three most related factors are Warehouse (Ship To), Customer State, and Customer LTV."
 ]]></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4245" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4245" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1134,10 +1134,10 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4246" type="relational" status="warning" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4246" type="relational" status="warning" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1186,10 +1186,10 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4251" type="relational" status="warning" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4251" type="relational" status="warning" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1262,10 +1262,10 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4250" type="relational" status="warning" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4250" type="relational" status="warning" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1289,10 +1289,10 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="GZZM3NJBEQRYF55HT4HZPT2IU4OLQPTQ" size="49" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[" "," ","Customer Satisfaction","Customer State"
 ]]></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4254" type="relational" status="warning" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4254" type="relational" status="warning" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1317,10 +1317,10 @@
 			</Columns>
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4255" type="relational" status="warning" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4255" type="relational" status="warning" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1345,10 +1345,10 @@
 			</Columns>
 			<Data isIndexed="false" availableRowCount="0" size="0" format="CSV" rowCount="0" grandTotal="false" dataLayout="minimal"></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4256" type="relational" status="warning" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4256" type="relational" status="warning" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1386,10 +1386,10 @@
 "total_Purchases_Count"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4257" type="relational" status="warning" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4257" type="relational" status="warning" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1409,10 +1409,10 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="6EUIUC3ZFRSX6G2IN5SJY5N4PAE5UYOF" size="28" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["No anomalies detected"," "
 ]]></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4247" type="relational" status="warning" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4247" type="relational" status="warning" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1442,10 +1442,10 @@
 			<DataFile contentKey="6DYNDIHWTQAHYQLMYBKBZW2NMOXHQ4CG" size="67" format="CSV" rowCount="3" grandTotal="false" dataLayout="minimal" file="dd4247.csv" isIndexed="true" availableRowCount="3"/>
 			<StringTableFile contentKey="FM526KQQKLZ2Q3OG7KYZO6SJ7RA2QUVD" size="2767" format="CSV" rowCount="12" file="dd4247index.csv"/>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4249" type="relational" status="warning" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4249" type="relational" status="warning" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1475,10 +1475,10 @@
 			<DataFile contentKey="XQLV2ERDWSFHOVHOYTRICS2KKLJKKESX" size="84" format="CSV" rowCount="3" grandTotal="false" dataLayout="minimal" file="dd4249.csv" isIndexed="true" availableRowCount="3"/>
 			<StringTableFile contentKey="M33VOCJLCZCUO7ML3HDEPHHFQDRLKVIB" size="2437" format="CSV" rowCount="14" file="dd4249index.csv"/>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4248" type="relational" status="warning" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4248" type="relational" status="warning" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1537,10 +1537,10 @@
 "Warehouse (Ship To)"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4252" type="relational" status="warning" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd4252" type="relational" status="warning" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1572,10 +1572,10 @@
 "Automated Explanation used a one-level decision tree for each factor to determine its relative importance to Customer Satisfaction. For example, the input Customer State has a relative importance of 0.75 which means it is 0.75 times as important as Warehouse (Ship To)."
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd409" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd409" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
 				<NumericVariable format="MONTH3" usage="categorical" label="Purchase Month" ref="bi13033" varname="bi13033" column="c0"/>
 				<NumericVariable format="PERCENT12." usage="quantitative" definedAggregation="average" label="Reputation Score (%)" ref="bi2572" varname="bi2572" column="c1"/>
@@ -1595,10 +1595,10 @@
 91.0,0.7700000000000009,4340.0
 ]]></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd385" type="flattenedMultidimensional" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd385" type="flattenedMultidimensional" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Error processing request)</MessageText>
@@ -1640,42 +1640,42 @@
 					<DefinedSortLevel uniqueLevelName="bi39" sortDirection="ascending"/>
 				</DefinedSortItem>
 			</DefinedRowSortItems>
-			<Data isIndexed="true" availableRowCount="36" contentKey="XF7UGO5TW2CIOIV3TLTVVQ5T2OTZSMA4" size="615" format="CSV" rowCount="36" grandTotal="false" dataLayout="minimal"><![CDATA[21550.0,-100,13020.0
-21550.0,0,0.0
-21550.0,1,1240.0
-21550.0,2,5580.0
-21550.0,3,0.0
-21550.0,4,0.0
-21550.0,5,620.0
-21550.0,6,4340.0
-21550.0,7,1240.0
-21915.0,-100,41540.0
-21915.0,0,3100.0
-21915.0,1,3100.0
-21915.0,2,11160.0
-21915.0,3,4960.0
-21915.0,4,3100.0
-21915.0,5,3720.0
-21915.0,6,8060.0
-21915.0,7,4340.0
-22281.0,-100,68820.0
+			<Data isIndexed="true" availableRowCount="36" contentKey="2L6ONVVTOODTBQTGGJT7GEFJNG6C5AMH" size="615" format="CSV" rowCount="36" grandTotal="false" dataLayout="minimal"><![CDATA[21915.0,-100,13020.0
+21915.0,0,0.0
+21915.0,1,1240.0
+21915.0,2,5580.0
+21915.0,3,0.0
+21915.0,4,0.0
+21915.0,5,620.0
+21915.0,6,4340.0
+21915.0,7,1240.0
+22281.0,-100,41540.0
 22281.0,0,3100.0
-22281.0,1,4960.0
-22281.0,2,22940.0
-22281.0,3,9300.0
-22281.0,4,1860.0
-22281.0,5,7440.0
-22281.0,6,14260.0
-22281.0,7,4960.0
-22646.0,-100,16740.0
-22646.0,0,0.0
-22646.0,1,620.0
-22646.0,2,4340.0
-22646.0,3,2480.0
-22646.0,4,620.0
-22646.0,5,3100.0
-22646.0,6,4960.0
-22646.0,7,620.0
+22281.0,1,3100.0
+22281.0,2,11160.0
+22281.0,3,4960.0
+22281.0,4,3100.0
+22281.0,5,3720.0
+22281.0,6,8060.0
+22281.0,7,4340.0
+22646.0,-100,68820.0
+22646.0,0,3100.0
+22646.0,1,4960.0
+22646.0,2,22940.0
+22646.0,3,9300.0
+22646.0,4,1860.0
+22646.0,5,7440.0
+22646.0,6,14260.0
+22646.0,7,4960.0
+23011.0,-100,16740.0
+23011.0,0,0.0
+23011.0,1,620.0
+23011.0,2,4340.0
+23011.0,3,2480.0
+23011.0,4,620.0
+23011.0,5,3100.0
+23011.0,6,4960.0
+23011.0,7,620.0
 ]]></Data>
 			<StringTable contentKey="665V72CMPOYQOHTKWW4JCXNXLFSRPS7Q" size="121" format="CSV" rowCount="8"><![CDATA["Accessory"
 "Children"
@@ -1687,7 +1687,7 @@
 "Women Sports"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
 		<Result ref="dd14611" type="relational" status="failure" supportsCustomQuery="true">
@@ -1754,7 +1754,7 @@
 			</Messages>
 			<Data availableRowCount="0" size="0" format="CSV" rowCount="0"></Data>
 		</Result>
-		<Result ref="dd364" type="relational" status="success" dataLevel="baseline" label="Parallel Coordinates Plot" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd364" type="relational" status="success" dataLevel="baseline" label="Parallel Coordinates Plot" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
 				<StringVariable label="Reason for return" ref="bi369" varname="bi369" column="c0"/>
 				<StringVariable label="Product Category" ref="bi368" varname="bi368" column="c1"/>
@@ -1770,10 +1770,10 @@
 			<DataFile contentKey="OHR6IS2A5TWQ55ZWY6ZWS5GU2E3A7OCF" size="1870" format="CSV" rowCount="90" grandTotal="false" dataLayout="minimal" file="dd364.csv" isIndexed="true" availableRowCount="90"/>
 			<StringTableFile contentKey="Z7LO2TTHKA66RIYQRR2OYVYJSAOTTFQJ" size="211" format="CSV" rowCount="13" file="dd364index.csv"/>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd366" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd366" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
 				<StringVariable label="Number of Polylines" ref="bi362" varname="bi362" column="c0"/>
 				<StringVariable label="Polylines" ref="bi363" varname="bi363" column="c1"/>
@@ -1785,10 +1785,10 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="VSEJAUP7LFCD3OE7OTNWRN5S2F4R6GDY" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA["90","Polylines:"
 ]]></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd365" type="relational" status="success" dataLevel="baseline" label="Dependent Variables Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd365" type="relational" status="success" dataLevel="baseline" label="Dependent Variables Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
 				<StringVariable label="Variable Name" ref="bi357" varname="bi357" column="c0"/>
 				<NumericVariable format="BEST." usage="quantitative" label="Bin lower bound" ref="bi358" varname="bi358" column="c1"/>
@@ -1810,10 +1810,10 @@
 "bi373"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd2515" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd2515" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
 				<NumericVariable format="MONYY7" usage="categorical" label="Purchase Month/Year" ref="bi12955" varname="bi12955" column="c0"/>
 				<NumericVariable format="MONYY7" usage="categorical" label="Purchase Month/Year" ref="bi12956" varname="bi12956" column="c1"/>
@@ -1826,28 +1826,28 @@
 				<NumericColumn dataType="double" colname="c2" encoding="text"/>
 				<NumericColumn dataType="double" colname="c3" encoding="text"/>
 			</Columns>
-			<Data isIndexed="false" availableRowCount="16" contentKey="RPWGWNUO3OXEQKISO7QPWVCFJJ7QA52A" size="631" format="CSV" rowCount="16" grandTotal="false" dataLayout="minimal"><![CDATA[22281.0,22281.0,0.7600000000000002,4340.0
-22312.0,22312.0,0.7699999999999997,3100.0
-22340.0,22340.0,0.78,3720.0
-22371.0,22371.0,0.75,3100.0
-22401.0,22401.0,0.75,5580.0
-22432.0,22432.0,0.6599999999999996,8680.0
-22462.0,22462.0,0.6000000000000003,6200.0
-22493.0,22493.0,0.7100000000000005,6820.0
-22524.0,22524.0,0.7399999999999997,5580.0
-22554.0,22554.0,0.6300000000000001,10540.0
-22585.0,22585.0,0.7599999999999995,9300.0
-22615.0,22615.0,0.8000000000000002,1860.0
-22646.0,22646.0,0.7899999999999995,1240.0
-22677.0,22677.0,0.7999999999999997,5580.0
-22705.0,22705.0,0.7800000000000007,5580.0
-22736.0,22736.0,0.7700000000000009,4340.0
+			<Data isIndexed="false" availableRowCount="16" contentKey="OWVDFDASM7GROLNULGUYLBESAFKHPX6M" size="631" format="CSV" rowCount="16" grandTotal="false" dataLayout="minimal"><![CDATA[22646.0,22646.0,0.7600000000000002,4340.0
+22677.0,22677.0,0.7699999999999997,3100.0
+22705.0,22705.0,0.78,3720.0
+22736.0,22736.0,0.75,3100.0
+22766.0,22766.0,0.75,5580.0
+22797.0,22797.0,0.6599999999999996,8680.0
+22827.0,22827.0,0.6000000000000003,6200.0
+22858.0,22858.0,0.7100000000000005,6820.0
+22889.0,22889.0,0.7399999999999997,5580.0
+22919.0,22919.0,0.6300000000000001,10540.0
+22950.0,22950.0,0.7599999999999995,9300.0
+22980.0,22980.0,0.8000000000000002,1860.0
+23011.0,23011.0,0.7899999999999995,1240.0
+23042.0,23042.0,0.7999999999999997,5580.0
+23070.0,23070.0,0.7800000000000007,5580.0
+23101.0,23101.0,0.7700000000000009,4340.0
 ]]></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd2641" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd2641" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
 				<NumericVariable format="MONYY7" usage="categorical" label="Purchase Month/Year" ref="bi12936" varname="bi12936" column="c0"/>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Purchases Amount" ref="bi2646" varname="bi2646" column="c1"/>
@@ -1856,45 +1856,45 @@
 				<NumericColumn dataType="date" colname="c0" encoding="text"/>
 				<NumericColumn dataType="double" colname="c1" encoding="text"/>
 			</Columns>
-			<Data isIndexed="false" availableRowCount="33" contentKey="OA3DDQKYXX4ZJ2HVGYDTDY7SPJDKWAM5" size="776" format="CSV" rowCount="33" grandTotal="false" dataLayout="minimal"><![CDATA[21762.0,65637.737
-21793.0,89083.054
-21823.0,161816.73400000003
-21854.0,122010.114
-21884.0,129636.06699999998
-21915.0,91703.05500000001
-21946.0,117724.885
-21975.0,138557.75100000002
-22006.0,155950.38400000002
-22036.0,171597.45700000008
-22067.0,124506.59700000001
-22097.0,165773.99099999995
-22128.0,134413.254
-22159.0,145343.54
-22189.0,135816.195
-22220.0,115562.11200000002
-22250.0,183337.85799999995
-22281.0,130677.061
-22312.0,122694.74799999999
-22340.0,131557.542
-22371.0,183497.616
-22401.0,153156.43100000004
-22432.0,261501.95100000006
-22462.0,331839.11
-22493.0,180473.84099999996
-22524.0,131959.57950000002
-22554.0,306046.74110999994
-22585.0,356088.6001499999
-22615.0,255760.89778
-22646.0,231080.70278000002
-22677.0,259380.27114000003
-22705.0,281786.75042
-22736.0,359814.88
+			<Data isIndexed="false" availableRowCount="33" contentKey="47V2MR3VMM35WIWBXB6VR4QXDRP7BPJZ" size="776" format="CSV" rowCount="33" grandTotal="false" dataLayout="minimal"><![CDATA[22128.0,65637.737
+22159.0,89083.054
+22189.0,161816.73400000003
+22220.0,122010.114
+22250.0,129636.06699999998
+22281.0,91703.05500000001
+22312.0,117724.885
+22340.0,138557.75100000002
+22371.0,155950.38400000002
+22401.0,171597.45700000008
+22432.0,124506.59700000001
+22462.0,165773.99099999995
+22493.0,134413.254
+22524.0,145343.54
+22554.0,135816.195
+22585.0,115562.11200000002
+22615.0,183337.85799999995
+22646.0,130677.061
+22677.0,122694.74799999999
+22705.0,131557.542
+22736.0,183497.616
+22766.0,153156.43100000004
+22797.0,261501.95100000006
+22827.0,331839.11
+22858.0,180473.84099999996
+22889.0,131959.57950000002
+22919.0,306046.74110999994
+22950.0,356088.6001499999
+22980.0,255760.89778
+23011.0,231080.70278000002
+23042.0,259380.27114000003
+23070.0,281786.75042
+23101.0,359814.88
 ]]></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd2710" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd2710" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
 				<NumericVariable format="PERCENT12." usage="quantitative" definedAggregation="average" label="Reputation Score (%)" ref="bi2711" varname="bi2711" column="c0"/>
 			</Variables>
@@ -1904,10 +1904,10 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="SMRRNJUVLV7GE3FWJ5OGI6V32KDAMMP4" size="5" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[0.77
 ]]></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd2437" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd2437" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
 				<NumericVariable format="PERCENT12." usage="quantitative" definedAggregation="average" label="Reputation Score (%)" ref="bi2450" varname="bi2450" column="c0"/>
 			</Variables>
@@ -1920,10 +1920,10 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="SMRRNJUVLV7GE3FWJ5OGI6V32KDAMMP4" size="5" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[0.77
 ]]></Data>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd26440" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd26440" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="categorical" label="Time Since Last Purchase (month)" ref="bi26442" varname="bi26442" column="c0"/>
 			</Variables>
@@ -1945,7 +1945,7 @@
 12.0
 ]]></Data>
 		</Result>
-		<Result ref="dd26431" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd26431" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="categorical" label="Store Visits" ref="bi26433" varname="bi26433" column="c0"/>
 			</Variables>
@@ -1967,7 +1967,7 @@
 52.0
 ]]></Data>
 		</Result>
-		<Result ref="dd26422" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd26422" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="categorical" label="Prior Return Issues" ref="bi26424" varname="bi26424" column="c0"/>
 			</Variables>
@@ -1984,7 +1984,7 @@
 4.0
 ]]></Data>
 		</Result>
-		<Result ref="dd26413" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd26413" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Text Message Ads" ref="bi26415" varname="bi26415" column="c0"/>
 			</Variables>
@@ -1994,7 +1994,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="MU4ODLOXDQ2FYU3I5L5OU4L72RFCOZSW" size="10" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[6814226.0
 ]]></Data>
 		</Result>
-		<Result ref="dd26405" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd26405" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<StringVariable label="Sales Channel" ref="bi26407" varname="bi26407" column="c0"/>
 			</Variables>
@@ -2017,7 +2017,7 @@
 "Retail"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd26396" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd26396" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<StringVariable label="Last Order Type" ref="bi26398" varname="bi26398" column="c0"/>
 			</Variables>
@@ -2044,7 +2044,7 @@
 "Streetware"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd26387" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd26387" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Last Discount Amount" ref="bi26389" varname="bi26389" column="c0"/>
 			</Variables>
@@ -2054,7 +2054,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="MZQ4TS6POKAYOAI3DP6YIZQEOS2EIKZA" size="19" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[144258.21797228642
 ]]></Data>
 		</Result>
-		<Result ref="dd26379" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd26379" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Last CC Charge" ref="bi26381" varname="bi26381" column="c0"/>
 			</Variables>
@@ -2064,7 +2064,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="CK56W25QE5ULKOEVBQALPW4OJSP6JBUF" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[3239243.147171158
 ]]></Data>
 		</Result>
-		<Result ref="dd26371" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd26371" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Household Income" ref="bi26373" varname="bi26373" column="c0"/>
 			</Variables>
@@ -2074,7 +2074,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="FBNORGAYX4GRDZCVUW5G6PAXYDJSGVA7" size="14" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[3.030185477E9
 ]]></Data>
 		</Result>
-		<Result ref="dd26363" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd26363" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Emails in Peak Time" ref="bi26365" varname="bi26365" column="c0"/>
 			</Variables>
@@ -2084,7 +2084,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="EG2466EIGMUF3BAUNMGZA74JGQEKQJ6G" size="12" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[2.4112489E7
 ]]></Data>
 		</Result>
-		<Result ref="dd26355" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd26355" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<StringVariable label="Credit Level" ref="bi26357" varname="bi26357" column="c0"/>
 			</Variables>
@@ -2107,7 +2107,7 @@
 "smax prime"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd26346" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd26346" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Total Purchases (Last 3 years)" ref="bi26348" varname="bi26348" column="c0"/>
 			</Variables>
@@ -2117,7 +2117,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="6NGP5IHLYNEALTBN6LKPXCTR2A5JFTNY" size="13" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[1.83453872E8
 ]]></Data>
 		</Result>
-		<Result ref="dd26338" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd26338" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Variables>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Average Order Value (Last 3 years)" ref="bi26340" varname="bi26340" column="c0"/>
 			</Variables>
@@ -2127,7 +2127,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="B75Z332R52RYOV35YL5SHXETECBV2G7D" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[5803333.003791063
 ]]></Data>
 		</Result>
-		<Result ref="dd211" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd211" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
 				<StringVariable label="Reason for return" ref="bi216" varname="bi216" column="c0"/>
 				<StringVariable label="Influencer Category" ref="bi218" varname="bi218" column="c1"/>
@@ -2160,10 +2160,10 @@
 "Yes"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd497" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd497" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
 				<StringVariable label="Reason for return" ref="bi2659" varname="bi2659" column="c0"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Exchange Only" ref="bi502" varname="bi502" column="c1"/>
@@ -2189,10 +2189,10 @@
 "Item too small"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd27671" type="relational" status="success" dataLevel="baseline" label="Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd27671" type="relational" status="success" dataLevel="baseline" label="Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
 				<StringVariable label="Customer State" ref="bi27693" varname="bi27693" column="c0"/>
 				<StringVariable label="Map ID" ref="bi27683" varname="bi27683" column="c1"/>
@@ -2267,13 +2267,13 @@
 "WA"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 			<MapDataFiles>
 				<MapDataFile contentKey="5PUMV4G7DOC7LVSC3C2RY5TOEUVI55HE" size="272175" mapId="MAPSGFK.VANAMERICA1" file="dd27671_MAPSGFK.VANAMERICA1.gml"/>
 			</MapDataFiles>
 		</Result>
-		<Result ref="dd1969" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd1969" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
 				<StringVariable label="Warehouse (Ship To)" ref="bi165" varname="bi165" column="c0"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="average" label="Warehouse Capacity" ref="bi173" varname="bi173" column="c1"/>
@@ -2296,13 +2296,13 @@
 "TX1"
 ]]></StringTable>
 			<Parameters>
-				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">1.0</Parameter>
+				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd150" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd150" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29415" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29414" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29752" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29753" varname="ru1" column="c1"/>
 				<StringVariable label="Product Category" ref="bi151" varname="bi151" column="c2"/>
 				<StringVariable label="Returned Category" ref="bi157" varname="bi157" column="c3"/>
 				<NumericVariable format="PERCENT20.2" usage="quantitative" definedAggregation="totalCountPercent" label="Frequency Percent" ref="bi2656" varname="bi2656" column="c4"/>
@@ -2319,13 +2319,13 @@
 				<DefinedSortItem variable="bi151" sortDirection="ascending"/>
 				<DefinedSortItem variable="bi157" sortDirection="ascending"/>
 			</DefinedColumnSortItems>
-			<DataFile contentKey="EZ6T7BTII35XW55MRHUSCM2I3E3Z6M57" size="14506" format="CSV" rowCount="471" grandTotal="false" dataLayout="rollup" file="dd150.csv" isIndexed="true" availableRowCount="471"/>
+			<DataFile contentKey="6PBAWKJHA275AKGX5Q5F7KTZT6G23JC7" size="14506" format="CSV" rowCount="471" grandTotal="false" dataLayout="rollup" file="dd150.csv" isIndexed="true" availableRowCount="471"/>
 			<StringTableFile contentKey="6YZF3EUZAYIH673ED5DUXEQDNWEWMTLY" size="230" format="CSV" rowCount="29" file="dd150index.csv"/>
 		</Result>
-		<Result ref="dd795" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd795" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29426" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29425" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29763" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29764" varname="ru1" column="c1"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Total Orders KPI" ref="bi3282" varname="bi3282" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2336,74 +2336,74 @@
 			<DefinedColumnSortItems>
 				<DefinedMeasureSortItem variable="bi3282" sortDirection="descending"/>
 			</DefinedColumnSortItems>
-			<Data isIndexed="true" availableRowCount="68" contentKey="K5QU2ZWS3VPF2IMY7METMHBTGK2LSW45" size="737" format="CSV" rowCount="68" grandTotal="false" dataLayout="rollup"><![CDATA[-100,-100,188811.0
-9,-100,4995.0
-10,-100,21978.0
-5,-100,15984.0
-8,-100,21978.0
-15,-100,10989.0
-12,-100,8991.0
-4,-100,7992.0
-7,-100,10989.0
-0,-100,10989.0
-1,-100,15984.0
-18,-100,6993.0
-13,-100,10989.0
-14,-100,4995.0
-11,-100,8991.0
-3,-100,18981.0
-17,-100,6993.0
-9,2,.
-10,2,.
-5,2,.
-8,2,3996.0
-15,2,.
-12,2,999.0
-4,2,2997.0
-7,2,.
-0,2,8991.0
-1,2,14985.0
-18,2,.
-13,2,999.0
-14,2,.
-11,2,2997.0
-3,2,18981.0
-17,2,.
--100,2,54945.0
-9,6,.
-10,6,21978.0
-5,6,13986.0
-8,6,13986.0
-15,6,.
-12,6,.
-4,6,4995.0
-7,6,.
-0,6,.
-1,6,.
-18,6,.
-13,6,.
-14,6,.
-11,6,.
-3,6,.
-17,6,.
--100,6,54945.0
-9,16,4995.0
-10,16,.
-5,16,1998.0
-8,16,3996.0
-15,16,10989.0
-12,16,7992.0
-4,16,.
-7,16,4995.0
-0,16,1998.0
-1,16,999.0
-18,16,.
-13,16,.
-14,16,.
-11,16,.
-3,16,.
-17,16,.
--100,16,37962.0
+			<Data isIndexed="true" availableRowCount="68" contentKey="7AXSJHUF3VN3FB6UMWPOLJVFAWS7754V" size="737" format="CSV" rowCount="68" grandTotal="false" dataLayout="rollup"><![CDATA[-100,-100,188811.0
+2,-100,54945.0
+6,-100,54945.0
+16,-100,37962.0
+2,9,.
+6,9,.
+16,9,4995.0
+-100,9,4995.0
+2,10,.
+6,10,21978.0
+16,10,.
+-100,10,21978.0
+2,5,.
+6,5,13986.0
+16,5,1998.0
+-100,5,15984.0
+2,8,3996.0
+6,8,13986.0
+16,8,3996.0
+-100,8,21978.0
+2,15,.
+6,15,.
+16,15,10989.0
+-100,15,10989.0
+2,12,999.0
+6,12,.
+16,12,7992.0
+-100,12,8991.0
+2,4,2997.0
+6,4,4995.0
+16,4,.
+-100,4,7992.0
+2,7,.
+6,7,.
+16,7,4995.0
+-100,7,10989.0
+2,0,8991.0
+6,0,.
+16,0,1998.0
+-100,0,10989.0
+2,1,14985.0
+6,1,.
+16,1,999.0
+-100,1,15984.0
+2,18,.
+6,18,.
+16,18,.
+-100,18,6993.0
+2,13,999.0
+6,13,.
+16,13,.
+-100,13,10989.0
+2,14,.
+6,14,.
+16,14,.
+-100,14,4995.0
+2,11,2997.0
+6,11,.
+16,11,.
+-100,11,8991.0
+2,3,18981.0
+6,3,.
+16,3,.
+-100,3,18981.0
+2,17,.
+6,17,.
+16,17,.
+-100,17,6993.0
 ]]></Data>
 			<StringTable contentKey="7ORXT4LJUNNU2NCMIXSLKCCTXZJUOYYX" size="98" format="CSV" rowCount="19"><![CDATA["AZ"
 "CA"
@@ -2426,10 +2426,10 @@
 "WA"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd225" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd225" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29419" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29418" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29756" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29757" varname="ru1" column="c1"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Total Returns KPI" ref="bi3283" varname="bi3283" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2440,74 +2440,74 @@
 			<DefinedColumnSortItems>
 				<DefinedMeasureSortItem variable="bi3283" sortDirection="descending"/>
 			</DefinedColumnSortItems>
-			<Data isIndexed="true" availableRowCount="68" contentKey="ZOJGVFYY4SXCJTKLWI3HHL477QLMQCHC" size="667" format="CSV" rowCount="68" grandTotal="false" dataLayout="rollup"><![CDATA[-100,-100,26973.0
-9,-100,999.0
-10,-100,1998.0
-5,-100,0.0
-8,-100,2997.0
-15,-100,3996.0
-12,-100,999.0
-4,-100,0.0
-7,-100,999.0
-0,-100,1998.0
-1,-100,4995.0
-18,-100,0.0
-13,-100,2997.0
-14,-100,0.0
-11,-100,2997.0
-3,-100,1998.0
-17,-100,0.0
-9,2,.
-10,2,.
-5,2,.
-8,2,0.0
-15,2,.
-12,2,0.0
-4,2,0.0
-7,2,.
-0,2,1998.0
-1,2,4995.0
-18,2,.
-13,2,0.0
-14,2,.
-11,2,0.0
-3,2,1998.0
-17,2,.
--100,2,8991.0
-9,6,.
-10,6,1998.0
-5,6,0.0
-8,6,999.0
-15,6,.
-12,6,.
-4,6,0.0
-7,6,.
-0,6,.
-1,6,.
-18,6,.
-13,6,.
-14,6,.
-11,6,.
-3,6,.
-17,6,.
--100,6,2997.0
-9,16,999.0
-10,16,.
-5,16,0.0
-8,16,1998.0
-15,16,3996.0
-12,16,999.0
-4,16,.
-7,16,0.0
-0,16,0.0
-1,16,0.0
-18,16,.
-13,16,.
-14,16,.
-11,16,.
-3,16,.
-17,16,.
--100,16,7992.0
+			<Data isIndexed="true" availableRowCount="68" contentKey="PE7K2QDWRN6LA463KLU2P3SHVUDU4OGQ" size="667" format="CSV" rowCount="68" grandTotal="false" dataLayout="rollup"><![CDATA[-100,-100,26973.0
+2,-100,8991.0
+6,-100,2997.0
+16,-100,7992.0
+2,9,.
+6,9,.
+16,9,999.0
+-100,9,999.0
+2,10,.
+6,10,1998.0
+16,10,.
+-100,10,1998.0
+2,5,.
+6,5,0.0
+16,5,0.0
+-100,5,0.0
+2,8,0.0
+6,8,999.0
+16,8,1998.0
+-100,8,2997.0
+2,15,.
+6,15,.
+16,15,3996.0
+-100,15,3996.0
+2,12,0.0
+6,12,.
+16,12,999.0
+-100,12,999.0
+2,4,0.0
+6,4,0.0
+16,4,.
+-100,4,0.0
+2,7,.
+6,7,.
+16,7,0.0
+-100,7,999.0
+2,0,1998.0
+6,0,.
+16,0,0.0
+-100,0,1998.0
+2,1,4995.0
+6,1,.
+16,1,0.0
+-100,1,4995.0
+2,18,.
+6,18,.
+16,18,.
+-100,18,0.0
+2,13,0.0
+6,13,.
+16,13,.
+-100,13,2997.0
+2,14,.
+6,14,.
+16,14,.
+-100,14,0.0
+2,11,0.0
+6,11,.
+16,11,.
+-100,11,2997.0
+2,3,1998.0
+6,3,.
+16,3,.
+-100,3,1998.0
+2,17,.
+6,17,.
+16,17,.
+-100,17,0.0
 ]]></Data>
 			<StringTable contentKey="7ORXT4LJUNNU2NCMIXSLKCCTXZJUOYYX" size="98" format="CSV" rowCount="19"><![CDATA["AZ"
 "CA"
@@ -2530,10 +2530,10 @@
 "WA"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd2451" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd2451" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29431" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29432" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29769" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29770" varname="ru1" column="c1"/>
 				<NumericVariable format="COMMA12.1" usage="quantitative" definedAggregation="average" label="Customer Satisfaction" ref="bi2462" varname="bi2462" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2634,10 +2634,10 @@
 "WA"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd3301" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd3301" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29438" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29439" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29776" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29777" varname="ru1" column="c1"/>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Purchases Amount" ref="bi3313" varname="bi3313" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2738,10 +2738,10 @@
 "WA"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd1905" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd1905" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29435" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29436" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29774" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29773" varname="ru1" column="c1"/>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Returns Amount" ref="bi1940" varname="bi1940" column="c2"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Total Returns KPI" ref="bi3149" varname="bi3149" column="c3"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="sum" label="Total Orders KPI" ref="bi3153" varname="bi3153" column="c4"/>
@@ -2755,12 +2755,12 @@
 				<NumericColumn dataType="double" colname="c4" encoding="text"/>
 				<NumericColumn dataType="double" colname="c5" encoding="text"/>
 			</Columns>
-			<DataFile contentKey="ODIZBNLB4FTBGPQZ7F5CUZ57SAPZA2VD" size="2002" format="CSV" rowCount="68" grandTotal="false" dataLayout="rollup" file="dd1905.csv" isIndexed="true" availableRowCount="68"/>
+			<DataFile contentKey="JOYXXIHNONYZW5TVGICHUQWSGY2LCG4Y" size="2002" format="CSV" rowCount="68" grandTotal="false" dataLayout="rollup" file="dd1905.csv" isIndexed="true" availableRowCount="68"/>
 			<StringTableFile contentKey="7ORXT4LJUNNU2NCMIXSLKCCTXZJUOYYX" size="98" format="CSV" rowCount="19" file="dd1905index.csv"/>
 		</Result>
-		<Result ref="dd241" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd241" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Customer State" ref="bi29421" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Customer State" ref="bi29759" varname="ru0" column="c0"/>
 				<NumericVariable format="MONYY7" usage="categorical" label="Purchase Month/Year" ref="bi12937" varname="bi12937" column="c1"/>
 				<NumericVariable format="PERCENT12.2" usage="quantitative" label="Purchases Amount (% difference from previous period)" ref="bi792" varname="bi792" column="c2"/>
 			</Variables>
@@ -2772,73 +2772,73 @@
 			<DefinedColumnSortItems>
 				<DefinedMeasureSortItem variable="bi792" sortDirection="descending"/>
 			</DefinedColumnSortItems>
-			<Data isIndexed="true" availableRowCount="67" contentKey="DYM4Z2VW3ZDPRSEZME6ZLTTUUV52CVK7" size="1612" format="CSV" rowCount="67" grandTotal="false" dataLayout="rollup"><![CDATA[-100,22736.0,0.2769048916022487
--100,22677.0,0.12246616882995444
--100,22705.0,0.08638467059010095
--100,22646.0,.
-7,22677.0,0.14343321977334364
-7,22736.0,-0.25088167335522327
-7,22705.0,-0.5
-7,22646.0,.
-8,22736.0,2.0969209334083803
-8,22677.0,1.609033059133944
-8,22705.0,-0.6207544528816882
-8,22646.0,.
-4,22705.0,1.572682139500674
-4,22677.0,-0.31006096486591256
-4,22736.0,-0.43661776092437804
-4,22646.0,.
-6,22705.0,1.7050349105384546
-6,22736.0,-0.4262911602338999
-6,22677.0,-0.4573017397069246
-6,22646.0,.
-13,22736.0,3.7617859249512238
-13,22705.0,-0.6370149548718624
-13,22646.0,.
-13,22677.0,.
-10,22705.0,8.655957040138345
-10,22677.0,-0.26789938364151267
-10,22736.0,-0.5
-10,22646.0,.
-3,22705.0,1.4934536164777263
-3,22736.0,0.7069765952678259
-3,22646.0,.
-3,22677.0,.
-5,22705.0,6.797289545389359
-5,22736.0,0.23056620777811498
-5,22646.0,.
-5,22677.0,.
-0,22736.0,1.2470159074642717
-0,22705.0,-0.39363012739745207
-0,22646.0,.
-0,22677.0,.
-1,22705.0,2.653930629242968
-1,22736.0,0.502652235176562
-1,22677.0,-0.7327305578214697
-1,22646.0,.
-15,22736.0,1.485172419534775
-15,22677.0,0.48517241953477525
-15,22705.0,-0.3266775043444139
-15,22646.0,.
-11,22677.0,4.198841499155261
-11,22736.0,2.63108715184187
-11,22705.0,-0.5940165271716784
-11,22646.0,.
-12,22677.0,0.22554691494228143
-12,22705.0,-0.6840377648479526
-12,22646.0,.
-9,22705.0,0.710514468874363
-9,22677.0,0.40743087411612655
-9,22736.0,-0.8424834193072955
-9,22646.0,.
-2,22736.0,6.267856560185335
-2,22677.0,-0.28056045863232243
-2,22705.0,-0.8740522169390665
-2,22646.0,.
-14,22677.0,0.4660407533970752
-14,22736.0,0.16016956434565938
-14,22705.0,-0.7259963270495534
-14,22646.0,.
+			<Data isIndexed="true" availableRowCount="67" contentKey="VCJYI2GXR6SVA2L6LWSBRM7EJTHGSPZZ" size="1612" format="CSV" rowCount="67" grandTotal="false" dataLayout="rollup"><![CDATA[-100,23101.0,0.2769048916022487
+-100,23042.0,0.12246616882995444
+-100,23070.0,0.08638467059010095
+-100,23011.0,.
+7,23042.0,0.14343321977334364
+7,23101.0,-0.25088167335522327
+7,23070.0,-0.5
+7,23011.0,.
+8,23101.0,2.0969209334083803
+8,23042.0,1.609033059133944
+8,23070.0,-0.6207544528816882
+8,23011.0,.
+4,23070.0,1.572682139500674
+4,23042.0,-0.31006096486591256
+4,23101.0,-0.43661776092437804
+4,23011.0,.
+6,23070.0,1.7050349105384546
+6,23101.0,-0.4262911602338999
+6,23042.0,-0.4573017397069246
+6,23011.0,.
+13,23101.0,3.7617859249512238
+13,23070.0,-0.6370149548718624
+13,23011.0,.
+13,23042.0,.
+10,23070.0,8.655957040138345
+10,23042.0,-0.26789938364151267
+10,23101.0,-0.5
+10,23011.0,.
+3,23070.0,1.4934536164777263
+3,23101.0,0.7069765952678259
+3,23011.0,.
+3,23042.0,.
+5,23070.0,6.797289545389359
+5,23101.0,0.23056620777811498
+5,23011.0,.
+5,23042.0,.
+0,23101.0,1.2470159074642717
+0,23070.0,-0.39363012739745207
+0,23011.0,.
+0,23042.0,.
+1,23070.0,2.653930629242968
+1,23101.0,0.502652235176562
+1,23042.0,-0.7327305578214697
+1,23011.0,.
+15,23101.0,1.485172419534775
+15,23042.0,0.48517241953477525
+15,23070.0,-0.3266775043444139
+15,23011.0,.
+11,23042.0,4.198841499155261
+11,23101.0,2.63108715184187
+11,23070.0,-0.5940165271716784
+11,23011.0,.
+12,23042.0,0.22554691494228143
+12,23070.0,-0.6840377648479526
+12,23011.0,.
+9,23070.0,0.710514468874363
+9,23042.0,0.40743087411612655
+9,23101.0,-0.8424834193072955
+9,23011.0,.
+2,23101.0,6.267856560185335
+2,23042.0,-0.28056045863232243
+2,23070.0,-0.8740522169390665
+2,23011.0,.
+14,23042.0,0.4660407533970752
+14,23101.0,0.16016956434565938
+14,23070.0,-0.7259963270495534
+14,23011.0,.
 ]]></Data>
 			<StringTable contentKey="5TL4E5ALBSYM3KTLA24C4HZIKNWCZKKO" size="80" format="CSV" rowCount="16"><![CDATA["AZ"
 "CA"
@@ -2858,10 +2858,10 @@
 "WA"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd5207" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd5207" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Reason for return" ref="bi29468" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Influencer Category" ref="bi29469" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Reason for return" ref="bi29806" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Influencer Category" ref="bi29807" varname="ru1" column="c1"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Social Media Score" ref="bi5780" varname="bi5780" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2900,10 +2900,10 @@
 "Yes"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd5190" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd5190" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Influencer Category" ref="bi29466" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Reason for return" ref="bi29465" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Influencer Category" ref="bi29804" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Reason for return" ref="bi29803" varname="ru1" column="c1"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Online Reviews" ref="bi5779" varname="bi5779" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2942,10 +2942,10 @@
 "Yes"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd5173" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd5173" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Reason for return" ref="bi29462" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Influencer Category" ref="bi29463" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Reason for return" ref="bi29800" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Influencer Category" ref="bi29801" varname="ru1" column="c1"/>
 				<NumericVariable format="COMMA12.2" usage="quantitative" definedAggregation="average" label="Survey Score" ref="bi5778" varname="bi5778" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2984,10 +2984,10 @@
 "Yes"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd5153" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-23T15:08:51.349Z">
+		<Result ref="dd5153" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-08-24T13:42:55.261Z">
 			<Variables>
-				<StringVariable usage="rollup" label="Reason for return" ref="bi29459" varname="ru0" column="c0"/>
-				<StringVariable usage="rollup" label="Influencer Category" ref="bi29460" varname="ru1" column="c1"/>
+				<StringVariable usage="rollup" label="Influencer Category" ref="bi29798" varname="ru0" column="c0"/>
+				<StringVariable usage="rollup" label="Reason for return" ref="bi29797" varname="ru1" column="c1"/>
 				<NumericVariable format="COMMA12.1" usage="quantitative" definedAggregation="average" label="Customer Satisfaction" ref="bi5154" varname="bi5154" column="c2"/>
 			</Variables>
 			<Columns>
@@ -2998,24 +2998,24 @@
 			<DefinedColumnSortItems>
 				<DefinedMeasureSortItem variable="bi5154" sortDirection="descending"/>
 			</DefinedColumnSortItems>
-			<Data isIndexed="true" availableRowCount="18" contentKey="O3PFYDO34ATDZPNRNLSJH4X63O6WYIKA" size="354" format="CSV" rowCount="18" grandTotal="false" dataLayout="rollup"><![CDATA[-100,-100,3.9276703111858704
-4,-100,3.887323943661972
-0,-100,3.9365079365079363
-1,-100,4.109090909090909
-2,-100,3.8181818181818183
-3,-100,4.225806451612903
-4,5,3.970149253731343
-0,5,3.9365079365079363
-1,5,4.0754716981132075
-2,5,3.8181818181818183
-3,5,4.225806451612903
--100,5,3.933913043478261
-4,6,2.5
-0,6,.
-1,6,5.0
-2,6,.
-3,6,.
--100,6,3.7435897435897436
+			<Data isIndexed="true" availableRowCount="18" contentKey="5K3NU4DZQBKHMT2GB3W2QDT2VFROQVXD" size="354" format="CSV" rowCount="18" grandTotal="false" dataLayout="rollup"><![CDATA[-100,-100,3.9276703111858704
+5,-100,3.933913043478261
+6,-100,3.7435897435897436
+5,4,3.970149253731343
+6,4,2.5
+-100,4,3.887323943661972
+5,0,3.9365079365079363
+6,0,.
+-100,0,3.9365079365079363
+5,1,4.0754716981132075
+6,1,5.0
+-100,1,4.109090909090909
+5,2,3.8181818181818183
+6,2,.
+-100,2,3.8181818181818183
+5,3,4.225806451612903
+6,3,.
+-100,3,4.225806451612903
 ]]></Data>
 			<StringTable contentKey="KBK6DOSTSDKV7IBWK7LDMNC4QX56RB4D" size="101" format="CSV" rowCount="7"><![CDATA["Do not like the color"
 "Item damaged"
@@ -3026,7 +3026,7 @@
 "Yes"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd13500" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd13500" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -3098,12 +3098,12 @@
 				<Parameter prompt="pr26390" dataType="string" format="$.">&apos;Streetware&apos;</Parameter>
 				<Parameter prompt="pr26399" dataType="string" format="$.">&apos;Retail&apos;</Parameter>
 				<Parameter prompt="pr26408" dataType="double" format="BEST12.">61.0</Parameter>
-				<Parameter prompt="pr26416" dataType="string" format="BEST12.">&apos;0&apos;</Parameter>
-				<Parameter prompt="pr26425" dataType="string" format="BEST12.">&apos;3&apos;</Parameter>
+				<Parameter prompt="pr26416" dataType="double" format="BEST12.">0.0</Parameter>
+				<Parameter prompt="pr26425" dataType="double" format="BEST12.">3.0</Parameter>
 				<Parameter prompt="pr26434" dataType="string" format="BEST12.">&apos;2&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd13453" type="relational" status="warning" dataLevel="baseline" label="Paragraph Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd13453" type="relational" status="warning" dataLevel="baseline" label="Paragraph Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -3132,12 +3132,12 @@
 				<Parameter prompt="pr26390" dataType="string" format="$.">&apos;Streetware&apos;</Parameter>
 				<Parameter prompt="pr26399" dataType="string" format="$.">&apos;Retail&apos;</Parameter>
 				<Parameter prompt="pr26408" dataType="double" format="BEST12.">61.0</Parameter>
-				<Parameter prompt="pr26416" dataType="string" format="BEST12.">&apos;0&apos;</Parameter>
-				<Parameter prompt="pr26425" dataType="string" format="BEST12.">&apos;3&apos;</Parameter>
+				<Parameter prompt="pr26416" dataType="double" format="BEST12.">0.0</Parameter>
+				<Parameter prompt="pr26425" dataType="double" format="BEST12.">3.0</Parameter>
 				<Parameter prompt="pr26434" dataType="string" format="BEST12.">&apos;2&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd13501" type="relational" status="warning" dataLevel="baseline" label="Prediction Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd13501" type="relational" status="warning" dataLevel="baseline" label="Prediction Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -3177,12 +3177,12 @@
 				<Parameter prompt="pr26390" dataType="string" format="$.">&apos;Streetware&apos;</Parameter>
 				<Parameter prompt="pr26399" dataType="string" format="$.">&apos;Retail&apos;</Parameter>
 				<Parameter prompt="pr26408" dataType="double" format="BEST12.">61.0</Parameter>
-				<Parameter prompt="pr26416" dataType="string" format="BEST12.">&apos;0&apos;</Parameter>
-				<Parameter prompt="pr26425" dataType="string" format="BEST12.">&apos;3&apos;</Parameter>
+				<Parameter prompt="pr26416" dataType="double" format="BEST12.">0.0</Parameter>
+				<Parameter prompt="pr26425" dataType="double" format="BEST12.">3.0</Parameter>
 				<Parameter prompt="pr26434" dataType="string" format="BEST12.">&apos;2&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd13450" type="relational" status="warning" dataLevel="baseline" label="Predicted Value" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd13450" type="relational" status="warning" dataLevel="baseline" label="Predicted Value" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -3211,12 +3211,12 @@
 				<Parameter prompt="pr26390" dataType="string" format="$.">&apos;Streetware&apos;</Parameter>
 				<Parameter prompt="pr26399" dataType="string" format="$.">&apos;Retail&apos;</Parameter>
 				<Parameter prompt="pr26408" dataType="double" format="BEST12.">61.0</Parameter>
-				<Parameter prompt="pr26416" dataType="string" format="BEST12.">&apos;0&apos;</Parameter>
-				<Parameter prompt="pr26425" dataType="string" format="BEST12.">&apos;3&apos;</Parameter>
+				<Parameter prompt="pr26416" dataType="double" format="BEST12.">0.0</Parameter>
+				<Parameter prompt="pr26425" dataType="double" format="BEST12.">3.0</Parameter>
 				<Parameter prompt="pr26434" dataType="string" format="BEST12.">&apos;2&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd13499" type="relational" status="warning" dataLevel="baseline" label="Factor Value" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-23T15:08:56.263Z">
+		<Result ref="dd13499" type="relational" status="warning" dataLevel="baseline" label="Factor Value" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-08-24T13:42:57.262Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -3242,7 +3242,7 @@
 				<StringColumn maxLength="2" colname="c4" encoding="text"/>
 				<StringColumn maxLength="2" colname="c5" encoding="text"/>
 			</Columns>
-			<Data isIndexed="true" availableRowCount="13" contentKey="GGHVQA57HDW4SRTXQ5KKXIEDITEBSGU4" size="342" format="CSV" rowCount="13" grandTotal="false" dataLayout="minimal"><![CDATA[0,60.35504166084182,-1,60.35504166084182,-1,1
+			<Data isIndexed="true" availableRowCount="13" contentKey="CFCJP7QD5W5D4I4L2DONIP5MORI3URK3" size="346" format="CSV" rowCount="13" grandTotal="false" dataLayout="minimal"><![CDATA[0,60.35504166084182,-1,60.35504166084182,-1,1
 28,1570.0,-1,1570.0,-1,2
 14,.,20,.,20,3
 15,244.0,-1,244.0,-1,4
@@ -3252,8 +3252,8 @@
 19,.,25,.,25,7
 23,.,22,.,22,13
 26,61.0,-1,61.0,-1,8
-21,0.0,-1,0,-1,9
-24,3.0,-1,3,-1,10
+21,0.0,-1,0.0,-1,9
+24,3.0,-1,3.0,-1,10
 27,5.0,-1,2,-1,11
 ]]></Data>
 			<StringTable contentKey="B3C443P2FYDDXBTFXXRQCO77PQWS7D2J" size="451" format="CSV" rowCount="29"><![CDATA["Average Order Value (Last 3 years)"
@@ -3297,8 +3297,8 @@
 				<Parameter prompt="pr26390" dataType="string" format="$.">&apos;Streetware&apos;</Parameter>
 				<Parameter prompt="pr26399" dataType="string" format="$.">&apos;Retail&apos;</Parameter>
 				<Parameter prompt="pr26408" dataType="double" format="BEST12.">61.0</Parameter>
-				<Parameter prompt="pr26416" dataType="string" format="BEST12.">&apos;0&apos;</Parameter>
-				<Parameter prompt="pr26425" dataType="string" format="BEST12.">&apos;3&apos;</Parameter>
+				<Parameter prompt="pr26416" dataType="double" format="BEST12.">0.0</Parameter>
+				<Parameter prompt="pr26425" dataType="double" format="BEST12.">3.0</Parameter>
 				<Parameter prompt="pr26434" dataType="string" format="BEST12.">&apos;2&apos;</Parameter>
 			</Parameters>
 		</Result>
@@ -3309,8 +3309,8 @@
 				<RelationalDataItem name="bi151" base="bi38"/>
 				<RelationalDataItem name="bi157" base="bi78"/>
 				<RelationalDataItem name="bi2656" base="bi62"/>
-				<RelationalDataItem name="bi29414" base="bi45"/>
-				<RelationalDataItem name="bi29415" base="bi28"/>
+				<RelationalDataItem name="bi29752" base="bi45"/>
+				<RelationalDataItem name="bi29753" base="bi28"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd149">
 				<MultidimensionalQuery detail="false">
@@ -3385,8 +3385,8 @@
 					</EditorProperties>
 					<Expression>in(${bi3342,binned},22281)</Expression>
 				</RelationalFilterItem>
-				<RelationalDataItem name="bi29418" base="bi45"/>
-				<RelationalDataItem name="bi29419" base="bi28"/>
+				<RelationalDataItem name="bi29756" base="bi45"/>
+				<RelationalDataItem name="bi29757" base="bi28"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd224">
 				<MultidimensionalQuery detail="false">
@@ -3422,7 +3422,7 @@
 					</EditorProperties>
 					<Expression>in(${bi3340,binned},22281)</Expression>
 				</RelationalFilterItem>
-				<RelationalDataItem name="bi29421" base="bi28"/>
+				<RelationalDataItem name="bi29759" base="bi28"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd244">
 				<MultidimensionalQuery detail="false">
@@ -3572,8 +3572,8 @@
 					</EditorProperties>
 					<Expression>in(${bi3344,binned},22281)</Expression>
 				</RelationalFilterItem>
-				<RelationalDataItem name="bi29425" base="bi45"/>
-				<RelationalDataItem name="bi29426" base="bi28"/>
+				<RelationalDataItem name="bi29763" base="bi45"/>
+				<RelationalDataItem name="bi29764" base="bi28"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd800">
 				<MultidimensionalQuery detail="false">
@@ -3708,8 +3708,8 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24" name="dd2454">
 			<BusinessItems>
 				<RelationalDataItem name="bi2462" base="bi2431"/>
-				<RelationalDataItem name="bi29431" base="bi45"/>
-				<RelationalDataItem name="bi29432" base="bi28"/>
+				<RelationalDataItem name="bi29769" base="bi45"/>
+				<RelationalDataItem name="bi29770" base="bi28"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd2455">
 				<MultidimensionalQuery detail="false">
@@ -3766,8 +3766,8 @@
 					</EditorProperties>
 					<Expression>or(in(${bi3348,binned},22281),ismissing(${bi3348,binned}))</Expression>
 				</RelationalFilterItem>
-				<RelationalDataItem name="bi29435" base="bi28"/>
-				<RelationalDataItem name="bi29436" base="bi45"/>
+				<RelationalDataItem name="bi29773" base="bi28"/>
+				<RelationalDataItem name="bi29774" base="bi45"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="relational" name="dd1904">
 				<RelationalQuery detail="false">
@@ -3801,8 +3801,8 @@
 					</EditorProperties>
 					<Expression>in(${bi3346,binned},22281)</Expression>
 				</RelationalFilterItem>
-				<RelationalDataItem name="bi29438" base="bi45"/>
-				<RelationalDataItem name="bi29439" base="bi28"/>
+				<RelationalDataItem name="bi29776" base="bi45"/>
+				<RelationalDataItem name="bi29777" base="bi28"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd3304">
 				<MultidimensionalQuery detail="false">
@@ -4013,23 +4013,23 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24" name="dd4344">
 			<BusinessItems>
 				<RelationalDataItem name="bi5580" base="bi38"/>
-				<RelationalDataItem name="bi5422" base="bi2431"/>
-				<RelationalDataItem includeAssociatedColumns="true" name="bi5578" base="bi28"/>
-				<RelationalDataItem name="bi5579" base="bi200"/>
-				<RelationalDataItem name="bi5581" base="bi44"/>
-				<RelationalDataItem includeAssociatedColumns="true" name="bi5582" base="bi45"/>
-				<RelationalDataItem name="bi5583" base="bi27"/>
-				<RelationalDataItem name="bi5584" base="bi29"/>
-				<RelationalDataItem name="bi5585" base="bi30"/>
-				<RelationalDataItem name="bi5586" base="bi2432"/>
-				<RelationalDataItem name="bi5587" base="bi46"/>
-				<RelationalDataItem name="bi5588" base="bi54"/>
-				<RelationalDataItem name="bi5589" base="bi2430"/>
-				<LookupDataItem property="mapId" lookup="bi28" name="bi29405"/>
-				<LookupDataItem property="polygonId" lookup="bi28" name="bi29406"/>
-				<LookupDataItem property="longitude" lookup="bi45" name="bi29407"/>
-				<LookupDataItem property="latitude" lookup="bi45" name="bi29408"/>
-				<RelationalFilterItem name="bi29409">
+				<RelationalDataItem name="bi29575" base="bi2431"/>
+				<RelationalDataItem includeAssociatedColumns="true" name="bi29576" base="bi28"/>
+				<RelationalDataItem name="bi29577" base="bi200"/>
+				<RelationalDataItem name="bi29578" base="bi44"/>
+				<RelationalDataItem includeAssociatedColumns="true" name="bi29579" base="bi45"/>
+				<RelationalDataItem name="bi29580" base="bi27"/>
+				<RelationalDataItem name="bi29581" base="bi29"/>
+				<RelationalDataItem name="bi29582" base="bi30"/>
+				<RelationalDataItem name="bi29583" base="bi2432"/>
+				<RelationalDataItem name="bi29584" base="bi46"/>
+				<RelationalDataItem name="bi29585" base="bi54"/>
+				<RelationalDataItem name="bi29586" base="bi2430"/>
+				<LookupDataItem property="mapId" lookup="bi28" name="bi29732"/>
+				<LookupDataItem property="polygonId" lookup="bi28" name="bi29733"/>
+				<LookupDataItem property="longitude" lookup="bi45" name="bi29734"/>
+				<LookupDataItem property="latitude" lookup="bi45" name="bi29735"/>
+				<RelationalFilterItem name="bi29736">
 					<EditorProperties>
 						<Property key="complexity">SINGLE_DATA_ITEM</Property>
 						<Property key="interactiveEditingAllowed">TRUE</Property>
@@ -4095,24 +4095,24 @@
 					</GeneratedResources>
 					<Arguments>
 						<Argument purpose="dependentVariable">
-							<ReferenceValue>bi5422</ReferenceValue>
+							<ReferenceValue>bi29575</ReferenceValue>
 						</Argument>
 						<Argument purpose="selectedIndependentVariable">
-							<ReferenceValue>bi5578</ReferenceValue>
+							<ReferenceValue>bi29576</ReferenceValue>
 						</Argument>
 						<ListArgument purpose="independentVariables">
-							<ReferenceValue>bi5578</ReferenceValue>
-							<ReferenceValue>bi5579</ReferenceValue>
+							<ReferenceValue>bi29576</ReferenceValue>
+							<ReferenceValue>bi29577</ReferenceValue>
 							<ReferenceValue>bi5580</ReferenceValue>
-							<ReferenceValue>bi5581</ReferenceValue>
-							<ReferenceValue>bi5582</ReferenceValue>
-							<ReferenceValue>bi5583</ReferenceValue>
-							<ReferenceValue>bi5584</ReferenceValue>
-							<ReferenceValue>bi5585</ReferenceValue>
-							<ReferenceValue>bi5586</ReferenceValue>
-							<ReferenceValue>bi5587</ReferenceValue>
-							<ReferenceValue>bi5588</ReferenceValue>
-							<ReferenceValue>bi5589</ReferenceValue>
+							<ReferenceValue>bi29578</ReferenceValue>
+							<ReferenceValue>bi29579</ReferenceValue>
+							<ReferenceValue>bi29580</ReferenceValue>
+							<ReferenceValue>bi29581</ReferenceValue>
+							<ReferenceValue>bi29582</ReferenceValue>
+							<ReferenceValue>bi29583</ReferenceValue>
+							<ReferenceValue>bi29584</ReferenceValue>
+							<ReferenceValue>bi29585</ReferenceValue>
+							<ReferenceValue>bi29586</ReferenceValue>
 						</ListArgument>
 						<Argument purpose="automationType">
 							<StringValue>explanationAutomation</StringValue>
@@ -4142,7 +4142,7 @@
 			</DataDefinition>
 			<AppliedFilters>
 				<DetailFilters>
-					<BusinessItem ref="bi29409"/>
+					<BusinessItem ref="bi29736"/>
 				</DetailFilters>
 			</AppliedFilters>
 		</ParentDataDefinition>
@@ -4333,23 +4333,23 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24" name="dd4562">
 			<BusinessItems>
 				<RelationalDataItem name="bi5695" base="bi44"/>
-				<RelationalDataItem name="bi5717" base="bi2449"/>
-				<RelationalDataItem name="bi5701" base="bi2432"/>
-				<RelationalDataItem includeAssociatedColumns="true" name="bi5692" base="bi28"/>
-				<RelationalDataItem name="bi5693" base="bi200"/>
-				<RelationalDataItem name="bi5694" base="bi38"/>
-				<RelationalDataItem includeAssociatedColumns="true" name="bi5696" base="bi45"/>
-				<RelationalDataItem name="bi5697" base="bi2431"/>
-				<RelationalDataItem name="bi5698" base="bi27"/>
-				<RelationalDataItem name="bi5699" base="bi30"/>
-				<RelationalDataItem name="bi5700" base="bi2430"/>
-				<RelationalDataItem name="bi5702" base="bi29"/>
-				<RelationalDataItem name="bi5703" base="bi1884"/>
-				<LookupDataItem property="mapId" lookup="bi28" name="bi29396"/>
-				<LookupDataItem property="polygonId" lookup="bi28" name="bi29397"/>
-				<LookupDataItem property="longitude" lookup="bi45" name="bi29398"/>
-				<LookupDataItem property="latitude" lookup="bi45" name="bi29399"/>
-				<RelationalFilterItem name="bi29400">
+				<RelationalDataItem name="bi29554" base="bi2449"/>
+				<RelationalDataItem name="bi29563" base="bi2432"/>
+				<RelationalDataItem includeAssociatedColumns="true" name="bi29555" base="bi28"/>
+				<RelationalDataItem name="bi29556" base="bi200"/>
+				<RelationalDataItem name="bi29557" base="bi38"/>
+				<RelationalDataItem includeAssociatedColumns="true" name="bi29558" base="bi45"/>
+				<RelationalDataItem name="bi29559" base="bi2431"/>
+				<RelationalDataItem name="bi29560" base="bi27"/>
+				<RelationalDataItem name="bi29561" base="bi30"/>
+				<RelationalDataItem name="bi29562" base="bi2430"/>
+				<RelationalDataItem name="bi29564" base="bi29"/>
+				<RelationalDataItem name="bi29565" base="bi1884"/>
+				<LookupDataItem property="mapId" lookup="bi28" name="bi29741"/>
+				<LookupDataItem property="polygonId" lookup="bi28" name="bi29742"/>
+				<LookupDataItem property="longitude" lookup="bi45" name="bi29743"/>
+				<LookupDataItem property="latitude" lookup="bi45" name="bi29744"/>
+				<RelationalFilterItem name="bi29745">
 					<EditorProperties>
 						<Property key="complexity">SINGLE_DATA_ITEM</Property>
 						<Property key="interactiveEditingAllowed">TRUE</Property>
@@ -4415,24 +4415,24 @@
 					</GeneratedResources>
 					<Arguments>
 						<Argument purpose="dependentVariable">
-							<ReferenceValue>bi5717</ReferenceValue>
+							<ReferenceValue>bi29554</ReferenceValue>
 						</Argument>
 						<Argument purpose="selectedIndependentVariable">
-							<ReferenceValue>bi5701</ReferenceValue>
+							<ReferenceValue>bi29563</ReferenceValue>
 						</Argument>
 						<ListArgument purpose="independentVariables">
-							<ReferenceValue>bi5692</ReferenceValue>
-							<ReferenceValue>bi5693</ReferenceValue>
-							<ReferenceValue>bi5694</ReferenceValue>
+							<ReferenceValue>bi29555</ReferenceValue>
+							<ReferenceValue>bi29556</ReferenceValue>
+							<ReferenceValue>bi29557</ReferenceValue>
 							<ReferenceValue>bi5695</ReferenceValue>
-							<ReferenceValue>bi5696</ReferenceValue>
-							<ReferenceValue>bi5697</ReferenceValue>
-							<ReferenceValue>bi5698</ReferenceValue>
-							<ReferenceValue>bi5699</ReferenceValue>
-							<ReferenceValue>bi5700</ReferenceValue>
-							<ReferenceValue>bi5701</ReferenceValue>
-							<ReferenceValue>bi5702</ReferenceValue>
-							<ReferenceValue>bi5703</ReferenceValue>
+							<ReferenceValue>bi29558</ReferenceValue>
+							<ReferenceValue>bi29559</ReferenceValue>
+							<ReferenceValue>bi29560</ReferenceValue>
+							<ReferenceValue>bi29561</ReferenceValue>
+							<ReferenceValue>bi29562</ReferenceValue>
+							<ReferenceValue>bi29563</ReferenceValue>
+							<ReferenceValue>bi29564</ReferenceValue>
+							<ReferenceValue>bi29565</ReferenceValue>
 						</ListArgument>
 						<Argument purpose="automationType">
 							<StringValue>explanationAutomation</StringValue>
@@ -4462,7 +4462,7 @@
 			</DataDefinition>
 			<AppliedFilters>
 				<DetailFilters>
-					<BusinessItem ref="bi29400"/>
+					<BusinessItem ref="bi29745"/>
 				</DetailFilters>
 			</AppliedFilters>
 		</ParentDataDefinition>
@@ -4470,8 +4470,8 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24" name="dd5157">
 			<BusinessItems>
 				<RelationalDataItem name="bi5154" base="bi2431"/>
-				<RelationalDataItem name="bi29459" base="bi44"/>
-				<RelationalDataItem name="bi29460" base="bi200"/>
+				<RelationalDataItem name="bi29797" base="bi44"/>
+				<RelationalDataItem name="bi29798" base="bi200"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd5158">
 				<MultidimensionalQuery detail="false">
@@ -4494,8 +4494,8 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24" name="dd5177">
 			<BusinessItems>
 				<RelationalDataItem name="bi5778" base="bi46"/>
-				<RelationalDataItem name="bi29462" base="bi44"/>
-				<RelationalDataItem name="bi29463" base="bi200"/>
+				<RelationalDataItem name="bi29800" base="bi44"/>
+				<RelationalDataItem name="bi29801" base="bi200"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd5178">
 				<MultidimensionalQuery detail="false">
@@ -4518,8 +4518,8 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24" name="dd5194">
 			<BusinessItems>
 				<RelationalDataItem name="bi5779" base="bi2430"/>
-				<RelationalDataItem name="bi29465" base="bi44"/>
-				<RelationalDataItem name="bi29466" base="bi200"/>
+				<RelationalDataItem name="bi29803" base="bi44"/>
+				<RelationalDataItem name="bi29804" base="bi200"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd5195">
 				<MultidimensionalQuery detail="false">
@@ -4542,8 +4542,8 @@
 		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24" name="dd5211">
 			<BusinessItems>
 				<RelationalDataItem name="bi5780" base="bi2432"/>
-				<RelationalDataItem name="bi29468" base="bi44"/>
-				<RelationalDataItem name="bi29469" base="bi200"/>
+				<RelationalDataItem name="bi29806" base="bi44"/>
+				<RelationalDataItem name="bi29807" base="bi200"/>
 			</BusinessItems>
 			<DataDefinition dataSource="ds24" type="multidimensional" name="dd5212">
 				<MultidimensionalQuery detail="false">
@@ -5733,7 +5733,7 @@
 		<Graph graphType="bar" supplementalVisuals="ve154" resultDefinitions="dd150" name="ve147" data="dd148" label="Bar - Product Category 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi151 bi157">
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
-				<Property key="addedInteractionQueryDataItems">bi29414,bi29415</Property>
+				<Property key="addedInteractionQueryDataItems">bi29752,bi29753</Property>
 			</EditorProperties>
 			<Title auto="false"><P><Span class="styleForTitle_span2">Returns by product category</Span></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel">
@@ -5891,9 +5891,9 @@
 				<Property key="previousShowCategoryValue">false</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29418,bi29419</Property>
+				<Property key="addedInteractionQueryDataItems">bi29756,bi29757</Property>
 			</EditorProperties>
-			<Title auto="false"><P class="styleForTitle_paragraph4"><Span class="styleForTitle_span8">Returns (2022)</Span></P></Title>
+			<Title auto="false"><P class="styleForTitle_paragraph4"><Span class="styleForTitle_span8">Returns (2023)</Span></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
@@ -5927,7 +5927,7 @@
 				<Property key="previousShowCategoryValue">false</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29421</Property>
+				<Property key="addedInteractionQueryDataItems">bi29759</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph5"><Span class="styleForTitle_span9">Growth (Current Month)</Span></P></Title>
 			<Conditions>
@@ -6077,9 +6077,9 @@
 				<Property key="previousShowCategoryValue">false</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29425,bi29426</Property>
+				<Property key="addedInteractionQueryDataItems">bi29763,bi29764</Property>
 			</EditorProperties>
-			<Title auto="false"><P class="styleForTitle_paragraph3"><Span class="styleForTitle_span7">Orders (2022)</Span></P></Title>
+			<Title auto="false"><P class="styleForTitle_paragraph3"><Span class="styleForTitle_span7">Orders (2023)</Span></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
@@ -6129,8 +6129,8 @@
 			<P><Span class="span4">Business Performance Analysis</Span></P>
 		</Text>
 		<Text name="ve1478" label="Text 2 (1)" selectionDisabled="true" applyDynamicBrushes="no">
-			<P class="paragraph1"><Span class="span1"><Span class="span2"><Span>Last update: </Span><Span>August 2022</Span></Span></Span></P>
-			<P class="paragraph2"><Span class="span3"><Span class="span4">Privacy Statement | Terms of Use | eCalico © 2022 Company Inc. All Rights Reserved.</Span></Span></P>
+			<P class="paragraph1"><Span class="span1">Last update: August 2023</Span></P>
+			<P class="paragraph2"><Span class="span2">Privacy Statement | Terms of Use | eCalico © 2023 Company Inc. All Rights Reserved.</Span></P>
 		</Text>
 		<Graph graphType="butterfly" supplementalVisuals="ve1973" resultDefinitions="dd1969" name="ve161" data="dd1967" label="Butterfly - Warehouse (Ship To) 1" applyDynamicBrushes="yes" sourceInteractionVariables="bi165">
 			<EditorProperties>
@@ -6351,7 +6351,7 @@
 				<Property key="previousShowCategoryValue">true</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29431,bi29432</Property>
+				<Property key="addedInteractionQueryDataItems">bi29769,bi29770</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph11"><Span class="styleForTitle_span22">Satisfaction</Span></P></Title>
 			<Conditions>
@@ -6425,7 +6425,7 @@
 		<Text resultDefinitions="dd1905" name="ve1902" data="dd1903" label="ReturnItemExplainText" selectionDisabled="true" applyDynamicBrushes="no">
 			<EditorProperties>
 				<Property key="isAutoLabel">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29435,bi29436</Property>
+				<Property key="addedInteractionQueryDataItems">bi29773,bi29774</Property>
 			</EditorProperties>
 			<Conditions>
 				<Condition ref="cd3489" applyToVariable="bi3154">
@@ -6471,9 +6471,9 @@
 				<Property key="previousShowCategoryValue">false</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29438,bi29439</Property>
+				<Property key="addedInteractionQueryDataItems">bi29776,bi29777</Property>
 			</EditorProperties>
-			<Title auto="false"><P class="styleForTitle_paragraph6"><Span class="styleForTitle_span6">Purchases (2022)</Span></P></Title>
+			<Title auto="false"><P class="styleForTitle_paragraph6"><Span class="styleForTitle_span6">Purchases (2023)</Span></P></Title>
 <![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
     <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
     <Meta>
@@ -6505,8 +6505,8 @@
 			</Columns>
 		</Table>
 		<Text name="ve343" label="Text 2" selectionDisabled="true" applyDynamicBrushes="no">
-			<P class="paragraph1"><Span class="span1"><Span class="span2"><Span>Last update:</Span><Span> August </Span></Span></Span><Span class="span3"><Span class="span4"><Span>2022</Span></Span></Span></P>
-			<P class="paragraph2"><Span class="span5"><Span class="span6">Privacy Statement | Terms of Use | eCalico © 2022 Company Inc. All Rights Reserved.</Span></Span></P>
+			<P class="paragraph1"><Span class="span1">Last update: August 2023</Span></P>
+			<P class="paragraph2"><Span class="span2">Privacy Statement | Terms of Use | eCalico © 2023 Company Inc. All Rights Reserved.</Span></P>
 		</Text>
 		<VisualContainer containerType="stacking" name="ve4588" label="Stacking container 1" selectionDisabled="true">
 			<EditorProperties>
@@ -6869,8 +6869,8 @@
 			<P><Span class="span4">Business Performance Analysis</Span></P>
 		</Text>
 		<Text name="ve5137" label="Text 2 (3)" selectionDisabled="true" applyDynamicBrushes="no">
-			<P class="paragraph1"><Span class="span1"><Span class="span2"><Span>Last update:</Span><Span> August 2022</Span></Span></Span></P>
-			<P class="paragraph2"><Span class="span3"><Span class="span4">Privacy Statement | Terms of Use | eCalico © 2022 Company Inc. All Rights Reserved.</Span></Span></P>
+			<P class="paragraph1"><Span class="span1">Last update: August 2023</Span></P>
+			<P class="paragraph2"><Span class="span2">Privacy Statement | Terms of Use | eCalico © 2023 Company Inc. All Rights Reserved.</Span></P>
 		</Text>
 		<VisualContainer containerType="standard" name="ve5149" label="HeaderContainer (1) (2) (1) (1) (1)" selectionDisabled="true">
 			<EditorProperties>
@@ -6891,7 +6891,7 @@
 				<Property key="previousShowCategoryValue">true</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29459,bi29460</Property>
+				<Property key="addedInteractionQueryDataItems">bi29797,bi29798</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph2"><Span class="styleForTitle_span21">Customer Satisfaction</Span></P></Title>
 			<Conditions>
@@ -6954,7 +6954,7 @@
 				<Property key="previousShowCategoryValue">true</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29462,bi29463</Property>
+				<Property key="addedInteractionQueryDataItems">bi29800,bi29801</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph7"><Span class="styleForTitle_span10">Survey Score</Span></P></Title>
 			<Conditions>
@@ -7012,7 +7012,7 @@
 				<Property key="previousShowCategoryValue">true</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29465,bi29466</Property>
+				<Property key="addedInteractionQueryDataItems">bi29803,bi29804</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph8"><Span class="styleForTitle_span14">Online Review Score</Span></P></Title>
 			<Conditions>
@@ -7070,7 +7070,7 @@
 				<Property key="previousShowCategoryValue">true</Property>
 				<Property key="previousShowCategoryLabel">false</Property>
 				<Property key="previousShowAggregation">false</Property>
-				<Property key="addedInteractionQueryDataItems">bi29468,bi29469</Property>
+				<Property key="addedInteractionQueryDataItems">bi29806,bi29807</Property>
 			</EditorProperties>
 			<Title auto="false"><P class="styleForTitle_paragraph9"><Span class="styleForTitle_span15">Social Media Score</Span></P></Title>
 			<Conditions>
@@ -7187,7 +7187,6 @@
 			</EditorProperties>
 		</VisualContainer>
 		<Image scaleType="scaleWidth" file="ve5147.png" name="ve12709" label="Image 1 (2) (1) (1) (1) (1) (1)" selectionDisabled="true"/>
-		<Image scaleType="scale" file="ve12711.png" name="ve12711" label="ViyaLogo (1) (1) (1)" selectionDisabled="true"/>
 		<Graph graphType="timeSeries" supplementalVisuals="ve2643" resultDefinitions="dd2641" name="ve2638" data="dd2639" label="Time - Purchase Month/Year 1" applyDynamicBrushes="yes">
 			<EditorProperties>
 				<Property key="isAutoLabel">true</Property>
@@ -7847,69 +7846,69 @@
 				<Column variable="bi27697"/>
 			</Columns>
 		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd13501" name="ve29394" data="dd13496" applyDynamicBrushes="yes">
-			<Columns headersHidden="true">
-				<Column variable="bi13494"/>
-				<Column variable="bi13495"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd13500" name="ve29395" data="dd13496" applyDynamicBrushes="yes">
-			<Columns>
-				<Column variable="bi13490"/>
-				<Column variable="bi13491"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4468" name="ve29401" data="dd4456" applyDynamicBrushes="yes">
-			<Columns headersHidden="true">
-				<Column variable="bi4432"/>
-				<Column variable="bi4433"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4467" name="ve29402" data="dd4456" applyDynamicBrushes="yes">
-			<Columns>
-				<Column variable="bi4425"/>
-				<Column variable="bi4429"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4461" name="ve29403" data="dd4456" applyDynamicBrushes="yes">
-			<Columns>
-				<Column variable="bi4392"/>
-				<Column variable="bi4393"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4473" name="ve29404" data="dd4456" applyDynamicBrushes="yes">
-			<Columns>
-				<Column variable="bi4452"/>
-				<Column variable="bi4453"/>
-			</Columns>
-		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4252" name="ve29410" data="dd4240" applyDynamicBrushes="yes">
+		<Table columnSizing="autoFill" resultDefinitions="dd4252" name="ve29737" data="dd4240" applyDynamicBrushes="yes">
 			<Columns headersHidden="true">
 				<Column variable="bi4217"/>
 				<Column variable="bi4218"/>
 			</Columns>
 		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4251" name="ve29411" data="dd4240" applyDynamicBrushes="yes">
+		<Table columnSizing="autoFill" resultDefinitions="dd4251" name="ve29738" data="dd4240" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi4210"/>
 				<Column variable="bi4214"/>
 			</Columns>
 		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4245" name="ve29412" data="dd4240" applyDynamicBrushes="yes">
+		<Table columnSizing="autoFill" resultDefinitions="dd4245" name="ve29739" data="dd4240" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi4177"/>
 				<Column variable="bi4178"/>
 			</Columns>
 		</Table>
-		<Table columnSizing="autoFill" resultDefinitions="dd4257" name="ve29413" data="dd4240" applyDynamicBrushes="yes">
+		<Table columnSizing="autoFill" resultDefinitions="dd4257" name="ve29740" data="dd4240" applyDynamicBrushes="yes">
 			<Columns>
 				<Column variable="bi4237"/>
 				<Column variable="bi4238"/>
 			</Columns>
 		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd4468" name="ve29746" data="dd4456" applyDynamicBrushes="yes">
+			<Columns headersHidden="true">
+				<Column variable="bi4432"/>
+				<Column variable="bi4433"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd4467" name="ve29747" data="dd4456" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi4425"/>
+				<Column variable="bi4429"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd4461" name="ve29748" data="dd4456" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi4392"/>
+				<Column variable="bi4393"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd4473" name="ve29749" data="dd4456" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi4452"/>
+				<Column variable="bi4453"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd13501" name="ve29750" data="dd13496" applyDynamicBrushes="yes">
+			<Columns headersHidden="true">
+				<Column variable="bi13494"/>
+				<Column variable="bi13495"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd13500" name="ve29751" data="dd13496" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi13490"/>
+				<Column variable="bi13491"/>
+			</Columns>
+		</Table>
 	</VisualElements>
 	<CompositeVisuals>
-		<CompositeVisual label="Customer Satisfaction - Driver Analysis" type="predictionAutomationContainer" supplementalVisuals="ve29410 ve29411 ve29412 ve29413" name="ve4367">
+		<CompositeVisual label="Customer Satisfaction - Driver Analysis" type="predictionAutomationContainer" supplementalVisuals="ve29737 ve29738 ve29739 ve29740" name="ve4367">
 			<CompositeMember ref="ve4258" role="supporting"/>
 			<CompositeMember ref="ve4361" role="supporting"/>
 			<CompositeMember ref="ve4262" role="primary"/>
@@ -7919,7 +7918,7 @@
 			<CompositeMember ref="ve4353" role="supporting"/>
 			<CompositeMember ref="ve4355" role="supporting"/>
 		</CompositeVisual>
-		<CompositeVisual label="Reputation Score - Driver Analysis" type="predictionAutomationContainer" supplementalVisuals="ve29401 ve29402 ve29403 ve29404" name="ve4585">
+		<CompositeVisual label="Reputation Score - Driver Analysis" type="predictionAutomationContainer" supplementalVisuals="ve29746 ve29747 ve29748 ve29749" name="ve4585">
 			<CompositeMember ref="ve4474" role="supporting"/>
 			<CompositeMember ref="ve4579" role="supporting"/>
 			<CompositeMember ref="ve4478" role="primary"/>
@@ -7929,7 +7928,7 @@
 			<CompositeMember ref="ve4571" role="supporting"/>
 			<CompositeMember ref="ve4573" role="supporting"/>
 		</CompositeVisual>
-		<CompositeVisual label="Automated prediction - Lifetime Value 1" type="scenarioAnalysisContainer" supplementalVisuals="ve29394 ve29395" name="ve13510">
+		<CompositeVisual label="Automated prediction - Lifetime Value 1" type="scenarioAnalysisContainer" supplementalVisuals="ve29750 ve29751" name="ve13510">
 			<CompositeMember ref="ve13335" role="supporting"/>
 			<CompositeMember ref="ve13446" role="supporting"/>
 			<CompositeMember ref="ve13502" role="primary"/>
@@ -7965,7 +7964,7 @@
 		</PromptDefinition>
 		<PromptDefinition label="Year Offset" isParameter="true" format="COMMA12." name="pr12934">
 			<DefaultValue>
-				<Number type="double" value="1.0"/>
+				<Number type="double" value="2.0"/>
 			</DefaultValue>
 			<NumericConstraint min="0.0" max="100.0" minInclusive="true" maxInclusive="true"/>
 		</PromptDefinition>
@@ -8082,13 +8081,13 @@
 		</PromptDefinition>
 		<PromptDefinition data="dd26420" hidden="true" labelFormatted="false" isParameter="true" format="BEST12." labelVariable="bi26424" valueVariable="bi26424" resultDefinitions="dd26422" name="pr26416">
 			<DefaultValue>
-				<String>0</String>
+				<Number type="double" value="0.0"/>
 			</DefaultValue>
 			<NumericConstraint required="true"/>
 		</PromptDefinition>
 		<PromptDefinition data="dd26429" hidden="true" labelFormatted="false" isParameter="true" format="BEST12." labelVariable="bi26433" valueVariable="bi26433" resultDefinitions="dd26431" name="pr26425">
 			<DefaultValue>
-				<String>3</String>
+				<Number type="double" value="3.0"/>
 			</DefaultValue>
 			<NumericConstraint required="true"/>
 		</PromptDefinition>
@@ -8931,16 +8930,6 @@
 								</HeightConstraint>
 							</ResponsiveConstraint>
 						</Visual>
-						<Visual ref="ve12711" name="vi12712">
-							<ResponsiveConstraint>
-								<WidthConstraint>
-									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="12.5%" flexibility="fixed"/>
-								</WidthConstraint>
-								<HeightConstraint>
-									<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="shrinkable"/>
-								</HeightConstraint>
-							</ResponsiveConstraint>
-						</Visual>
 					</Container>
 					<Container ref="ve4588" name="vi4589">
 						<ResponsiveConstraint>
@@ -9763,23 +9752,23 @@
 	<Interactions>
 		<Interaction name="ia1456" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve161" variable="bi165"/>
-			<InteractionElementReference purpose="target" ref="ve147" variable="bi29414"/>
+			<InteractionElementReference purpose="target" ref="ve147" variable="bi29752"/>
 		</Interaction>
 		<Interaction name="ia1460" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve161" variable="bi165"/>
-			<InteractionElementReference purpose="target" ref="ve802" variable="bi29425"/>
+			<InteractionElementReference purpose="target" ref="ve802" variable="bi29763"/>
 		</Interaction>
 		<Interaction name="ia1461" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve161" variable="bi165"/>
-			<InteractionElementReference purpose="target" ref="ve222" variable="bi29418"/>
+			<InteractionElementReference purpose="target" ref="ve222" variable="bi29756"/>
 		</Interaction>
 		<Interaction name="ia2459" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve161" variable="bi165"/>
-			<InteractionElementReference purpose="target" ref="ve2457" variable="bi29431"/>
+			<InteractionElementReference purpose="target" ref="ve2457" variable="bi29769"/>
 		</Interaction>
 		<Interaction name="ia3308" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve161" variable="bi165"/>
-			<InteractionElementReference purpose="target" ref="ve3306" variable="bi29438"/>
+			<InteractionElementReference purpose="target" ref="ve3306" variable="bi29776"/>
 		</Interaction>
 		<Interaction name="ia4591" type="dataStyle" derived="true">
 			<InteractionElementReference purpose="source" ref="ve4262"/>
@@ -9853,281 +9842,281 @@
 		</Interaction>
 		<Interaction name="ia24410" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve2457" variable="bi29432"/>
+			<InteractionElementReference purpose="target" ref="ve2457" variable="bi29770"/>
 		</Interaction>
 		<Interaction name="ia24411" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve3306" variable="bi29439"/>
+			<InteractionElementReference purpose="target" ref="ve3306" variable="bi29777"/>
 		</Interaction>
 		<Interaction name="ia24412" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve802" variable="bi29426"/>
+			<InteractionElementReference purpose="target" ref="ve802" variable="bi29764"/>
 		</Interaction>
 		<Interaction name="ia24415" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve1902" variable="bi29435"/>
+			<InteractionElementReference purpose="target" ref="ve1902" variable="bi29773"/>
 		</Interaction>
 		<Interaction name="ia24416" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve222" variable="bi29419"/>
+			<InteractionElementReference purpose="target" ref="ve222" variable="bi29757"/>
 		</Interaction>
 		<Interaction name="ia24417" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve246" variable="bi29421"/>
+			<InteractionElementReference purpose="target" ref="ve246" variable="bi29759"/>
 		</Interaction>
 		<Interaction name="ia24418" type="filter" dataStage="detail" derived="false">
 			<InteractionElementReference purpose="source" ref="ve24283" variable="bi27686"/>
-			<InteractionElementReference purpose="target" ref="ve147" variable="bi29415"/>
+			<InteractionElementReference purpose="target" ref="ve147" variable="bi29753"/>
 		</Interaction>
 		<Interaction name="ia27711" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve494" variable="bi2659"/>
-			<InteractionElementReference purpose="target" ref="ve5222" variable="bi29468"/>
+			<InteractionElementReference purpose="target" ref="ve5222" variable="bi29806"/>
 		</Interaction>
 		<Interaction name="ia27713" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve494" variable="bi2659"/>
-			<InteractionElementReference purpose="target" ref="ve5205" variable="bi29465"/>
+			<InteractionElementReference purpose="target" ref="ve5205" variable="bi29803"/>
 		</Interaction>
 		<Interaction name="ia27715" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve494" variable="bi2659"/>
-			<InteractionElementReference purpose="target" ref="ve5188" variable="bi29462"/>
+			<InteractionElementReference purpose="target" ref="ve5188" variable="bi29800"/>
 		</Interaction>
 		<Interaction name="ia27717" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve494" variable="bi2659"/>
-			<InteractionElementReference purpose="target" ref="ve5168" variable="bi29459"/>
+			<InteractionElementReference purpose="target" ref="ve5168" variable="bi29797"/>
 		</Interaction>
 		<Interaction name="ia27719" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve208" variable="bi216 bi218"/>
-			<InteractionElementReference purpose="target" ref="ve5168" variable="bi29459 bi29460"/>
+			<InteractionElementReference purpose="target" ref="ve5168" variable="bi29797 bi29798"/>
 		</Interaction>
 		<Interaction name="ia27720" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve208" variable="bi216 bi218"/>
-			<InteractionElementReference purpose="target" ref="ve5188" variable="bi29462 bi29463"/>
+			<InteractionElementReference purpose="target" ref="ve5188" variable="bi29800 bi29801"/>
 		</Interaction>
 		<Interaction name="ia27721" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve208" variable="bi216 bi218"/>
-			<InteractionElementReference purpose="target" ref="ve5205" variable="bi29465 bi29466"/>
+			<InteractionElementReference purpose="target" ref="ve5205" variable="bi29803 bi29804"/>
 		</Interaction>
 		<Interaction name="ia27722" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve208" variable="bi216 bi218"/>
-			<InteractionElementReference purpose="target" ref="ve5222" variable="bi29468 bi29469"/>
+			<InteractionElementReference purpose="target" ref="ve5222" variable="bi29806 bi29807"/>
 		</Interaction>
 		<Interaction name="ia27866" type="filter" derived="false">
 			<InteractionElementReference purpose="source" ref="ve161" variable="bi165"/>
-			<InteractionElementReference purpose="target" ref="ve1902" variable="bi29436"/>
+			<InteractionElementReference purpose="target" ref="ve1902" variable="bi29774"/>
 		</Interaction>
-		<Interaction name="ia29416" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29754" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve147" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29417" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29755" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve208" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29420" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29758" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve222" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29422" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29760" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve246" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29423" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29761" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve350" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29424" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29762" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve494" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29427" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29765" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve802" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29428" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29766" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve161" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29429" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29767" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve398" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29430" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29768" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve2442" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29433" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29771" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve2457" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29434" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29772" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve2540" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29437" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29775" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve1902" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29440" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29778" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve3306" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29441" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29779" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4258" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29442" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29780" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4262" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29443" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29781" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4264" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29444" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29782" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4266" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29445" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29783" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4270" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29446" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29784" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve4361" variable="pr4340"/>
 			<InteractionElementReference purpose="target" ref="ve4353" variable="pr4340"/>
 		</Interaction>
-		<Interaction name="ia29447" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29785" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4353" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29448" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29786" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve4361" variable="pr4340"/>
 			<InteractionElementReference purpose="target" ref="ve4355" variable="pr4340"/>
 		</Interaction>
-		<Interaction name="ia29449" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29787" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4355" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29450" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29788" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4474" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29451" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29789" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4478" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29452" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29790" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4480" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29453" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29791" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4482" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29454" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29792" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4486" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29455" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29793" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve4579" variable="pr4557"/>
 			<InteractionElementReference purpose="target" ref="ve4571" variable="pr4557"/>
 		</Interaction>
-		<Interaction name="ia29456" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29794" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4571" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29457" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29795" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve4579" variable="pr4557"/>
 			<InteractionElementReference purpose="target" ref="ve4573" variable="pr4557"/>
 		</Interaction>
-		<Interaction name="ia29458" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29796" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve4573" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29461" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29799" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve5168" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29464" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29802" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve5188" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29467" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29805" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve5205" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29470" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29808" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve5222" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29471" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29809" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve2638" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29472" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29810" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve185" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29473" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29811" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve379" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29474" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29812" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26335" variable="pr26333"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26333"/>
 		</Interaction>
-		<Interaction name="ia29475" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29813" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26343" variable="pr26341"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26341"/>
 		</Interaction>
-		<Interaction name="ia29476" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29814" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26352" variable="pr26349"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26349"/>
 		</Interaction>
-		<Interaction name="ia29477" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29815" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26360" variable="pr26358"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26358"/>
 		</Interaction>
-		<Interaction name="ia29478" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29816" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26368" variable="pr26366"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26366"/>
 		</Interaction>
-		<Interaction name="ia29479" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29817" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26376" variable="pr26374"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26374"/>
 		</Interaction>
-		<Interaction name="ia29480" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29818" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26384" variable="pr26382"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26382"/>
 		</Interaction>
-		<Interaction name="ia29481" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29819" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26393" variable="pr26390"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26390"/>
 		</Interaction>
-		<Interaction name="ia29482" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29820" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26402" variable="pr26399"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26399"/>
 		</Interaction>
-		<Interaction name="ia29483" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29821" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26410" variable="pr26408"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26408"/>
 		</Interaction>
-		<Interaction name="ia29484" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29822" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26419" variable="pr26416"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26416"/>
 		</Interaction>
-		<Interaction name="ia29485" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29823" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26428" variable="pr26425"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26425"/>
 		</Interaction>
-		<Interaction name="ia29486" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29824" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" ref="ve26437" variable="pr26434"/>
 			<InteractionElementReference purpose="target" ref="ve13502" variable="pr26434"/>
 		</Interaction>
-		<Interaction name="ia29487" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29825" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve14607" variable="pr12934"/>
 		</Interaction>
-		<Interaction name="ia29488" type="parameter" dataStage="detail" derived="true">
+		<Interaction name="ia29826" type="parameter" dataStage="detail" derived="true">
 			<InteractionElementReference purpose="source" variable="pr12934"/>
 			<InteractionElementReference purpose="target" ref="ve24283" variable="pr12934"/>
 		</Interaction>
@@ -10696,7 +10685,7 @@
 			<Revision editorVersion="2021.1.5" lastDate="2021-10-15T18:33:02.894Z"/>
 			<Revision editorVersion="2022.1.2" lastDate="2022-07-15T14:36:28.459Z"/>
 			<Revision editorVersion="2022.1.1" lastDate="2022-07-25T14:36:43.138Z"/>
-			<Revision editorVersion="2023.06" lastDate="2023-08-23T20:11:00.749Z"/>
+			<Revision editorVersion="2023.06" lastDate="2023-08-24T15:24:50.248Z"/>
 		</Editor>
 	</Editors>
 </History>
@@ -10707,14 +10696,14 @@
 					<LayoutOverlayMap/>
 				</RendererStates>
 			</GraphState>
-			<GraphState element="ve4478">
-				<Selections>
-					<Selection resultDefinition="dd4462">eq(${bi4396},&apos;Social Media Score&apos;)</Selection>
-				</Selections>
-			</GraphState>
 			<GraphState element="ve4262">
 				<Selections>
 					<Selection resultDefinition="dd4246">eq(${bi4181},&apos;Customer State&apos;)</Selection>
+				</Selections>
+			</GraphState>
+			<GraphState element="ve4478">
+				<Selections>
+					<Selection resultDefinition="dd4462">eq(${bi4396},&apos;Social Media Score&apos;)</Selection>
 				</Selections>
 			</GraphState>
 		</VisualElements>
