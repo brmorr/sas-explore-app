@@ -1,9 +1,7 @@
 
 
 #ve343 .span1 {
-  font-size: 10pt;
-}
-#ve343 .span3 {
+  color: #ffffff;
   font-size: 10pt;
 }
 #ve5222 .ReportElementContainer {
@@ -11,18 +9,10 @@
 }
 #ve343 .span2 {
   color: #ffffff;
+  font-size: 10pt;
 }
 #cd794 .If {
   color: #DD5757;
-}
-#ve343 .span5 {
-  font-size: 10pt;
-}
-#ve343 .span4 {
-  color: #ffffff;
-}
-#ve343 .span6 {
-  color: #ffffff;
 }
 #ve5137 .paragraph2 {
   text-align: right;
@@ -85,6 +75,9 @@
 #ve2540 .span9 {
   font-weight: bold;
 }
+#ve29746 .Table {
+  wrap-text: normal;
+}
 #ve5205 .ReportElementContainer {
   padding: 5px;
 }
@@ -137,9 +130,6 @@
 #ve398 .styleForTitle_paragraph20 {
   text-align: center;
 }
-#ve29401 .Table {
-  wrap-text: normal;
-}
 #ve4571 .GraphDataStyleDefault {
   marker-color: #33A3FF;
   text-color: #33A3FF;
@@ -173,14 +163,14 @@
 #ve26437 .ReportElementContainer {
   padding: 8px;
 }
-#ve3306 .styleForTitle_paragraph6 {
-  text-align: center;
-}
 #ve379 .styleForTitle_span12 {
   font-weight: bold;
 }
 #ve161 .ReportElementContainer {
   padding: 10px;
+}
+#ve3306 .styleForTitle_paragraph6 {
+  text-align: center;
 }
 #ve1472 .span4 {
   color: #ffffff;
@@ -209,6 +199,7 @@
   font-weight: bold;
 }
 #ve5137 .span1 {
+  color: #ffffff;
   font-size: 10pt;
 }
 #ve26402 .ReportElementContainer {
@@ -224,8 +215,8 @@
   color: #16976D;
 }
 #ve13446 .span1 {
-   font-weight: bold;
-    font-size: 12pt;
+     font-size: 12pt;
+    font-weight: bold;
 }
 #ve5132 .span2 {
   font-size: 14pt;
@@ -233,35 +224,24 @@
 #ve5132 .span1 {
   font-weight: bold;
 }
-#ve5137 .span4 {
-  color: #ffffff;
-}
 #ve5132 .span4 {
   color: #ffffff;
-}
-#ve5137 .span3 {
-  font-size: 10pt;
 }
 #ve5132 .span3 {
   color: #ffffff;
 }
 #ve5137 .span2 {
   color: #ffffff;
+  font-size: 10pt;
 }
 #ve26352 .ReportElementContainer {
   padding: 8px;
-}
-#ve29394 .Table {
-  wrap-text: normal;
 }
 #ve4353 .GraphDataStyle2 {
   fill-color: #929292;
 }
 #ve24283 .styleForTitle_span24 {
   font-weight: bold;
-}
-#ve29410 .Table {
-  wrap-text: normal;
 }
 #ve4353 .GraphDataStyle1 {
   marker-color: #FFCC32;
@@ -317,6 +297,9 @@
 }
 #cd3289 .If {
   color: #FFCC32;
+}
+#ve29737 .Table {
+  wrap-text: normal;
 }
 #ve26410 .ReportElementContainer {
   padding: 8px;
@@ -481,10 +464,10 @@
 #ve13530 .styleForTitle_paragraph10 {
   text-align: center;
 }
-#ve3306 .styleForTitle_span6 {
+#ve2638 .styleForTitle_span18 {
   font-weight: bold;
 }
-#ve2638 .styleForTitle_span18 {
+#ve3306 .styleForTitle_span6 {
   font-weight: bold;
 }
 #ve26393 .ReportElementContainer {
@@ -524,6 +507,9 @@
 #ve379 .Table {
   border-style: solid;
 }
+#ve29750 .Table {
+  wrap-text: normal;
+}
 #cd5782 .If {
   color: #16976D;
 }
@@ -537,19 +523,15 @@
   width: 200px;
 }
 #ve1478 .span1 {
+  color: #ffffff;
   font-size: 10pt;
 }
 #ve208 .LegendFill {
   transparency: 1;
 }
-#ve1478 .span4 {
-  color: #ffffff;
-}
-#ve1478 .span3 {
-  font-size: 10pt;
-}
 #ve1478 .span2 {
   color: #ffffff;
+  font-size: 10pt;
 }
 #ve4486 .firstColumn {
   width: 200px;
@@ -651,9 +633,6 @@
 }
 #ve802 .styleForTitle_span7 {
   font-weight: bold;
-}
-#ve12711 .ReportElementContainer {
-  padding: 3px;
 }
 #cd5794 .If {
   color: #FCDD7C;
