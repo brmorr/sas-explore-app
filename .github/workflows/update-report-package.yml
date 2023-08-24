@@ -1,6 +1,9 @@
 name: SAS Viya Report Packages CI/CD
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 * * * *'
 
 jobs:
   check_for_updates:
