@@ -14,13 +14,13 @@ jobs:
         with:
           node-version: 18
       - name: Check last modified
-        run: npm run check-package-updates || echo "needs_update=true" >> "$GITHUB_OUTPUT"
+        run: npm run check-package-updates || ( if [ $? == 2 ]; then echo "needs_update=true" >> "$GITHUB_OUTPUT"; else (exit 1); fi )
         id: check_last_modified
 
   create_report_package:
     name: Create Report Package
     needs: check_for_updates
-    if: needs.check_for_updates.outputs.needs_update == true
+    if: needs.check_for_updates.outputs.needs_update == 'true'
     runs-on: ubuntu-latest
     container:
       image: ${{ vars.CLI_CONTAINER_NAME }}

@@ -41,7 +41,7 @@ async function main() {
   // Return early (exit code 1)
   if (reportDate > pacakgeDate) {
     console.log('Package update needed');
-    process.exitCode = 1;
+    process.exitCode = 2;
     return;
   }
 
@@ -71,7 +71,7 @@ async function main() {
     console.log(`Table "${tableName}" modified: ${tableLastModifiedTimes[i]}`);
     if (tableDate > pacakgeDate) {
       console.log('Package update needed');
-      process.exitCode = 1;
+      process.exitCode = 2;
       return;
     }
   }
