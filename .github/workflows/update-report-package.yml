@@ -20,7 +20,7 @@ jobs:
   create_report_package:
     name: Create Report Package
     needs: check_for_updates
-    if: ${{ needs.check_for_updates.outputs.needs_update }}
+    if: needs.check_for_updates.outputs.needs_update == true
     runs-on: ubuntu-latest
     container:
       image: ${{ vars.CLI_CONTAINER_NAME }}
