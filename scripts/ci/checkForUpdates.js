@@ -21,6 +21,15 @@ async function main() {
   }
   const reportUri = `/reports/reports/${reportUid}`;
 
+  // Check to see if the SAS Viya deployment is available.
+  // If it is not then just exit (exit code 0) as there is no
+  // report package update available.
+  const viyaAvailable = await isViyaAvailable(hostUrl, token);
+  if (!viyaAvailable) {
+    console.log(`${hostUrl} is unreachable. No package update needed.`);
+    return;
+  }
+
   // Get the timestamp for the curernt report package, which is
   // the time when that package was generated.
   const packageGeneratedTime = getReportPackageGenerated(reportUid);
@@ -59,8 +68,10 @@ async function main() {
     token
   );
 
-  if(tableUris.length !== tableLastModifiedTimes.length) {
-    throw new Error(`Error getting table lastModified times.\nTable uri: ${tableUris}\nTable lastModified: ${tableLastModifiedTimes}`);
+  if (tableUris.length !== tableLastModifiedTimes.length) {
+    throw new Error(
+      `Error getting table lastModified times.\nTable uri: ${tableUris}\nTable lastModified: ${tableLastModifiedTimes}`
+    );
   }
 
   // If a table has been updated since the last package generation, then we need to updated.
@@ -77,6 +88,28 @@ async function main() {
   }
 
   console.log('No package update needed');
+}
+
+async function isViyaAvailable(hostUrl, token) {
+  try {
+    const resp = await fetch(hostUrl, {
+      method: 'HEAD',
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+
+    if (!resp.ok) {
+      // Non 2xx response code.... consider the server not available.
+      console.log(`HEAD call to ${hostUrl} failed with status ${resp.status}`);
+      return false;
+    }
+
+    return true;
+  } catch (e) {
+    console.error(e);
+    return false;
+  }
 }
 
 function getReportPackageGenerated(reportUid) {
