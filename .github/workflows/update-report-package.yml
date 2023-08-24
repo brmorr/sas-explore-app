@@ -16,6 +16,10 @@ jobs:
       - name: Check last modified
         run: npm run check-package-updates || ( if [ $? == 2 ]; then echo "needs_update=true" >> "$GITHUB_OUTPUT"; else (exit 1); fi )
         id: check_last_modified
+        env:
+          SAS_SERVICES_ENDPOINT: ${{ vars.SAS_SERVICES_ENDPOINT }}
+          SAS_VIYA_CLI_AUTH_TOKEN: ${{ secrets.SAS_VIYA_CLI_AUTH_TOKEN }}
+          REPORT_UID: ${{ vars.REPORT_UID }}
 
   create_report_package:
     name: Create Report Package
