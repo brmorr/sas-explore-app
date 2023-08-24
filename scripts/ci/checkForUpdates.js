@@ -65,7 +65,7 @@ async function main() {
 
   // If a table has been updated since the last package generation, then we need to updated.
   // Return early (exit code 1)
-  for (const i = 0; i < tableLastModifiedTimes.length; i++) {
+  for (let i = 0; i < tableLastModifiedTimes.length; i++) {
     const tableName = tableUris[i].split('/').at(-1);
     const tableDate = new Date(tableLastModifiedTimes[i]);
     console.log(`Table "${tableName}" modified: ${tableLastModifiedTimes[i]}`);
