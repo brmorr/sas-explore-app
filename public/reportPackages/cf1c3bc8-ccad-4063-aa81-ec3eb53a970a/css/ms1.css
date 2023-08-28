@@ -166,11 +166,11 @@
 #ve379 .styleForTitle_span12 {
   font-weight: bold;
 }
-#ve161 .ReportElementContainer {
-  padding: 10px;
-}
 #ve3306 .styleForTitle_paragraph6 {
   text-align: center;
+}
+#ve161 .ReportElementContainer {
+  padding: 10px;
 }
 #ve1472 .span4 {
   color: #ffffff;
@@ -252,12 +252,12 @@
 #cd5166 .If {
   color: #DD5757;
 }
-#ve161 .styleForTitle_span16 {
-  font-weight: bold;
-}
 #ve4266 .CustomStyle2 {
   background-color: #ffe598;
   color: #000000;
+}
+#ve161 .styleForTitle_span16 {
+  font-weight: bold;
 }
 #ve185 .styleForTitle_span3 {
   font-weight: bold;
@@ -303,9 +303,6 @@
 }
 #ve26410 .ReportElementContainer {
   padding: 8px;
-}
-#ve147 .LegendFill {
-  transparency: 1;
 }
 #ve4266 .firstColumn {
   width: 200px;
@@ -551,9 +548,6 @@
   font-size: 12pt;
 }
 #ve2540 .ReportElementContainer {
-  padding: 5px;
-}
-#ve147 .ReportElementContainer {
   padding: 5px;
 }
 #ve5149 .Container {
