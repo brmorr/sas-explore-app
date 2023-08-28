@@ -304,6 +304,9 @@
 #ve26410 .ReportElementContainer {
   padding: 8px;
 }
+#ve147 .LegendFill {
+  transparency: 1;
+}
 #ve4266 .firstColumn {
   width: 200px;
 }
@@ -548,6 +551,9 @@
   font-size: 12pt;
 }
 #ve2540 .ReportElementContainer {
+  padding: 5px;
+}
+#ve147 .ReportElementContainer {
   padding: 5px;
 }
 #ve5149 .Container {
