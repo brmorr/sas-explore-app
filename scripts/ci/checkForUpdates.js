@@ -169,7 +169,15 @@ async function getTableLastModified(hostUrl, tableUris, token) {
     }
 
     const tableInfo = await resp.json();
-    lastModified.push(tableInfo.attributes.sourceTableLastModified);
+
+    // If the table is loaded into CAS (attributes.state === "loaded") then use the modifiedTimeStamp property.
+    // If the table is not loaded, use attributes.sourceTableLastModified
+    const tableModified =
+      tableInfo.attributes?.state === 'loaded'
+        ? tableInfo.modifiedTimeStamp
+        : tableInfo.attributes?.sourceTableLastModified;
+
+    lastModified.push(tableModified);
   }
 
   return lastModified;
