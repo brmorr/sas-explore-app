@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.30.0" label="Business Performance Analysis" implicitInteractions="sectionPrompt reportPrompt sectionLink" createdLocale="en" createdVersion="4.2.2" dateCreated="2020-08-25T05:22:29Z" dateModified="2023-08-28T20:01:48Z" createdApplication="SAS Visual Analytics 8.5.1" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="29984">
 	<Results>
-		<Result ref="dd13546" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd13546" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="median" label="Median LV" ref="bi13547" varname="bi13547" column="c0"/>
 			</Variables>
@@ -14,7 +14,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="7SYSHPLWMCAQRRMKHHGEFKETAC2MMVAT" size="19" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[413235.53283401986
 ]]></Data>
 		</Result>
-		<Result ref="dd13539" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd13539" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="average" label="Average LV" ref="bi13540" varname="bi13540" column="c0"/>
 			</Variables>
@@ -27,7 +27,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="ZK64LAUWSWXXZLPHFOY5PCLIZAJOGUES" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[562108.8203666244
 ]]></Data>
 		</Result>
-		<Result ref="dd13532" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd13532" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="totalCount" label="Customers" ref="bi13533" varname="bi13533" column="c0"/>
 			</Variables>
@@ -40,7 +40,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="7CWOBSHPOJT4JMKQWYSEM5ZZH4XEYKEN" size="8" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[99392.0
 ]]></Data>
 		</Result>
-		<Result ref="dd13523" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd13523" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="average" label="Customer Purchasing Lifetime" ref="bi13524" varname="bi13524" column="c0"/>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="average" label="Up-Front Acquisition Cost" ref="bi13525" varname="bi13525" column="c1"/>
@@ -52,7 +52,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="PBYPROYLQMXQBMSABJ5MN5H4LNILUEIW" size="12" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[5.0,10000.0
 ]]></Data>
 		</Result>
-		<Result ref="dd13513" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd13513" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="DOLLAR12." usage="categorical" label="Lifetime Value" ref="bi13515" varname="bi13515" column="c0"/>
 				<NumericVariable format="DOLLAR12." usage="categorical" label="Lifetime Value (lower)" ref="bi13516" varname="bi13516" column="c1"/>
@@ -82,7 +82,7 @@
 4937073.61942,4937073.61942,5308298.52825,1.0
 ]]></Data>
 		</Result>
-		<Result ref="dd4502" type="relational" status="warning" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4502" type="relational" status="warning" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -97,7 +97,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4511" type="relational" status="warning" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4511" type="relational" status="warning" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -112,7 +112,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4520" type="relational" status="warning" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4520" type="relational" status="warning" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -127,7 +127,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4526" type="relational" status="warning" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4526" type="relational" status="warning" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -142,7 +142,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4507" type="relational" status="warning" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4507" type="relational" status="warning" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -157,7 +157,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4535" type="relational" status="warning" dataLevel="baseline" label="Geo Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4535" type="relational" status="warning" dataLevel="baseline" label="Geo Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -172,7 +172,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4497" type="relational" status="warning" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4497" type="relational" status="warning" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -203,7 +203,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4538" type="relational" status="warning" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4538" type="relational" status="warning" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -224,7 +224,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4569" type="relational" status="warning" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4569" type="relational" status="warning" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -246,7 +246,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4469" type="relational" status="warning" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4469" type="relational" status="warning" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -260,7 +260,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4375" type="relational" status="warning" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4375" type="relational" status="warning" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -281,7 +281,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4461" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4461" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -342,7 +342,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4462" type="relational" status="warning" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4462" type="relational" status="warning" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -397,7 +397,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4467" type="relational" status="warning" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4467" type="relational" status="warning" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -471,7 +471,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4466" type="relational" status="warning" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4466" type="relational" status="warning" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -498,7 +498,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4470" type="relational" status="warning" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4470" type="relational" status="warning" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -526,7 +526,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4471" type="relational" status="warning" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4471" type="relational" status="warning" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -554,7 +554,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4472" type="relational" status="warning" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4472" type="relational" status="warning" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -597,7 +597,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4473" type="relational" status="warning" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4473" type="relational" status="warning" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -620,7 +620,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4463" type="relational" status="warning" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4463" type="relational" status="warning" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -653,7 +653,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4465" type="relational" status="warning" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4465" type="relational" status="warning" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -686,7 +686,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4464" type="relational" status="warning" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4464" type="relational" status="warning" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -752,7 +752,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4468" type="relational" status="warning" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4468" type="relational" status="warning" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -787,7 +787,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4286" type="relational" status="warning" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4286" type="relational" status="warning" dataLevel="baseline" label="Stacked Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -802,7 +802,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4295" type="relational" status="warning" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4295" type="relational" status="warning" dataLevel="baseline" label="Scatter" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -817,7 +817,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4304" type="relational" status="warning" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4304" type="relational" status="warning" dataLevel="baseline" label="Heat Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -832,7 +832,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4310" type="relational" status="warning" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4310" type="relational" status="warning" dataLevel="baseline" label="Binning information" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -847,7 +847,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4291" type="relational" status="warning" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4291" type="relational" status="warning" dataLevel="baseline" label="Grouped Histogram" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -862,7 +862,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4319" type="relational" status="warning" dataLevel="baseline" label="Geo Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4319" type="relational" status="warning" dataLevel="baseline" label="Geo Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -941,7 +941,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4281" type="relational" status="warning" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4281" type="relational" status="warning" dataLevel="baseline" label="Bar" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -964,7 +964,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4322" type="relational" status="warning" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4322" type="relational" status="warning" dataLevel="baseline" label="UI Component" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1019,7 +1019,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4351" type="relational" status="warning" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4351" type="relational" status="warning" dataLevel="baseline" label="Text Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1041,7 +1041,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4253" type="relational" status="warning" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4253" type="relational" status="warning" dataLevel="baseline" label="ASTORE" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1055,7 +1055,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4161" type="relational" status="warning" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4161" type="relational" status="warning" dataLevel="baseline" label="Overall Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1076,7 +1076,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4245" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4245" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1137,7 +1137,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4246" type="relational" status="warning" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4246" type="relational" status="warning" dataLevel="baseline" label="Top Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1189,7 +1189,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4251" type="relational" status="warning" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4251" type="relational" status="warning" dataLevel="baseline" label="Screening Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1265,7 +1265,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4250" type="relational" status="warning" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4250" type="relational" status="warning" dataLevel="baseline" label="Event" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1292,7 +1292,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4254" type="relational" status="warning" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4254" type="relational" status="warning" dataLevel="baseline" label="Score Code" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1320,7 +1320,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4255" type="relational" status="warning" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4255" type="relational" status="warning" dataLevel="baseline" label="New Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1348,7 +1348,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4256" type="relational" status="warning" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4256" type="relational" status="warning" dataLevel="baseline" label="External Columns" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1389,7 +1389,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4257" type="relational" status="warning" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4257" type="relational" status="warning" dataLevel="baseline" label="Anomalies" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1412,7 +1412,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4247" type="relational" status="warning" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4247" type="relational" status="warning" dataLevel="baseline" label="Top Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1445,7 +1445,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4249" type="relational" status="warning" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4249" type="relational" status="warning" dataLevel="baseline" label="Bottom Subgroups Summary" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1478,7 +1478,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4248" type="relational" status="warning" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4248" type="relational" status="warning" dataLevel="baseline" label="Subgroups Summary ID Map" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1540,7 +1540,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd4252" type="relational" status="warning" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd4252" type="relational" status="warning" dataLevel="baseline" label="Explanation Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -1575,7 +1575,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd409" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd409" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<NumericVariable format="MONTH3" usage="categorical" label="Purchase Month" ref="bi13033" varname="bi13033" column="c0"/>
 				<NumericVariable format="PERCENT12." usage="quantitative" definedAggregation="average" label="Reputation Score (%)" ref="bi2572" varname="bi2572" column="c1"/>
@@ -1598,7 +1598,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd385" type="flattenedMultidimensional" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd385" type="flattenedMultidimensional" status="warning" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Error processing request)</MessageText>
@@ -1754,7 +1754,7 @@
 			</Messages>
 			<Data availableRowCount="0" size="0" format="CSV" rowCount="0"></Data>
 		</Result>
-		<Result ref="dd364" type="relational" status="success" dataLevel="baseline" label="Parallel Coordinates Plot" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd364" type="relational" status="success" dataLevel="baseline" label="Parallel Coordinates Plot" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable label="Reason for return" ref="bi369" varname="bi369" column="c0"/>
 				<StringVariable label="Product Category" ref="bi368" varname="bi368" column="c1"/>
@@ -1773,7 +1773,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd366" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd366" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable label="Number of Polylines" ref="bi362" varname="bi362" column="c0"/>
 				<StringVariable label="Polylines" ref="bi363" varname="bi363" column="c1"/>
@@ -1788,7 +1788,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd365" type="relational" status="success" dataLevel="baseline" label="Dependent Variables Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd365" type="relational" status="success" dataLevel="baseline" label="Dependent Variables Results" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable label="Variable Name" ref="bi357" varname="bi357" column="c0"/>
 				<NumericVariable format="BEST." usage="quantitative" label="Bin lower bound" ref="bi358" varname="bi358" column="c1"/>
@@ -1813,7 +1813,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd2515" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd2515" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<NumericVariable format="MONYY7" usage="categorical" label="Purchase Month/Year" ref="bi12955" varname="bi12955" column="c0"/>
 				<NumericVariable format="MONYY7" usage="categorical" label="Purchase Month/Year" ref="bi12956" varname="bi12956" column="c1"/>
@@ -1847,7 +1847,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd2641" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd2641" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<NumericVariable format="MONYY7" usage="categorical" label="Purchase Month/Year" ref="bi12936" varname="bi12936" column="c0"/>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Purchases Amount" ref="bi2646" varname="bi2646" column="c1"/>
@@ -1894,7 +1894,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd2710" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd2710" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<NumericVariable format="PERCENT12." usage="quantitative" definedAggregation="average" label="Reputation Score (%)" ref="bi2711" varname="bi2711" column="c0"/>
 			</Variables>
@@ -1907,7 +1907,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd2437" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd2437" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<NumericVariable format="PERCENT12." usage="quantitative" definedAggregation="average" label="Reputation Score (%)" ref="bi2450" varname="bi2450" column="c0"/>
 			</Variables>
@@ -1923,7 +1923,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd26440" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd26440" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="categorical" label="Time Since Last Purchase (month)" ref="bi26442" varname="bi26442" column="c0"/>
 			</Variables>
@@ -1945,7 +1945,7 @@
 12.0
 ]]></Data>
 		</Result>
-		<Result ref="dd26431" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd26431" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="categorical" label="Store Visits" ref="bi26433" varname="bi26433" column="c0"/>
 			</Variables>
@@ -1967,7 +1967,7 @@
 52.0
 ]]></Data>
 		</Result>
-		<Result ref="dd26422" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd26422" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="categorical" label="Prior Return Issues" ref="bi26424" varname="bi26424" column="c0"/>
 			</Variables>
@@ -1984,7 +1984,7 @@
 4.0
 ]]></Data>
 		</Result>
-		<Result ref="dd26413" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd26413" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Text Message Ads" ref="bi26415" varname="bi26415" column="c0"/>
 			</Variables>
@@ -1994,7 +1994,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="MU4ODLOXDQ2FYU3I5L5OU4L72RFCOZSW" size="10" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[6814226.0
 ]]></Data>
 		</Result>
-		<Result ref="dd26405" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd26405" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<StringVariable label="Sales Channel" ref="bi26407" varname="bi26407" column="c0"/>
 			</Variables>
@@ -2017,7 +2017,7 @@
 "Retail"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd26396" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd26396" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<StringVariable label="Last Order Type" ref="bi26398" varname="bi26398" column="c0"/>
 			</Variables>
@@ -2044,7 +2044,7 @@
 "Streetware"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd26387" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd26387" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Last Discount Amount" ref="bi26389" varname="bi26389" column="c0"/>
 			</Variables>
@@ -2054,7 +2054,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="MZQ4TS6POKAYOAI3DP6YIZQEOS2EIKZA" size="19" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[144258.21797228642
 ]]></Data>
 		</Result>
-		<Result ref="dd26379" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd26379" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Last CC Charge" ref="bi26381" varname="bi26381" column="c0"/>
 			</Variables>
@@ -2064,7 +2064,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="CK56W25QE5ULKOEVBQALPW4OJSP6JBUF" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[3239243.147171158
 ]]></Data>
 		</Result>
-		<Result ref="dd26371" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd26371" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Household Income" ref="bi26373" varname="bi26373" column="c0"/>
 			</Variables>
@@ -2074,7 +2074,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="FBNORGAYX4GRDZCVUW5G6PAXYDJSGVA7" size="14" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[3.030185477E9
 ]]></Data>
 		</Result>
-		<Result ref="dd26363" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd26363" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Emails in Peak Time" ref="bi26365" varname="bi26365" column="c0"/>
 			</Variables>
@@ -2084,7 +2084,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="EG2466EIGMUF3BAUNMGZA74JGQEKQJ6G" size="12" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[2.4112489E7
 ]]></Data>
 		</Result>
-		<Result ref="dd26355" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd26355" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<StringVariable label="Credit Level" ref="bi26357" varname="bi26357" column="c0"/>
 			</Variables>
@@ -2107,7 +2107,7 @@
 "smax prime"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd26346" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd26346" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Total Purchases (Last 3 years)" ref="bi26348" varname="bi26348" column="c0"/>
 			</Variables>
@@ -2117,7 +2117,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="6NGP5IHLYNEALTBN6LKPXCTR2A5JFTNY" size="13" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[1.83453872E8
 ]]></Data>
 		</Result>
-		<Result ref="dd26338" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd26338" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Variables>
 				<NumericVariable format="DOLLAR12." usage="quantitative" definedAggregation="sum" label="Average Order Value (Last 3 years)" ref="bi26340" varname="bi26340" column="c0"/>
 			</Variables>
@@ -2127,7 +2127,7 @@
 			<Data isIndexed="false" availableRowCount="1" contentKey="B75Z332R52RYOV35YL5SHXETECBV2G7D" size="18" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[5803333.003791063
 ]]></Data>
 		</Result>
-		<Result ref="dd1969" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd1969" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable label="Warehouse (Ship To)" ref="bi165" varname="bi165" column="c0"/>
 				<NumericVariable format="COMMA12." usage="quantitative" definedAggregation="average" label="Warehouse Capacity" ref="bi173" varname="bi173" column="c1"/>
@@ -2153,7 +2153,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd211" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd211" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable label="Reason for return" ref="bi216" varname="bi216" column="c0"/>
 				<StringVariable label="Influencer Category" ref="bi218" varname="bi218" column="c1"/>
@@ -2189,7 +2189,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd497" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd497" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable label="Reason for return" ref="bi2659" varname="bi2659" column="c0"/>
 				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="Exchange Only" ref="bi502" varname="bi502" column="c1"/>
@@ -2218,7 +2218,7 @@
 				<Parameter label="Year Offset" prompt="pr12934" dataType="double" format="COMMA12.">2.0</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd27671" type="relational" status="success" dataLevel="baseline" label="Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd27671" type="relational" status="success" dataLevel="baseline" label="Region" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable label="Customer State" ref="bi27693" varname="bi27693" column="c0"/>
 				<StringVariable label="Map ID" ref="bi27683" varname="bi27683" column="c1"/>
@@ -2299,7 +2299,7 @@
 				<MapDataFile contentKey="5PUMV4G7DOC7LVSC3C2RY5TOEUVI55HE" size="272175" mapId="MAPSGFK.VANAMERICA1" file="dd27671_MAPSGFK.VANAMERICA1.gml"/>
 			</MapDataFiles>
 		</Result>
-		<Result ref="dd2451" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd2451" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Customer State" ref="bi29922" varname="ru0" column="c0"/>
 				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29923" varname="ru1" column="c1"/>
@@ -2403,7 +2403,7 @@
 "WA"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd3301" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd3301" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29930" varname="ru0" column="c0"/>
 				<StringVariable usage="rollup" label="Customer State" ref="bi29929" varname="ru1" column="c1"/>
@@ -2507,7 +2507,7 @@
 "WA"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd795" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd795" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29918" varname="ru0" column="c0"/>
 				<StringVariable usage="rollup" label="Customer State" ref="bi29917" varname="ru1" column="c1"/>
@@ -2611,7 +2611,7 @@
 "WA"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd1905" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd1905" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Customer State" ref="bi29926" varname="ru0" column="c0"/>
 				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29927" varname="ru1" column="c1"/>
@@ -2631,7 +2631,7 @@
 			<DataFile contentKey="ODIZBNLB4FTBGPQZ7F5CUZ57SAPZA2VD" size="2002" format="CSV" rowCount="68" grandTotal="false" dataLayout="rollup" file="dd1905.csv" isIndexed="true" availableRowCount="68"/>
 			<StringTableFile contentKey="7ORXT4LJUNNU2NCMIXSLKCCTXZJUOYYX" size="98" format="CSV" rowCount="19" file="dd1905index.csv"/>
 		</Result>
-		<Result ref="dd225" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd225" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Customer State" ref="bi29910" varname="ru0" column="c0"/>
 				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29911" varname="ru1" column="c1"/>
@@ -2735,7 +2735,7 @@
 "WA"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd241" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd241" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Customer State" ref="bi29913" varname="ru0" column="c0"/>
 				<NumericVariable format="MONYY7" usage="categorical" label="Purchase Month/Year" ref="bi12937" varname="bi12937" column="c1"/>
@@ -2835,7 +2835,7 @@
 "WA"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd5207" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd5207" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Reason for return" ref="bi29959" varname="ru0" column="c0"/>
 				<StringVariable usage="rollup" label="Influencer Category" ref="bi29960" varname="ru1" column="c1"/>
@@ -2877,7 +2877,7 @@
 "Yes"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd5190" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd5190" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Reason for return" ref="bi29956" varname="ru0" column="c0"/>
 				<StringVariable usage="rollup" label="Influencer Category" ref="bi29957" varname="ru1" column="c1"/>
@@ -2919,7 +2919,7 @@
 "Yes"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd5173" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd5173" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Influencer Category" ref="bi29954" varname="ru0" column="c0"/>
 				<StringVariable usage="rollup" label="Reason for return" ref="bi29953" varname="ru1" column="c1"/>
@@ -2961,7 +2961,7 @@
 "Yes"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd5153" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd5153" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Reason for return" ref="bi29950" varname="ru0" column="c0"/>
 				<StringVariable usage="rollup" label="Influencer Category" ref="bi29951" varname="ru1" column="c1"/>
@@ -3003,7 +3003,7 @@
 "Yes"
 ]]></StringTable>
 		</Result>
-		<Result ref="dd150" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-06T14:13:56.726Z">
+		<Result ref="dd150" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="false" sortLocale="en_US" tableDateModified="2023-09-05T21:06:30.585Z">
 			<Variables>
 				<StringVariable usage="rollup" label="Customer State" ref="bi29981" varname="ru0" column="c0"/>
 				<StringVariable usage="rollup" label="Warehouse (Ship To)" ref="bi29982" varname="ru1" column="c1"/>
@@ -3026,7 +3026,7 @@
 			<DataFile contentKey="EZ6T7BTII35XW55MRHUSCM2I3E3Z6M57" size="14506" format="CSV" rowCount="471" grandTotal="false" dataLayout="rollup" file="dd150.csv" isIndexed="true" availableRowCount="471"/>
 			<StringTableFile contentKey="6YZF3EUZAYIH673ED5DUXEQDNWEWMTLY" size="230" format="CSV" rowCount="29" file="dd150index.csv"/>
 		</Result>
-		<Result ref="dd13500" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd13500" type="relational" status="warning" dataLevel="baseline" label="Relative Importance" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -3103,7 +3103,7 @@
 				<Parameter prompt="pr26434" dataType="string" format="BEST12.">&apos;2&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd13453" type="relational" status="warning" dataLevel="baseline" label="Paragraph Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd13453" type="relational" status="warning" dataLevel="baseline" label="Paragraph Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -3137,7 +3137,7 @@
 				<Parameter prompt="pr26434" dataType="string" format="BEST12.">&apos;2&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd13501" type="relational" status="warning" dataLevel="baseline" label="Prediction Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd13501" type="relational" status="warning" dataLevel="baseline" label="Prediction Description" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -3182,7 +3182,7 @@
 				<Parameter prompt="pr26434" dataType="string" format="BEST12.">&apos;2&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd13450" type="relational" status="warning" dataLevel="baseline" label="Predicted Value" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd13450" type="relational" status="warning" dataLevel="baseline" label="Predicted Value" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
@@ -3216,7 +3216,7 @@
 				<Parameter prompt="pr26434" dataType="string" format="BEST12.">&apos;2&apos;</Parameter>
 			</Parameters>
 		</Result>
-		<Result ref="dd13499" type="relational" status="warning" dataLevel="baseline" label="Factor Value" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-06T14:13:58.965Z">
+		<Result ref="dd13499" type="relational" status="warning" dataLevel="baseline" label="Factor Value" dataLocale="en_US" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2023-09-05T21:06:37.746Z">
 			<Messages>
 				<Message messageKey="limitedInteractivity" messageLevel="warning">
 					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
