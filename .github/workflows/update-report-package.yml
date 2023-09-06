@@ -2,6 +2,11 @@ name: SAS Viya Report Packages CI/CD
 
 on:
   workflow_dispatch:
+    inputs:
+      force_update:
+        description: Force report package update
+        type: boolean
+        default: false
   schedule:
     # 10:30AM EST, Monday - Friday
     - cron: '30 14 * * 1-5'
@@ -11,13 +16,14 @@ jobs:
     name: Check for updated report content
     runs-on: ubuntu-latest
     outputs:
-      needs_update: ${{ steps.check_last_modified.outputs.needs_update }}
+      needs_update: ${{ inputs.force_update && 'true' || steps.check_last_modified.outputs.needs_update }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: 18
       - name: Check last modified
+        if: inputs.force_update == false
         run: npm run check-package-updates || ( if [ $? == 2 ]; then echo "needs_update=true" >> "$GITHUB_OUTPUT"; else (exit 1); fi )
         id: check_last_modified
         env:
