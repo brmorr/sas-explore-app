@@ -19,7 +19,7 @@ npm start
 The SAS Viya CLI is used by the Github Action CI/CD workflow to automatically update our report package. In order to use the CLI in that environment, you need to build it into a docker container.
 
 ### Download the CLI (Linux version)
-The SAS Viya CLI can be downloaded from [support.sas.com](https://support.sas.com/downloads/package.htm?pid=2512). Note that you need a SAS profile account in order to access the CLI download. The container that we will build is Alpine Linux, so make sure that you download the Linux version of the CLI.
+The SAS Viya CLI can be downloaded from [support.sas.com](https://support.sas.com/downloads/package.htm?pid=2512). Note that you need a SAS profile account in order to access the CLI download. The container uses Linux base image, so make sure that you download the Linux version of the CLI.
 
 ### Build the docker container
 1. Move the CLI zip package into the `sas-viya-cli-container` folder inside this project.
