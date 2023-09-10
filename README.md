@@ -107,3 +107,17 @@ SAS_VIYA_CLI_CLIENT_SECRET=
 # The authentication token for the oAuth client
 SAS_VIYA_CLI_AUTH_TOKEN=
 ```
+
+## References
+- SAS Viya Documentation
+  - [SAS Viya CLI](https://documentation.sas.com/doc/en/sasadmincdc/v_043/calcli/titlepage.htm)
+  - [Obtain an Access Token Using an Authorization Code](https://documentation.sas.com/doc/en/sasadmincdc/v_043/calauthmdl/n1iyx40th7exrqn1ej8t12gfhm88.htm#p0c3t34ecqoe1vn1c4tw0x3wnkcs)
+  - [Register an OAuth Client ID](https://documentation.sas.com/doc/en/sasadmincdc/v_043/calauthmdl/n1iyx40th7exrqn1ej8t12gfhm88.htm#n0ce1kz53qzmukn165fzrqdsws3e)
+- SAS Viya REST APIs
+  - [SAS Logon](https://developer.sas.com/apis/rest/CoreServices/#sas-logon)
+  - [Reports](https://developer.sas.com/apis/rest/Visualization/#reports)
+  - [Relationships](https://developer.sas.com/apis/rest/CoreServices/#relationships)
+  - [Data Tables](https://developer.sas.com/apis/rest/DataManagement/#data-tables)
+- [Building a SAS Viya CLI docker container](https://communities.sas.com/t5/SAS-Communities-Library/SAS-administration-command-line-interface-in-a-container-Part-1/ta-p/671505)
+- [Microsoft Azure Static Web App Quickstart](https://learn.microsoft.com/en-us/azure/static-web-apps/getting-started?tabs=react)
+

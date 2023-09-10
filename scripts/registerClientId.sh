@@ -22,6 +22,15 @@ else
   echo "SAS Viya URL: $SAS_SERVICES_ENDPOINT"
 fi
 
+# This script first uses the authorization code flow in order to obtain an user access token.
+# This method is documented at 
+# https://documentation.sas.com/doc/en/sasadmincdc/v_043/calauthmdl/n1iyx40th7exrqn1ej8t12gfhm88.htm#p0c3t34ecqoe1vn1c4tw0x3wnkcs
+#
+# It then uses that access token to create a new oAuth Client ID
+# This is documented at
+# https://documentation.sas.com/doc/en/sasadmincdc/v_043/calauthmdl/n1iyx40th7exrqn1ej8t12gfhm88.htm#n0ce1kz53qzmukn165fzrqdsws3e
+
+# Prompt user to login and get authorization code
 AUTH_URL="${SAS_SERVICES_ENDPOINT}/SASLogon/oauth/authorize?client_id=sas.cli&response_type=code"
 echo "Open the following link in a web browser and sign in to obtain an authorization code:"
 echo "${AUTH_URL}"
@@ -30,7 +39,7 @@ echo
 read -p "Code: " AUTH_CODE
 
 
-# Get token for SAS_VIYA_ADMIN_ID user
+# Obtain user access token
 ADMIN_TOKEN_RESP=$(curl -s -k ${SAS_SERVICES_ENDPOINT}/SASLogon/oauth/token \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -u "sas.cli:" \
@@ -83,5 +92,3 @@ echo "SAS_VIYA_CLI_CLIENT_ID=${SAS_VIYA_CLI_CLIENT_ID}"
 echo
 echo "SAS_VIYA_CLI_CLIENT_SECRET=${SAS_VIYA_CLI_CLIENT_SECRET}"
 echo
-# echo "SAS_VIYA_AUTH_EXPIRE=${SAS_VIYA_AUTH_EXPIRE}"
-# echo
