@@ -30,6 +30,11 @@ if [[ -z "${SAS_VIYA_CLI_CLIENT_SECRET}" ]]; then
   read -p  "Enter Client Secret: " SAS_VIYA_CLI_CLIENT_SECRET
 fi
 
+# This script uses the authorization code flow in order to obtain an access token.
+# This method is documented at 
+# https://documentation.sas.com/doc/en/sasadmincdc/v_043/calauthmdl/n1iyx40th7exrqn1ej8t12gfhm88.htm#p0c3t34ecqoe1vn1c4tw0x3wnkcs
+
+# Prompt user to login and get authorization code
 AUTH_URL="${SAS_SERVICES_ENDPOINT}/SASLogon/oauth/authorize?client_id=${SAS_VIYA_CLI_CLIENT_ID}&response_type=code"
 echo "Open the following link in a web browser and sign in to obtain an authorization code:"
 echo "${AUTH_URL}"
@@ -42,7 +47,8 @@ echo
 echo "Generating auth token for ${SAS_VIYA_CLI_CLIENT_ID}:${SAS_VIYA_CLI_CLIENT_SECRET}"
 echo
 
-AUTH_TOKEN_RESP=$(curl --verbose -k ${SAS_SERVICES_ENDPOINT}/SASLogon/oauth/token \
+# Obtain the Client ID access token
+AUTH_TOKEN_RESP=$(curl -s -k ${SAS_SERVICES_ENDPOINT}/SASLogon/oauth/token \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -u "${SAS_VIYA_CLI_CLIENT_ID}:${SAS_VIYA_CLI_CLIENT_SECRET}" \
   -d "grant_type=authorization_code&code=${AUTH_CODE}")
