@@ -7,9 +7,10 @@ on:
         description: Force report package update
         type: boolean
         default: false
-  schedule:
-    # 10:30AM EST, Monday - Friday
-    - cron: '30 14 * * 1-5'
+  # Comment out scheduled run since system is permanently down
+  # schedule:
+  #   # 10:30AM EST, Monday - Friday
+  #   - cron: '30 14 * * 1-5'
 
 jobs:
   check_for_updates:
