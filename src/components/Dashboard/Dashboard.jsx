@@ -39,7 +39,7 @@ export function Dashboard({ packageUri }) {
       <div className="kv-grid-container">
         <sas-report-object
           class="keyvalue drop-shadow"
-          objectName="ve2457"
+          objectName="ve25660"
           packageUri={packageUri}
         ></sas-report-object>
         <sas-report-object

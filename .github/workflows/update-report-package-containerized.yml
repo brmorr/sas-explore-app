@@ -1,0 +1,100 @@
+---
+name: SAS Viya Report Packages CI/CD (containerized)
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: Force report package update
+        type: boolean
+        default: false
+  # Comment out scheduled run since system is permanently down
+  # schedule:
+  #   # 10:30AM EST, Monday - Friday
+  #   - cron: '30 14 * * 1-5'
+
+jobs:
+  check_for_updates:
+    name: Check for updated report content
+    runs-on: self-hosted
+    outputs:
+      needs_update: ${{ inputs.force_update && 'true' || steps.check_last_modified.outputs.needs_update }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Check last modified
+        if: inputs.force_update == false
+        run: npm run check-package-updates || ( if [ $? == 2 ]; then echo "needs_update=true" >> "$GITHUB_OUTPUT"; else (exit 1); fi )
+        id: check_last_modified
+        env:
+          SAS_SERVICES_ENDPOINT: ${{ vars.SAS_SERVICES_ENDPOINT }}
+          SAS_VIYA_CLI_AUTH_TOKEN: ${{ secrets.SAS_VIYA_CLI_AUTH_TOKEN }}
+          REPORT_UID: ${{ vars.REPORT_UID }}
+
+  create_report_package:
+    name: Create Report Package
+    needs: check_for_updates
+    if: needs.check_for_updates.outputs.needs_update == 'true'
+    runs-on: self-hosted
+    container:
+      image: ${{ vars.CLI_CONTAINER_NAME }}
+      env:
+        SAS_SERVICES_ENDPOINT: ${{ vars.SAS_SERVICES_ENDPOINT }}
+        SAS_VIYA_CLI_AUTH_TOKEN: ${{ secrets.SAS_VIYA_CLI_AUTH_TOKEN }}
+        REPORT_UID: ${{ vars.REPORT_UID }}
+    steps:
+      - name: Install plugins
+        run: HOME=/home/sas sas-viya plugins install --repo SAS reports
+      - name: Login
+        run: HOME=/home/sas sas-viya -k auth loginJwt -jwt $SAS_VIYA_CLI_AUTH_TOKEN
+      - name: Create package
+        run: |
+          mkdir /home/sas/reportPackage
+          HOME=/home/sas sas-viya -k reports build-package --id $REPORT_UID --output-location /home/sas/reportPackage --output-file report
+      - name: Upload package artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: reportPackage
+          path: /home/sas/reportPackage
+          if-no-files-found: error
+
+  commit_report_package:
+    name: Commit Report Package
+    needs: create_report_package
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          path: repo
+      - name: Download package
+        uses: actions/download-artifact@v3
+        with:
+          name: reportPackage
+          path: downloads
+      - name: Prepare commit
+        run: |
+          unzip downloads/report.sasreportpkg.zip -d downloads/${REPORT_UID}
+          rm -rf repo/public/reportPackages/${REPORT_UID}
+          mv downloads/${REPORT_UID} repo/public/reportPackages
+        env:
+          REPORT_UID: ${{ vars.REPORT_UID }}
+      - name: Create Pull Request
+        id: create-pr
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.PAT }}
+          path: repo
+          branch: update-report-package
+          commit-message: 'feat: update report package'
+          title: 'update report package'
+          body: 'Automated updated of the SAS Viya report package'
+      - name: Enable Pull Request Automerge
+        if: ${{ steps.create-pr.outputs.pull-request-number }}
+        run: |
+          cd repo
+          gh pr merge --squash --auto --delete-branch "${{ steps.create-pr.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}

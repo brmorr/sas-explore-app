@@ -1,6 +1,6 @@
-# SAS Explore App
+# SAS Report Package App
 
-SAS Explore App is a web application built to demonstrate the end-to-end workflow of delivering SAS Visual Analytics insights to the web through a custom web application. This is the companion repository for the SAS Explore 2023 breakout session `Unlocking Actionable Intelligence at Scale: Streamlining Delivery of SAS® Visual Analytics Insights`.
+SAS Report Package App is a web application built to demonstrate the end-to-end workflow of delivering SAS Visual Analytics insights to the web through a custom web application. This is the companion repository for the SAS Innovate 2024 super demo  breakout session `Unlocking Actionable Intelligence at Scale: Automating Delivery of SAS® Visual Analytics Insights`. This is the evolution of the content delivered at SAS Explore 2023, in a breakout session by the same name.
 
 ## Getting Started
 

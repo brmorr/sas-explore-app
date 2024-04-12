@@ -1,0 +1,5 @@
+Crosstab - Date Hierarchy - Purchase Date 1
+  Interactivity for this object is limited for the following reasons:
+    * The data to support actions could not be retrieved. Error processing request
+  These reasons might only be a problem because of these data complexities:
+    * This object uses a data item, filter, or rank that references a parameter.

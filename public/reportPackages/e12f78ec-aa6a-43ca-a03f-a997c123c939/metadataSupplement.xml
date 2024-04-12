@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSupplement>
+    <tables>
+        <table dataLocale="en_US" dataSources="ds33068" resourceIdentifier="'cas-shared-default','Public','END_WAVE_SALES_DETAILV3','en_US'" tableModifiedTimeStamp="2024-04-11T19:22:50.932Z">
+            <columns>
+                <column dataType="string" label="cust_Id" xref="cust_Id"/>
+                <column dataType="double" format="BEST1." label="Influencer" xref="Influencer"/>
+                <column dataType="double" format="BEST12." label="cust_LTV" xref="cust_LTV"/>
+                <column dataType="string" label="cust_State" xref="cust_State"/>
+                <column dataType="date" format="DATE9" label="purchase_Date" xref="purchase_Date"/>
+                <column dataType="string" label="product_Sku" xref="product_Sku"/>
+                <column dataType="string" label="product_Name" xref="product_Name"/>
+                <column dataType="string" label="product_Category" xref="product_Category"/>
+                <column dataType="double" format="BEST12." label="product_Price" xref="product_Price"/>
+                <column dataType="double" format="BEST12." label="exchange_Only" xref="exchange_Only"/>
+                <column dataType="double" format="BEST12." label="amount_Paid" xref="amount_Paid"/>
+                <column dataType="string" label="returned_Reason" xref="returned_Reason"/>
+                <column dataType="double" format="BEST12." label="returned" xref="returned"/>
+                <column dataType="double" format="BEST12." label="survey_Score" xref="survey_Score"/>
+                <column dataType="double" format="BEST12." label="preferred_Category_Accessory" xref="preferred_Category_Accessory"/>
+                <column dataType="double" format="BEST12." label="preferred_Category_Children" xref="preferred_Category_Children"/>
+                <column dataType="double" format="BEST12." label="preferred_Category_Men" xref="preferred_Category_Men"/>
+                <column dataType="double" format="BEST12." label="preferred_Category_Women" xref="preferred_Category_Women"/>
+                <column dataType="double" format="BEST12." label="preferred_Style_Leisure" xref="preferred_Style_Leisure"/>
+                <column dataType="double" format="BEST12." label="preferred_Style_Professional" xref="preferred_Style_Professional"/>
+                <column dataType="double" format="BEST12." label="preferred_Style_Sports" xref="preferred_Style_Sports"/>
+                <column dataType="string" label="ship_To" xref="ship_To"/>
+                <column dataType="double" format="BEST12." label="total_Accessory_Purch_Count" xref="total_Accessory_Purch_Count"/>
+                <column dataType="double" format="BEST12." label="total_Children_Purch_Count" xref="total_Children_Purch_Count"/>
+                <column dataType="double" format="BEST12." label="total_Defective_Return_Count" xref="total_Defective_Return_Count"/>
+                <column dataType="double" format="BEST12." label="total_Leisure_Purch_Count" xref="total_Leisure_Purch_Count"/>
+                <column dataType="double" format="BEST12." label="total_Men_Purch_Count" xref="total_Men_Purch_Count"/>
+                <column dataType="double" format="BEST12." label="total_Professional_Purch_Count" xref="total_Professional_Purch_Count"/>
+                <column dataType="double" format="BEST12." label="total_Purchases_Amount" xref="total_Purchases_Amount"/>
+                <column dataType="double" format="BEST12." label="total_Purchases_Count" xref="total_Purchases_Count"/>
+                <column dataType="double" format="BEST12." label="total_Purchases_Kept_Amount" xref="total_Purchases_Kept_Amount"/>
+                <column dataType="double" format="BEST12." label="total_Purchases_Kept_Count" xref="total_Purchases_Kept_Count"/>
+                <column dataType="double" format="BEST12." label="total_Return_Amount" xref="total_Return_Amount"/>
+                <column dataType="double" format="BEST12." label="total_Return_Count" xref="total_Return_Count"/>
+                <column dataType="double" format="BEST12." label="total_Sports_Purch_Count" xref="total_Sports_Purch_Count"/>
+                <column dataType="double" format="BEST12." label="total_Women_Purch_Count" xref="total_Women_Purch_Count"/>
+                <column dataType="double" format="BEST12." label="Customer_satisfaction" xref="Customer_satisfaction"/>
+                <column dataType="double" format="BEST12." label="month" xref="month"/>
+                <column dataType="double" format="BEST12." label="year" xref="year"/>
+                <column dataType="double" format="BEST12." label="day" xref="day"/>
+                <column dataType="double" format="BEST12." label="Social_media_score" xref="Social_media_score"/>
+                <column dataType="double" format="BEST12." label="Online_reviews" xref="Online_reviews"/>
+                <column dataType="double" format="BEST12." label="x" xref="x"/>
+                <column dataType="double" format="BEST12." label="Reputation_Score" xref="Reputation_Score"/>
+            </columns>
+        </table>
+    </tables>
+    <version>2</version>
+</metadataSupplement>
