@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  background-color: #f9fafb;
   font-family: "Inter", sans-serif;
 }
 
@@ -44,7 +43,6 @@ body {
 }
 
 .logo {
-  filter: brightness(0) invert(0%);
   width: 120px;
   height: 60px;
 }
@@ -93,8 +91,6 @@ body {
 }
 
 .href-content {
-  background-color: #fff;
-  border-top: 2px solid #2096f3;
   display: grid;
   flex-grow: 1;
   overflow: auto;
@@ -159,13 +155,10 @@ body {
 
 .keyvalue {
   padding: 2em 0;
-  background-color: #ffffff;
-  border-top: 2px solid #2096f3;
   border-radius: 0 0 0.25em 0.25em;
 }
 
 .visualization {
-  background-color: #ffffff;
   padding: 2em;
   border-radius: 0.25em;
 }
@@ -194,4 +187,53 @@ body {
 }
 #pie-chart {
   grid-area: 2 / 3 / 4 / 5;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f9fafb;
+  }
+
+  .logo {
+    filter: brightness(0) invert(0%);
+  }
+
+  .href-content {
+    background-color: #fff;
+    border-top: 2px solid #2096f3;
+  }
+
+  .keyvalue {
+    background-color: #ffffff;
+    border-top: 2px solid #2096f3;
+  }
+
+  .visualization {
+    background-color: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #03365b;
+    color: #ffffff;
+  }
+
+  .logo {
+    filter: brightness(0) invert(90%);
+  }
+
+  .href-content {
+    background-color: #011829;
+    border-top: 2px solid #69b8f7;
+  }
+
+  .keyvalue {
+    background-color: #011829;
+    border-top: 2px solid #69b8f7;
+  }
+
+  .visualization {
+    background-color: #011829;
+  }
 }

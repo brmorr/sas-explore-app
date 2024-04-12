@@ -1,0 +1,49 @@
+---
+namae: 'Create Report Package'
+description: 'Creates a report package'
+inputs:
+  force-update:
+    description: Force report package update
+    type: boolean
+    default: false
+  report-uid:
+    description: The package to update
+    type: string
+  viya-endpoint:
+    description: SAS Viya services endpoing
+    type: string
+  viya-auth-token:
+    description: SAS Viya CLI auth token
+    type: string
+outputs:
+  artifact-id:
+    value: ${{ steps.package-artifact.outputs.artifact-id }}
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 18
+    - name: Login
+      run: sas-viya -k --sas-endpoint $ENDPOINT auth loginJwt -jwt $TOKEN
+      shell: bash
+      env:
+        ENDPOINT: ${{ inputs.viya-endpoint }}
+        TOKEN: ${{ inputs.viya-auth-token }}
+    - name: Create package
+      run: |
+        mkdir -p reportPackage/$REPORT_UID
+        GENERATED_TIME=$(./scripts/ci/getPackageTimestamp.js)
+        [ $FORCE_UPDATE = "false" ] && MODIFIED_SINCE_OPT="--modified-since $GENERATED_TIME"
+        sas-viya -k --sas-endpoint $ENDPOINT reports build-package --id $REPORT_UID $MODIFIED_SINCE_OPT --output-location ./reportPackage/$REPORT_UID --output-file report
+      env:
+        FORCE_UPDATE: ${{ inputs.force-update }}
+        ENDPOINT: ${{ inputs.viya-endpoint }}
+        REPORT_UID: ${{ inputs.report-uid }}
+      shell: bash
+    - name: Upload package artifact
+      id: package-artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: package-${{ inputs.report-uid }}
+        path: reportPackage/${{ inputs.report-uid }}

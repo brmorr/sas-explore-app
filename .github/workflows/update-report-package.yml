@@ -1,3 +1,4 @@
+---
 name: SAS Viya Report Packages CI/CD
 
 on:
@@ -12,88 +13,73 @@ on:
   #   # 10:30AM EST, Monday - Friday
   #   - cron: '30 14 * * 1-5'
 
+env:
+  LIGHT_UID: e12f78ec-aa6a-43ca-a03f-a997c123c939
+  DARK_UID: 2aee9448-2522-46e2-a2a9-1998695ae58c
+
 jobs:
-  check_for_updates:
-    name: Check for updated report content
-    runs-on: ubuntu-latest
+  create_report_packages:
+    name: Create Report Packages
+    runs-on: self-hosted
     outputs:
-      needs_update: ${{ inputs.force_update && 'true' || steps.check_last_modified.outputs.needs_update }}
+      light-artifact-id: ${{ steps.create_package_light.outputs.artifact-id }}
+      dark-artifact-id: ${{ steps.create_package_dark.outputs.artifact-id }}
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Light Theme
+        id: create_package_light
+        uses: ./.github/actions/create-report-package
         with:
-          node-version: 18
-      - name: Check last modified
-        if: inputs.force_update == false
-        run: npm run check-package-updates || ( if [ $? == 2 ]; then echo "needs_update=true" >> "$GITHUB_OUTPUT"; else (exit 1); fi )
-        id: check_last_modified
-        env:
-          SAS_SERVICES_ENDPOINT: ${{ vars.SAS_SERVICES_ENDPOINT }}
-          SAS_VIYA_CLI_AUTH_TOKEN: ${{ secrets.SAS_VIYA_CLI_AUTH_TOKEN }}
-          REPORT_UID: ${{ vars.REPORT_UID }}
-
-  create_report_package:
-    name: Create Report Package
-    needs: check_for_updates
-    if: needs.check_for_updates.outputs.needs_update == 'true'
-    runs-on: ubuntu-latest
-    container:
-      image: ${{ vars.CLI_CONTAINER_NAME }}
-      env:
-        SAS_SERVICES_ENDPOINT: ${{ vars.SAS_SERVICES_ENDPOINT }}
-        SAS_VIYA_CLI_AUTH_TOKEN: ${{ secrets.SAS_VIYA_CLI_AUTH_TOKEN }}
-        REPORT_UID: ${{ vars.REPORT_UID }}
-    steps:
-      - name: Install plugins
-        run: HOME=/home/sas sas-viya plugins install --repo SAS reports
-      - name: Login
-        run: HOME=/home/sas sas-viya -k auth loginJwt -jwt $SAS_VIYA_CLI_AUTH_TOKEN
-      - name: Create package
-        run: |
-          mkdir /home/sas/reportPackage
-          HOME=/home/sas sas-viya -k reports build-package --id $REPORT_UID --output-location /home/sas/reportPackage --output-file report
-      - name: Upload package artifact
-        uses: actions/upload-artifact@v3
+          viya-endpoint: ${{ vars.SAS_SERVICES_ENDPOINT }}
+          viya-auth-token: ${{ secrets.SAS_VIYA_CLI_AUTH_TOKEN }}
+          report-uid: ${{ env.LIGHT_UID }}
+          force-update: ${{ inputs.force_update }}
+      - name: Dark Theme
+        id: create_package_dark
+        uses: ./.github/actions/create-report-package
         with:
-          name: reportPackage
-          path: /home/sas/reportPackage
-          if-no-files-found: error
+          viya-endpoint: ${{ vars.SAS_SERVICES_ENDPOINT }}
+          viya-auth-token: ${{ secrets.SAS_VIYA_CLI_AUTH_TOKEN }}
+          report-uid: ${{ env.DARK_UID }}
+          force-update: ${{ inputs.force_update }}
 
   commit_report_package:
     name: Commit Report Package
-    needs: create_report_package
-    runs-on: ubuntu-latest
+    needs: create_report_packages
+    # Only run if we have an artifact
+    if: needs.create_report_packages.outputs.light-artifact-id || needs.create_report_packages.outputs.dark-artifact-id
+    runs-on: self-hosted
+    env:
+      GH_TOKEN: ${{ secrets.PAT }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
           path: repo
-      - name: Download package
-        uses: actions/download-artifact@v3
+      - name: Download report packages
+        uses: actions/download-artifact@v4
         with:
-          name: reportPackage
           path: downloads
-      - name: Prepare commit
+      - name: Stage light package
+        if: needs.create_report_packages.outputs.light-artifact-id
         run: |
-          unzip downloads/report.sasreportpkg.zip -d downloads/${REPORT_UID}
-          rm -rf repo/public/reportPackages/${REPORT_UID}
-          mv downloads/${REPORT_UID} repo/public/reportPackages
-        env:
-          REPORT_UID: ${{ vars.REPORT_UID }}
+          unzip downloads/package-${{ env.LIGHT_UID }}/report.sasreportpkg.zip -d downloads/${{ env.LIGHT_UID }}
+          rm -rf repo/public/reportPackages/${{ env.LIGHT_UID }}
+          mv downloads/${{ env.LIGHT_UID }} repo/public/reportPackages
+      - name: Stage dark package
+        if: needs.create_report_packages.outputs.dark-artifact-id
+        run: |
+          unzip downloads/package-${{ env.DARK_UID }}/report.sasreportpkg.zip -d downloads/${{ env.DARK_UID }}
+          rm -rf repo/public/reportPackages/${{ env.DARK_UID }}
+          mv downloads/${{ env.DARK_UID }} repo/public/reportPackages
       - name: Create Pull Request
-        id: create-pr
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.PAT }}
-          path: repo
-          branch: update-report-package
-          commit-message: 'feat: update report package'
-          title: 'update report package'
-          body: 'Automated updated of the SAS Viya report package'
-      - name: Enable Pull Request Automerge
-        if: ${{ steps.create-pr.outputs.pull-request-number }}
         run: |
           cd repo
-          gh pr merge --squash --auto --delete-branch "${{ steps.create-pr.outputs.pull-request-number }}"
-        env:
-          GH_TOKEN: ${{ secrets.PAT }}
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git checkout -b update-report-package
+          git add .
+          git commit -m "feat: update report package"
+          git push origin update-report-package
+          gh pr create --title "Update report package" --body "Automated updated of the SAS Viya report package"
+          gh pr merge --squash --auto --delete-branch
